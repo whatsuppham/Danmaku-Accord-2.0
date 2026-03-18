@@ -19,7 +19,8 @@ state={
 	history={
 		victory_points = { 14529 1}
 		
-		owner = TIR
+		owner = LCO
+		add_core_of = LCO
 		buildings = {
 			infrastructure = 2
 			
@@ -31,8 +32,7 @@ state={
 			}
 			
 		}
-		add_core_of = TIR
-	}
+}
 
 	provinces={
 		14529 14530 14531 

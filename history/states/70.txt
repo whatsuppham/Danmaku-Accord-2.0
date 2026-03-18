@@ -21,7 +21,8 @@ state={
 		victory_points = { 1127 1}
 		victory_points = { 1130 1}
 		
-		owner = SEA
+		owner = RBU
+		add_core_of = RBU
 		buildings = {
 			infrastructure = 3
 			
@@ -30,8 +31,7 @@ state={
 			
 			
 		}
-		add_core_of = SEA
-	}
+}
 
 	provinces={
 		1121 1122 1123 1124 1125 1126 1127 1128 1129 1130 

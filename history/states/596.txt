@@ -22,7 +22,8 @@ state={
 		victory_points = { 8849 1}
 		victory_points = { 8850 2}
 		
-		owner = HER
+		owner = FUJ
+		add_core_of = FUJ
 		buildings = {
 			infrastructure = 2
 			
@@ -34,8 +35,7 @@ state={
 			}
 			
 		}
-		add_core_of = HER
-	}
+}
 
 	provinces={
 		8838 8839 8840 8841 8842 8843 8844 8845 8846 8847 8848 8849 8850 8851 8852 8853 

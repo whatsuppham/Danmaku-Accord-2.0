@@ -18,7 +18,8 @@ state={
 
 	history={
 		
-		owner = HER
+		owner = HUM
+		add_core_of = HUM
 		buildings = {
 			infrastructure = 1
 			
@@ -27,8 +28,7 @@ state={
 			
 			
 		}
-		add_core_of = HER
-	}
+}
 
 	provinces={
 		1831 1832 1833 1834 1835 1836 1837 1838 1839 1840 1841 1842 1843 1844 

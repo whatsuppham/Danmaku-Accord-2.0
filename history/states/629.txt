@@ -18,7 +18,8 @@ state={
 
 	history={
 		
-		owner = HER
+		owner = FUJ
+		add_core_of = FUJ
 		buildings = {
 			infrastructure = 1
 			
@@ -27,8 +28,7 @@ state={
 			
 			
 		}
-		add_core_of = HER
-	}
+}
 
 	provinces={
 		9633 9634 9635 9636 9637 9638 9639 9640 9641 9642 9643 9644 9645 

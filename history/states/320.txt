@@ -19,7 +19,8 @@ state={
 	history={
 		victory_points = { 4930 1}
 		
-		owner = TIR
+		owner = NAM
+		add_core_of = NAM
 		buildings = {
 			infrastructure = 2
 			
@@ -31,8 +32,7 @@ state={
 			}
 			
 		}
-		add_core_of = TIR
-	}
+}
 
 	provinces={
 		4930 4931 

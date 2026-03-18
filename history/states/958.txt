@@ -19,8 +19,9 @@ state={
 	history={
 		victory_points = { 14126 7}
 		
-		owner = SEA
-		buildings = {
+		owner = TFT
+		add_core_of = TFT
+buildings = {
 			infrastructure = 3
 			air_base = 3
 			arms_factory = 0
@@ -31,8 +32,7 @@ state={
 			}
 			
 		}
-		add_core_of = SEA
-	}
+}
 
 	provinces={
 		14124 14125 14126 14127 14128 14129 14130 14131 

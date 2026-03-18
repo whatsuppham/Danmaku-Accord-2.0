@@ -20,8 +20,9 @@ state={
 		victory_points = { 95 7}
 		victory_points = { 98 1}
 		
-		owner = HER
-		buildings = {
+		owner = SNT
+		add_core_of = SNT
+buildings = {
 			infrastructure = 2
 			
 			arms_factory = 1
@@ -29,8 +30,7 @@ state={
 			
 			
 		}
-		add_core_of = HER
-	}
+}
 
 	provinces={
 		89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 

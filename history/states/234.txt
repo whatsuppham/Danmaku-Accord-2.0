@@ -19,7 +19,8 @@ state={
 	history={
 		victory_points = { 3588 1}
 		
-		owner = TIR
+		owner = GEN
+		add_core_of = GEN
 		buildings = {
 			infrastructure = 2
 			
@@ -31,8 +32,7 @@ state={
 			}
 			
 		}
-		add_core_of = TIR
-	}
+}
 
 	provinces={
 		3588 

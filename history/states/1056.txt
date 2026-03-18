@@ -20,7 +20,8 @@ state={
 		victory_points = { 14619 3}
 		victory_points = { 14620 1}
 		
-		owner = HER
+		owner = MUG
+		add_core_of = MUG
 		buildings = {
 			infrastructure = 2
 			
@@ -32,8 +33,7 @@ state={
 			}
 			
 		}
-		add_core_of = HER
-	}
+}
 
 	provinces={
 		14619 14620 14621 14622 

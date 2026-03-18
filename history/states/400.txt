@@ -18,7 +18,8 @@ state={
 
 	history={
 		
-		owner = SEA
+		owner = SKP
+		add_core_of = SKP
 		buildings = {
 			infrastructure = 1
 			air_base = 1
@@ -30,8 +31,7 @@ state={
 			}
 			
 		}
-		add_core_of = SEA
-	}
+}
 
 	provinces={
 		6157 6158 6159 6160 6161 6162 6163 6164 6165 

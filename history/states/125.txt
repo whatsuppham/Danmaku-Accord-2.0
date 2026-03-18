@@ -21,8 +21,9 @@ state={
 		victory_points = { 1846 1}
 		victory_points = { 1847 1}
 		
-		owner = HER
-		buildings = {
+		owner = MFR
+		add_core_of = MFR
+buildings = {
 			infrastructure = 2
 			
 			arms_factory = 0
@@ -30,8 +31,7 @@ state={
 			
 			
 		}
-		add_core_of = HER
-	}
+}
 
 	provinces={
 		1845 1846 1847 

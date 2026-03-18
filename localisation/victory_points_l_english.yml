@@ -1,0 +1,61 @@
+﻿l_english:
+ VICTORY_POINTS_TOOLTIP:0 "§G$NAME$§! victory points = §Y$POINTS$§!"
+ SCA_VICTORY_POINTS_8095: "The Scarlet Manor"
+ SCA_VICTORY_POINTS_8822: "Patchouli's Library"
+ SCA_VICTORY_POINTS_2415: "Scarlet Testing Laboratories"
+ SCA_VICTORY_POINTS_1460: "Remilia's Vacation Home"
+ SCA_VICTORY_POINTS_2083: "Flandre's Prison Complex"
+ SCA_VICTORY_POINTS_4192: "Maid Headquarters"
+ SCA_VICTORY_POINTS_5893: "Veils Trading Docks"
+ SCA_VICTORY_POINTS_4947: "Batwing Airport"
+ SCA_VICTORY_POINTS_2452: "Manor Outskirts"
+
+ VICTORY_POINTS_7128: "The 9th Depot"
+ VICTORY_POINTS_9406: "The Hakurei Shrine"
+ VICTORY_POINTS_4645: "Central Market District"
+ VICTORY_POINTS_13072: "Eientei"
+ VICTORY_POINTS_5338: "Shrine's Approach Hamlet"
+ VICTORY_POINTS_1934: "Shrine Warehouse"
+ VICTORY_POINTS_9675: "Hakurei Shinto Gate"
+ VICTORY_POINTS_10218: "Ancient Shrine Grounds"
+ VICTORY_POINTS_10042: "Caravan Waystations"
+ VICTORY_POINTS_7194: "Refugee Separation Zone"
+ VICTORY_POINTS_2897: "Kirisame Market Hub"
+ VICTORY_POINTS_5105: "Kirisame Family Residence"
+ VICTORY_POINTS_3902: "Marisa's Retreat"
+ VICTORY_POINTS_1243: "Marisa's Personal Laboratory"
+ VICTORY_POINTS_4282: "Kirisame Testing District"
+ VICTORY_POINTS_1395: "Alice's Home"
+ VICTORY_POINTS_4183: "Margatroid Workshop Stations"
+
+ EIR_VICTORY_POINTS_12333: "Gensokyo Central Hospital"
+ VICTORY_POINTS_1974: "Eirin's Home"
+
+ VICTORY_POINTS_12411: "Kourindou Central Marketplace"
+
+ VICTORY_POINTS_12576: "Yukari's Mansion"
+
+ VICTORY_POINTS_9041: "Ibaraki's Temple Complex"
+
+ VICTORY_POINTS_3257: "Dryad Tree of Prosperity"
+
+ VICTORY_POINTS_7169: "Temple of Myouren"
+
+ VICTORY_POINTS_4971: "Shining Needle Castle"
+
+ VICTORY_POINTS_101: "Grand Tenma Palace"
+ VICTORY_POINTS_199: "Bunbunmaru Newspaper Offices"
+ VICTORY_POINTS_660: "Kakashi Spirit News Center"
+ VICTORY_POINTS_4479: "Center of the White Wolf Tengu"
+ VICTORY_POINTS_4293: "Whirlwind District"
+
+ VICTORY_POINTS_8856: "Waterfall of Nine Heavens"
+
+ VICTORY_POINTS_677: "Embassy Quarters of Heaven"
+ VICTORY_POINTS_122: "Entrance to the Sanzu River"
+ VICTORY_POINTS_6563: "Ferry Depot of the Passed"
+ VICTORY_POINTS_5731: "Consultation Office of the Yama"
+
+ VICTORY_POINTS_5994: "Shrine of Moriya"
+
+ STATE_169:0 "Hakurei Shrine State"

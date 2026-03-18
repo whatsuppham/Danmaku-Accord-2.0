@@ -18,7 +18,8 @@ state={
 
 	history={
 		
-		owner = SEA
+		owner = HAK
+		add_core_of = HAK
 		buildings = {
 			infrastructure = 1
 			air_base = 1
@@ -27,8 +28,7 @@ state={
 			
 			
 		}
-		add_core_of = SEA
-	}
+}
 
 	provinces={
 		6115 6116 6117 6118 6119 6120 6121 6122 6123 6124 

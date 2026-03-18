@@ -31,8 +31,8 @@ state={
 		add_core_of = SEA
 	}
 
-	provinces={
-		6622 6623 6624 6625 
+	provinces = {
+		
 	}
 	local_supplies=0.0 
 }

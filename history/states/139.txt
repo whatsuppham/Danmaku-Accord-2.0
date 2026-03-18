@@ -18,8 +18,9 @@ state={
 
 	history={
 		
-		owner = HER
-		buildings = {
+		owner = RIN
+		add_core_of = RIN
+buildings = {
 			infrastructure = 1
 			
 			arms_factory = 1
@@ -27,8 +28,7 @@ state={
 			
 			
 		}
-		add_core_of = HER
-	}
+}
 
 	provinces={
 		2024 2025 2026 2027 2028 2029 2030 2031 2032 

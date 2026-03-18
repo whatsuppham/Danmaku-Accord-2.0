@@ -20,7 +20,8 @@ state={
 		victory_points = { 3248 3}
 		victory_points = { 3249 1}
 		
-		owner = HER
+		owner = SCA
+		add_core_of = SCA
 		buildings = {
 			infrastructure = 1
 			
@@ -29,8 +30,7 @@ state={
 			
 			
 		}
-		add_core_of = HER
-	}
+}
 
 	provinces={
 		3242 3243 3244 3245 3246 3247 3248 3249 3250 3251 3252 3253 3254 3255 3256 3257 

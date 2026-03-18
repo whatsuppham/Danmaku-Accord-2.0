@@ -20,7 +20,8 @@ state={
 		victory_points = { 2722 4}
 		victory_points = { 2727 1}
 		
-		owner = HER
+		owner = VFN
+		add_core_of = VFN
 		buildings = {
 			infrastructure = 2
 			
@@ -32,8 +33,7 @@ state={
 			}
 			
 		}
-		add_core_of = HER
-	}
+}
 
 	provinces={
 		2722 2723 2724 2725 2726 2727 2728 2729 2730 2731 2732 

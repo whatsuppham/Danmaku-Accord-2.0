@@ -1,0 +1,36 @@
+﻿l_english:
+HAK_traditionalism:5 "State of Hakurei"
+HAK_traditionalism_DEF:5 "The Hakurei State"
+HAK_traditionalism_ADJ:5 "Hakurei"
+HAK_traditionalism_party:0 "Peacekeeping Directory"
+HAK_traditionalism_party_long:0 "Barrier and Peacekeeping Directory"
+
+HAK_fascism:5 "Hakurei Legion"
+HAK_fascism_DEF:5 "The Hakurei Legion"
+HAK_fascism_ADJ:5 "Hakurei"
+HAK_fascism_party:0 "Hakurei Family"
+HAK_fascism_party_long:0 "Hakurei Family's Unitary Front"
+
+HAK_communism:5 "Red Barrier State"
+HAK_communism_DEF:5 "The Red Barrier State"
+HAK_communism_ADJ:5 "Red Barrier"
+HAK_communism_party:0 "State of Anarchy"
+HAK_communism_party_long:0 "Anarchist State"
+
+HAK_neutrality:5 "Isolationist Hakurei"
+HAK_neutrality_DEF:5 "The Isolationist Hakurei State"
+HAK_neutrality_ADJ:5 "Hakurei"
+HAK_neutrality_party:0 "Hakurei Shrine Family"
+HAK_neutrality_party_long:0 "The Hakurei Shrine Family"
+
+HAK_technocracy:5 "Hakurei Technocratic State"
+HAK_technocracy_DEF:5 "The Hakurei Technocratic State"
+HAK_technocracy_ADJ:5 "Hakurei Nation citizen"
+HAK_technocracy_party:0 "Innovational Hakurei Council"
+HAK_technocracy_party_long:0 "The Innovational Hakurei Council"
+
+HAK_theologism:5 "Hakurei Doctrine"
+HAK_theologism_DEF:5 "The Hakurei Doctrine"
+HAK_theologism_ADJ:5 "Hakurei"
+HAK_theologism_party:0 "Hakurei Family"
+HAK_theologism_party_long:0 "The Hakurei Family"

@@ -18,7 +18,8 @@ state={
 
 	history={
 		
-		owner = TIR
+		owner = SEI
+		add_core_of = SEI
 		buildings = {
 			infrastructure = 1
 			
@@ -27,8 +28,7 @@ state={
 			
 			
 		}
-		add_core_of = TIR
-	}
+}
 
 	provinces={
 		5736 5737 5738 5739 

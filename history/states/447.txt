@@ -19,7 +19,8 @@ state={
 	history={
 		victory_points = { 6823 6}
 		
-		owner = SEA
+		owner = RBU
+		add_core_of = RBU
 		buildings = {
 			infrastructure = 3
 			
@@ -28,8 +29,7 @@ state={
 			
 			
 		}
-		add_core_of = SEA
-	}
+}
 
 	provinces={
 		6823 6824 6825 6826 6827 6828 

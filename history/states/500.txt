@@ -19,7 +19,8 @@ state={
 	history={
 		victory_points = { 7585 2}
 		
-		owner = SEA
+		owner = YKT
+		add_core_of = YKT
 		buildings = {
 			infrastructure = 2
 			
@@ -28,8 +29,7 @@ state={
 			
 			
 		}
-		add_core_of = SEA
-	}
+}
 
 	provinces={
 		7581 7582 7583 7584 7585 7586 7587 7588 7589 

@@ -18,8 +18,9 @@ state={
 
 	history={
 		
-		owner = HER
-		buildings = {
+		owner = RBB
+		add_core_of = RBB
+buildings = {
 			infrastructure = 1
 			
 			arms_factory = 1
@@ -30,8 +31,7 @@ state={
 			}
 			
 		}
-		add_core_of = HER
-	}
+}
 
 	provinces={
 		10016 10017 10018 10019 10020 10021 10022 10023 10024 

@@ -21,7 +21,8 @@ state={
 		victory_points = { 7876 16}
 		victory_points = { 7883 3}
 		
-		owner = SEA
+		owner = HAK
+		add_core_of = HAK
 		buildings = {
 			infrastructure = 4
 			air_base = 2
@@ -30,8 +31,7 @@ state={
 			
 			
 		}
-		add_core_of = SEA
-	}
+}
 
 	provinces={
 		7863 7864 7865 7866 7867 7868 7869 7870 7871 7872 7873 7874 7875 7876 7877 7878 7879 7880 7881 7882 7883 7884 7885 7886 

@@ -19,7 +19,8 @@ state={
 	history={
 		victory_points = { 6050 1}
 		
-		owner = SEA
+		owner = ONI
+		add_core_of = ONI
 		buildings = {
 			infrastructure = 1
 			air_base = 1
@@ -28,8 +29,7 @@ state={
 			
 			
 		}
-		add_core_of = SEA
-	}
+}
 
 	provinces={
 		6049 6050 6051 6052 6053 6054 6055 6056 6057 6058 6059 6060 6061 

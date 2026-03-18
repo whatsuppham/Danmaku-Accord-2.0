@@ -3,6 +3,8 @@ picture="thumbnail.png"
 version="v1"
 user_dir="danmaku_accord_reborn_2"
 replace_path="history/states"
+replace_path="map/supplyareas"
+replace_path="common/bookmarks"
 replace_path="map/strategicregions"
 replace_path="history/units"
 replace_path="common/ai_strategy"
@@ -13,6 +15,9 @@ replace_path="common/factions/goals"
 replace_path="common/factions/rules"
 replace_path="common/factions/rules/groups"
 replace_path="common/factions/templates"
+
+replace_path="history/countries"
+replace_path="localisation/english/countries_l_english.yml"
 
 tags={
 	"Gameplay"

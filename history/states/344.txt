@@ -21,7 +21,8 @@ state={
 		victory_points = { 5382 10}
 		victory_points = { 5383 1}
 		
-		owner = TIR
+		owner = SEI
+		add_core_of = SEI
 		buildings = {
 			infrastructure = 3
 			
@@ -33,8 +34,7 @@ state={
 			}
 			
 		}
-		add_core_of = TIR
-	}
+}
 
 	provinces={
 		5375 5376 5377 5378 5379 5380 5381 5382 5383 5384 5385 

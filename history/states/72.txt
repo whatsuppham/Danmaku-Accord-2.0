@@ -22,7 +22,7 @@ state={
 		victory_points = { 1148 2}
 		victory_points = { 1152 2}
 		
-		owner = SEA
+		owner = VMF
 		buildings = {
 			infrastructure = 3
 			air_base = 2

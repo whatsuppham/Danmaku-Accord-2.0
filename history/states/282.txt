@@ -22,7 +22,8 @@ state={
 		victory_points = { 4463 5}
 		victory_points = { 4469 1}
 		
-		owner = TIR
+		owner = GEN
+		add_core_of = GEN
 		buildings = {
 			infrastructure = 2
 			
@@ -34,8 +35,7 @@ state={
 			}
 			
 		}
-		add_core_of = TIR
-	}
+}
 
 	provinces={
 		4449 4450 4451 4452 4453 4454 4455 4456 4457 4458 4459 4460 4461 4462 4463 4464 4465 4466 4467 4468 4469 4470 4471 4472 4473 4474 4475 4476 4477 

@@ -1,45 +1,54 @@
-
-state={
-	id=183
-	name="STATE_183"
+state = {
+	id = 183
+	name = "STATE_183"
 	manpower = 465810
-	
+
 	state_category = metropolis
-	#impassable = yes
-	resources={
-		aluminium=6
-		chromium=0
-		oil=0
-		rubber=0
-		steel=0
-		tungsten=0
-		coal=0
+
+	resources = {
+		aluminium = 6
 	}
 
-	history={
-		victory_points = { 2701 3}
-		victory_points = { 2707 3}
-		victory_points = { 2710 3}
-		victory_points = { 2711 3}
-		victory_points = { 2714 3}
-		
-		owner = TIR
+	history = {
+
+
+		victory_points = {
+			2701 3
+		}
+
+		victory_points = {
+			2707 3
+		}
+
+		victory_points = {
+			2710 3
+		}
+
+		victory_points = {
+			2711 3
+		}
+
+		victory_points = {
+			2714 3
+		}
+		owner = MOR
+
 		buildings = {
+
 			infrastructure = 4
-			
 			arms_factory = 1
 			industrial_complex = 2
-			
+
 			2710 = {
 				naval_base = 1
 			}
-			
 		}
-		add_core_of = TIR
+		add_core_of = MOR
 	}
 
-	provinces={
+	provinces = {
 		2699 2700 2701 2702 2703 2704 2705 2706 2707 2708 2709 2710 2711 2712 2713 2714 
 	}
-	local_supplies=0.0 
+
+	local_supplies = 0.0
 }

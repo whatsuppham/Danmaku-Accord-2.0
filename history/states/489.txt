@@ -18,7 +18,8 @@ state={
 
 	history={
 		
-		owner = SEA
+		owner = YKR
+		add_core_of = YKR
 		buildings = {
 			infrastructure = 1
 			
@@ -27,8 +28,7 @@ state={
 			
 			
 		}
-		add_core_of = SEA
-	}
+}
 
 	provinces={
 		7424 7425 7426 7427 7428 7429 7430 7431 7432 7433 7434 7435 

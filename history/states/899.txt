@@ -22,7 +22,8 @@ state={
 		victory_points = { 13710 1}
 		victory_points = { 13713 1}
 		
-		owner = TIR
+		owner = SFF
+		add_core_of = SFF
 		buildings = {
 			infrastructure = 2
 			
@@ -34,8 +35,7 @@ state={
 			}
 			
 		}
-		add_core_of = TIR
-	}
+}
 
 	provinces={
 		13699 13700 13701 13702 13703 13704 13705 13706 13707 13708 13709 13710 13711 13712 13713 13714 13715 13716 13717 

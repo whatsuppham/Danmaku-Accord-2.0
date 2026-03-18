@@ -19,7 +19,8 @@ state={
 	history={
 		victory_points = { 8913 1}
 		
-		owner = TIR
+		owner = RBA
+		add_core_of = RBA
 		buildings = {
 			infrastructure = 1
 			
@@ -31,8 +32,7 @@ state={
 			}
 			
 		}
-		add_core_of = TIR
-	}
+}
 
 	provinces={
 		8904 8905 8906 8907 8908 8909 8910 8911 8912 8913 8914 8915 8916 

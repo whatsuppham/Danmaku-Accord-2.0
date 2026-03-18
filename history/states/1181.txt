@@ -19,7 +19,8 @@ state={
 	history={
 		victory_points = { 14834 2}
 		
-		owner = SEA
+		owner = VMF
+		add_core_of = VMF
 		buildings = {
 			infrastructure = 3
 			
@@ -31,8 +32,7 @@ state={
 			}
 			
 		}
-		add_core_of = SEA
-	}
+}
 
 	provinces={
 		14834 14835 

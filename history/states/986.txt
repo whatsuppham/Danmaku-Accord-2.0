@@ -20,7 +20,8 @@ state={
 		victory_points = { 14348 2}
 		victory_points = { 14352 3}
 		
-		owner = SEA
+		owner = ONI
+		add_core_of = ONI
 		buildings = {
 			infrastructure = 2
 			
@@ -32,8 +33,7 @@ state={
 			}
 			
 		}
-		add_core_of = SEA
-	}
+}
 
 	provinces={
 		14348 14349 14350 14351 14352 14353 14354 14355 14356 14357 14358 14359 14360 14361 14362 

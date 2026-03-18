@@ -18,7 +18,8 @@ state={
 
 	history={
 		
-		owner = SEA
+		owner = ONI
+		add_core_of = ONI
 		buildings = {
 			infrastructure = 1
 			air_base = 1
@@ -27,8 +28,7 @@ state={
 			
 			
 		}
-		add_core_of = SEA
-	}
+}
 
 	provinces={
 		7887 7888 7889 7890 7891 7892 7893 7894 7895 7896 7897 7898 7899 7900 

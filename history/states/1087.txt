@@ -19,7 +19,8 @@ state={
 	history={
 		victory_points = { 14704 2}
 		
-		owner = SEA
+		owner = MUG
+		add_core_of = MUG
 		buildings = {
 			infrastructure = 2
 			air_base = 2
@@ -31,8 +32,7 @@ state={
 			}
 			
 		}
-		add_core_of = SEA
-	}
+}
 
 	provinces={
 		14703 14704 

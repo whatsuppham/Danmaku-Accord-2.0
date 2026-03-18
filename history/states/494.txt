@@ -21,7 +21,8 @@ state={
 		victory_points = { 7522 3}
 		victory_points = { 7523 3}
 		
-		owner = SEA
+		owner = MIK
+		add_core_of = MIK
 		buildings = {
 			infrastructure = 3
 			air_base = 1
@@ -30,8 +31,7 @@ state={
 			
 			
 		}
-		add_core_of = SEA
-	}
+}
 
 	provinces={
 		7521 7522 7523 7524 7525 7526 

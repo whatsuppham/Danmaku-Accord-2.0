@@ -18,7 +18,8 @@ state={
 
 	history={
 		
-		owner = TIR
+		owner = LCO
+		add_core_of = LCO
 		buildings = {
 			infrastructure = 2
 			
@@ -30,8 +31,7 @@ state={
 			}
 			
 		}
-		add_core_of = TIR
-	}
+}
 
 	provinces={
 		13129 13130 13131 13132 13133 13134 13135 13136 

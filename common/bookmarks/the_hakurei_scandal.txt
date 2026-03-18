@@ -1,0 +1,42 @@
+bookmarks = {
+    bookmark = {
+        name = "HAKUREI_SCANDAL_NAME"
+        desc = "HAKUREI_SCANDAL_DESC"
+        date = 120.1.1.12
+        picture = "GFX_select_date_1936"
+        default_country = "HAK"
+        default = yes
+
+        "HAK" = {
+            history = "HAK_HAKUREI_SCANDAL_DESC"
+            ideology = traditionalism
+        }
+        "HUM" = {
+            history = "HUM_HAKUREI_SCANDAL_DESC"
+            ideology = neutrality
+        }
+        "EIE" = {
+            history = "EIE_HAKUREI_SCANDAL_DESC"
+            ideology = traditionalism
+        }
+        "YKM" = {
+            history = "YKM_HAKUREI_SCANDAL_DESC"
+            ideology = neutrality
+        }
+        "SCA" = {
+            history = "SCA_HAKUREI_SCANDAL_DESC"
+            ideology = neutrality
+        }
+        "SEI" = {
+            history = "SEI_HAKUREI_SCANDAL_DESC"
+            ideology = neutrality
+        }
+        "KIR" = {
+            history = "KIR_HAKUREI_SCANDAL_DESC"
+            ideology = neutrality
+        }
+        "---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+    }
+}

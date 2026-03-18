@@ -18,8 +18,9 @@ state={
 
 	history={
 		
-		owner = TIR
-		buildings = {
+		owner = YAM
+		add_core_of = YAM
+buildings = {
 			infrastructure = 1
 			
 			arms_factory = 0
@@ -30,8 +31,7 @@ state={
 			}
 			
 		}
-		add_core_of = TIR
-	}
+}
 
 	provinces={
 		4680 4681 4682 4683 4684 4685 4686 4687 4688 4689 4690 

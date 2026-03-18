@@ -18,8 +18,9 @@ state={
 
 	history={
 		
-		owner = HER
-		buildings = {
+		owner = SNT
+		add_core_of = SNT
+buildings = {
 			infrastructure = 1
 			
 			arms_factory = 0
@@ -27,8 +28,7 @@ state={
 			
 			
 		}
-		add_core_of = HER
-	}
+}
 
 	provinces={
 		43 44 45 46 

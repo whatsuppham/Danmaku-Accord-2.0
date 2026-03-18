@@ -21,7 +21,8 @@ state={
 		victory_points = { 8087 2}
 		victory_points = { 8088 6}
 		
-		owner = SEA
+		owner = SSN
+		add_core_of = SSN
 		buildings = {
 			infrastructure = 3
 			
@@ -30,8 +31,7 @@ state={
 			
 			
 		}
-		add_core_of = SEA
-	}
+}
 
 	provinces={
 		8083 8084 8085 8086 8087 8088 8089 8090 8091 8092 

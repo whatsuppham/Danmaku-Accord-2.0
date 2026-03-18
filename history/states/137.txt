@@ -19,8 +19,9 @@ state={
 	history={
 		victory_points = { 2002 3}
 		
-		owner = HER
-		buildings = {
+		owner = RIN
+		add_core_of = RIN
+buildings = {
 			infrastructure = 1
 			
 			arms_factory = 0
@@ -28,8 +29,7 @@ state={
 			
 			
 		}
-		add_core_of = HER
-	}
+}
 
 	provinces={
 		1993 1994 1995 1996 1997 1998 1999 2000 2001 2002 2003 2004 2005 2006 2007 2008 2009 2010 2011 2012 2013 2014 

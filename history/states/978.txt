@@ -19,7 +19,8 @@ state={
 	history={
 		victory_points = { 14285 1}
 		
-		owner = SEA
+		owner = TFT
+		add_core_of = TFT
 		buildings = {
 			infrastructure = 2
 			
@@ -31,8 +32,7 @@ state={
 			}
 			
 		}
-		add_core_of = SEA
-	}
+}
 
 	provinces={
 		14285 14286 14287 14288 

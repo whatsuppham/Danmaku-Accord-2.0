@@ -22,7 +22,8 @@ state={
 		victory_points = { 6940 9}
 		victory_points = { 6948 1}
 		
-		owner = SEA
+		owner = RFG
+		add_core_of = RFG
 		buildings = {
 			infrastructure = 3
 			air_base = 1
@@ -31,8 +32,7 @@ state={
 			
 			
 		}
-		add_core_of = SEA
-	}
+}
 
 	provinces={
 		6933 6934 6935 6936 6937 6938 6939 6940 6941 6942 6943 6944 6945 6946 6947 6948 6949 6950 

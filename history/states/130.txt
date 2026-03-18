@@ -19,7 +19,8 @@ state={
 	history={
 		victory_points = { 1899 4}
 		
-		owner = HER
+		owner = KIR
+		add_core_of = KIR
 		buildings = {
 			infrastructure = 2
 			
@@ -31,8 +32,7 @@ state={
 			}
 			
 		}
-		add_core_of = HER
-	}
+}
 
 	provinces={
 		1896 1897 1898 1899 1900 1901 1902 1903 1904 1905 

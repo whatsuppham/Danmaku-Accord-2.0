@@ -21,7 +21,8 @@ state={
 		victory_points = { 14013 1}
 		victory_points = { 14017 2}
 		
-		owner = HER
+		owner = TFT
+		add_core_of = TFT
 		buildings = {
 			infrastructure = 4
 			
@@ -33,8 +34,7 @@ state={
 			}
 			
 		}
-		add_core_of = HER
-	}
+}
 
 	provinces={
 		14010 14011 14012 14013 14014 14015 14016 14017 14018 

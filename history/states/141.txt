@@ -19,7 +19,8 @@ state={
 	history={
 		victory_points = { 2039 5}
 		
-		owner = HER
+		owner = ADM
+		add_core_of = ADM
 		buildings = {
 			infrastructure = 3
 			
@@ -31,8 +32,7 @@ state={
 			}
 			
 		}
-		add_core_of = HER
-	}
+}
 
 	provinces={
 		2035 2036 2037 2038 2039 

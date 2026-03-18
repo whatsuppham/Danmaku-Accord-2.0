@@ -20,7 +20,8 @@ state={
 		victory_points = { 2452 8}
 		victory_points = { 2454 1}
 		
-		owner = TIR
+		owner = MOR
+		add_core_of = MOR
 		buildings = {
 			infrastructure = 3
 			
@@ -32,8 +33,7 @@ state={
 			}
 			
 		}
-		add_core_of = TIR
-	}
+}
 
 	provinces={
 		2447 2448 2449 2450 2451 2452 2453 2454 2455 2456 

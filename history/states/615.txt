@@ -18,7 +18,8 @@ state={
 
 	history={
 		
-		owner = TIR
+		owner = RBC
+		add_core_of = RBC
 		buildings = {
 			infrastructure = 1
 			
@@ -27,8 +28,7 @@ state={
 			
 			
 		}
-		add_core_of = TIR
-	}
+}
 
 	provinces={
 		9312 9313 9314 9315 9316 9317 9318 9319 9320 9321 9322 9323 9324 9325 9326 9327 9328 

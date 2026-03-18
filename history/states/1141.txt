@@ -18,7 +18,8 @@ state={
 
 	history={
 		
-		owner = SEA
+		owner = GHO
+		add_core_of = GHO
 		buildings = {
 			infrastructure = 2
 			
@@ -30,8 +31,7 @@ state={
 			}
 			
 		}
-		add_core_of = SEA
-	}
+}
 
 	provinces={
 		14783 14784 

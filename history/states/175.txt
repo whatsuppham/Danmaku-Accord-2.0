@@ -19,7 +19,8 @@ state={
 	history={
 		victory_points = { 2569 2}
 		
-		owner = HER
+		owner = SCA
+		add_core_of = SCA
 		buildings = {
 			infrastructure = 1
 			
@@ -28,8 +29,7 @@ state={
 			
 			
 		}
-		add_core_of = HER
-	}
+}
 
 	provinces={
 		2569 2570 2571 2572 2573 2574 2575 2576 2577 2578 2579 

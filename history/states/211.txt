@@ -23,8 +23,9 @@ state={
 		victory_points = { 3170 1}
 		victory_points = { 3172 3}
 		
-		owner = TIR
-		buildings = {
+		owner = YAM
+		add_core_of = YAM
+buildings = {
 			infrastructure = 2
 			
 			arms_factory = 0
@@ -35,8 +36,7 @@ state={
 			}
 			
 		}
-		add_core_of = TIR
-	}
+}
 
 	provinces={
 		3164 3165 3166 3167 3168 3169 3170 3171 3172 3173 3174 3175 3176 3177 

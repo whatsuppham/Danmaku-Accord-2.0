@@ -18,7 +18,8 @@ state={
 
 	history={
 		
-		owner = HER
+		owner = SCA
+		add_core_of = SCA
 		buildings = {
 			infrastructure = 1
 			
@@ -27,8 +28,7 @@ state={
 			
 			
 		}
-		add_core_of = HER
-	}
+}
 
 	provinces={
 		3600 3601 3602 3603 3604 3605 3606 3607 3608 3609 3610 

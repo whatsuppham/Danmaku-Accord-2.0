@@ -23,7 +23,8 @@ state={
 		victory_points = { 5743 1}
 		victory_points = { 5744 1}
 		
-		owner = TIR
+		owner = TAN
+		add_core_of = TAN
 		buildings = {
 			infrastructure = 3
 			
@@ -35,8 +36,7 @@ state={
 			}
 			
 		}
-		add_core_of = TIR
-	}
+}
 
 	provinces={
 		5740 5741 5742 5743 5744 5745 5746 

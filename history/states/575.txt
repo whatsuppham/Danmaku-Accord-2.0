@@ -19,7 +19,8 @@ state={
 	history={
 		victory_points = { 8559 3}
 		
-		owner = SEA
+		owner = RFG
+		add_core_of = RFG
 		buildings = {
 			infrastructure = 2
 			
@@ -28,8 +29,7 @@ state={
 			
 			
 		}
-		add_core_of = SEA
-	}
+}
 
 	provinces={
 		8558 8559 8560 8561 8562 8563 8564 8565 

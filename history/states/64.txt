@@ -19,7 +19,8 @@ state={
 	history={
 		victory_points = { 1040 1}
 		
-		owner = HER
+		owner = MFR
+		add_core_of = MFR
 		buildings = {
 			infrastructure = 1
 			
@@ -28,8 +29,7 @@ state={
 			
 			
 		}
-		add_core_of = HER
-	}
+}
 
 	provinces={
 		1040 1041 1042 1043 1044 1045 1046 1047 1048 1049 

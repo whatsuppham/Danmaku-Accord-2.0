@@ -22,7 +22,8 @@ state={
 		victory_points = { 5330 1}
 		victory_points = { 5331 1}
 		
-		owner = TIR
+		owner = SNC
+		add_core_of = SNC
 		buildings = {
 			infrastructure = 2
 			
@@ -31,8 +32,7 @@ state={
 			
 			
 		}
-		add_core_of = TIR
-	}
+}
 
 	provinces={
 		5321 5322 5323 5324 5325 5326 5327 5328 5329 5330 5331 
