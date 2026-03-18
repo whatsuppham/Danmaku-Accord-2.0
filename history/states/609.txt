@@ -1,0 +1,43 @@
+
+state={
+	id=609
+	name="STATE_609"
+	manpower = 655168
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9199 8}
+		victory_points = { 9201 8}
+		victory_points = { 9206 8}
+		
+		owner = TIR
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 0
+			industrial_complex = 3
+			dockyard = 1
+			9211 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = TIR
+	}
+
+	provinces={
+		9193 9194 9195 9196 9197 9198 9199 9200 9201 9202 9203 9204 9205 9206 9207 9208 9209 9210 9211 9212 9213 9214 9215 9216 
+	}
+	local_supplies=0.0 
+}

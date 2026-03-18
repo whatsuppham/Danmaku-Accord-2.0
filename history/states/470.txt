@@ -1,0 +1,40 @@
+
+state={
+	id=470
+	name="STATE_470"
+	manpower = 253173
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=5
+		steel=24
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 7171 2}
+		victory_points = { 7176 1}
+		victory_points = { 7181 1}
+		
+		owner = SEA
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = SEA
+	}
+
+	provinces={
+		7171 7172 7173 7174 7175 7176 7177 7178 7179 7180 7181 7182 7183 7184 7185 7186 
+	}
+	local_supplies=0.0 
+}

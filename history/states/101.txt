@@ -1,0 +1,39 @@
+
+state={
+	id=101
+	name="STATE_101"
+	manpower = 123638
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1538 2}
+		victory_points = { 1539 1}
+		
+		owner = SEA
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = SEA
+	}
+
+	provinces={
+		1537 1538 1539 1540 
+	}
+	local_supplies=0.0 
+}

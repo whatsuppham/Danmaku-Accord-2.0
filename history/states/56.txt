@@ -1,0 +1,41 @@
+
+state={
+	id=56
+	name="STATE_56"
+	manpower = 638911
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 897 2}
+		victory_points = { 905 2}
+		victory_points = { 912 13}
+		victory_points = { 917 2}
+		
+		owner = HER
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 2
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = HER
+	}
+
+	provinces={
+		897 898 899 900 901 902 903 904 905 906 907 908 909 910 911 912 913 914 915 916 917 918 919 920 921 922 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=1
+	name="STATE_1"
+	manpower = 194192
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=6
+		coal=11
+	}
+
+	history={
+		victory_points = { 1 1}
+		victory_points = { 6 1}
+		victory_points = { 7 3}
+		
+		owner = HER
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = HER
+	}
+
+	provinces={
+		1 2 3 4 5 6 7 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,38 @@
+
+state={
+	id=480
+	name="STATE_480"
+	manpower = 148410
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 7360 3}
+		
+		owner = SEA
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = SEA
+	}
+
+	provinces={
+		7359 7360 7361 7362 7363 7364 
+	}
+	local_supplies=0.0 
+}

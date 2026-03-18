@@ -1,0 +1,41 @@
+
+state={
+	id=1023
+	name="STATE_1023"
+	manpower = 109673
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 14517 2}
+		
+		owner = HER
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			14517 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HER
+	}
+
+	provinces={
+		14517 14518 
+	}
+	local_supplies=0.0 
+}

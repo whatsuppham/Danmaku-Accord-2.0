@@ -1,0 +1,44 @@
+
+state={
+	id=69
+	name="STATE_69"
+	manpower = 391790
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=20
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1108 1}
+		victory_points = { 1113 1}
+		victory_points = { 1114 10}
+		victory_points = { 1117 1}
+		
+		owner = HER
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			1116 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HER
+	}
+
+	provinces={
+		1108 1109 1110 1111 1112 1113 1114 1115 1116 1117 1118 1119 1120 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=583
+	name="STATE_583"
+	manpower = 288685
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=3
+		chromium=0
+		oil=6
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8650 4}
+		
+		owner = FUL
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			8663 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = FUL
+	}
+
+	provinces={
+		8646 8647 8648 8649 8650 8651 8652 8653 8654 8655 8656 8657 8658 8659 8660 8661 8662 8663 8664 8665 8666 8667 8668 8669 8670 
+	}
+	local_supplies=0.0 
+}

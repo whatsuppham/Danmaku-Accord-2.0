@@ -1,0 +1,44 @@
+
+state={
+	id=129
+	name="STATE_129"
+	manpower = 396907
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1883 2}
+		victory_points = { 1887 2}
+		victory_points = { 1889 2}
+		victory_points = { 1893 5}
+		
+		owner = HER
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 1
+			
+			1894 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HER
+	}
+
+	provinces={
+		1880 1881 1882 1883 1884 1885 1886 1887 1888 1889 1890 1891 1892 1893 1894 1895 
+	}
+	local_supplies=0.0 
+}

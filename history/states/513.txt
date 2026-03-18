@@ -1,0 +1,45 @@
+
+state={
+	id=513
+	name="STATE_513"
+	manpower = 737628
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=2
+		oil=12
+		rubber=15
+		steel=1
+		tungsten=0
+		coal=7
+	}
+
+	history={
+		victory_points = { 7722 1}
+		victory_points = { 7735 5}
+		victory_points = { 7745 1}
+		victory_points = { 7766 5}
+		victory_points = { 7767 1}
+		
+		owner = HER
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			7766 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HER
+	}
+
+	provinces={
+		7719 7720 7721 7722 7723 7724 7725 7726 7727 7728 7729 7730 7731 7732 7733 7734 7735 7736 7737 7738 7739 7740 7741 7742 7743 7744 7745 7746 7747 7748 7749 7750 7751 7752 7753 7754 7755 7756 7757 7758 7759 7760 7761 7762 7763 7764 7765 7766 7767 7768 7769 7770 7771 7772 7773 
+	}
+	local_supplies=0.0 
+}

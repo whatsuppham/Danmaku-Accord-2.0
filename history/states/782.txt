@@ -1,0 +1,41 @@
+
+state={
+	id=782
+	name="STATE_782"
+	manpower = 324516
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 12130 1}
+		victory_points = { 12132 1}
+		victory_points = { 12134 1}
+		victory_points = { 12139 7}
+		
+		owner = FUL
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = FUL
+	}
+
+	provinces={
+		12129 12130 12131 12132 12133 12134 12135 12136 12137 12138 12139 12140 
+	}
+	local_supplies=0.0 
+}

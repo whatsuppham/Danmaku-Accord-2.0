@@ -1,0 +1,41 @@
+
+state={
+	id=141
+	name="STATE_141"
+	manpower = 180604
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2039 5}
+		
+		owner = HER
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			2036 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HER
+	}
+
+	provinces={
+		2035 2036 2037 2038 2039 
+	}
+	local_supplies=0.0 
+}

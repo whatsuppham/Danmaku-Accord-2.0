@@ -1,0 +1,695 @@
+capital = 76
+
+oob = "HER_1936"
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "HER_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "HER_1936_nsb"
+}
+starting_train_buffer = 2
+set_fuel_ratio = 0.8
+starting_truck_buffer = 0.8
+
+# Starting tech
+set_technology = {
+	basic_train = 1
+	infantry_weapons= 1
+	tech_trucks= 1
+	tech_support= 1
+	infantry_weapons1= 1
+	motorised_infantry= 1
+	tech_engineers= 1
+	tech_recon= 1
+	basic_machine_tools= 1
+	fuel_silos= 1
+	
+}
+
+### ARMOR ###
+### Vanilla Techs ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+		basic_heavy_tank = 1
+		improved_light_tank = 1
+		
+	}
+}
+### NSB Techs ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+		armor_tech_1 = 1
+		improved_light_tank_chassis = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+		create_equipment_variant = {
+		name = "Tagmilenzal Mk 2"
+		type = heavy_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = wet_ammo_storage
+			special_type_slot_3 = smoke_launchers
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_heavy_fixed_superstructure_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Tawenzart Mk 1"
+		type = heavy_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_heavy_cannon
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = wet_ammo_storage
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_heavy_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Tawenzart Mk 2"
+		type = light_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_diesel_engine
+			main_armament_slot = tank_heavy_machine_gun
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = smoke_launchers
+			special_type_slot_3 = extra_ammo_storage
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_three_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Taghraru Mk 1"
+		type = light_tank_chassis_1
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_cast_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_machine_gun
+			special_type_slot_1 = secondary_turret_small_cannon
+			special_type_slot_2 = wet_ammo_storage
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Tagmilenzal Mk 1"
+		type = light_tank_chassis_2
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			main_armament_slot = tank_heavy_machine_gun
+			special_type_slot_1 = secondary_turret_hmg
+			special_type_slot_2 = wet_ammo_storage
+			suspension_type_slot = tank_interleaved_suspension
+			turret_type_slot = tank_light_two_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+	create_equipment_variant = {
+		name = "Agrar Mk 2"
+		type = medium_tank_chassis_0
+		parent_version = 1
+		show_position = no
+		modules = {
+			armor_type_slot = tank_welded_armor
+			engine_type_slot = tank_petrol_electric_engine
+			main_armament_slot = tank_medium_cannon
+			special_type_slot_1 = smoke_launchers
+			special_type_slot_2 = extra_ammo_storage
+			special_type_slot_3 = wet_ammo_storage
+			suspension_type_slot = tank_torsion_bar_suspension
+			turret_type_slot = tank_medium_one_man_tank_turret
+
+		}
+		icon = "GFX_ENG_basic_light_tank_medium"
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
+		}
+	}
+
+
+}
+
+
+### AIRFORCE ###
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "HER_1936_air_bba"
+		set_technology = {
+			
+		}
+
+	else = {
+		set_air_oob = "HER_1936_air_legacy"
+		set_technology = {
+			
+		}
+	}
+}
+
+
+### NAVY ###
+######### Vanilla #########
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+	basic_battlecruiser = 1
+	basic_battleship = 1
+	basic_destroyer = 1
+	basic_submarine = 1
+	early_battlecruiser = 1
+	early_battleship = 1
+	early_carrier = 1
+	early_destroyer = 1
+	early_heavy_cruiser = 1
+	early_light_cruiser = 1
+	early_submarine = 1
+	
+	}
+	set_naval_oob = "HER_1936_naval"
+}
+
+### Ship Variants ###
+
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	### Variants ###
+			create_equipment_variant = {
+			name = "Agadirem Class"
+			type = destroyer_1
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Takila Class"
+			type = destroyer_2
+			upgrades = {
+				ship_anti_air_upgrade = 1
+				ship_torpedo_upgrade = 1
+				destroyer_engine_upgrade = 1
+				ship_ASW_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Agadirem Class"
+			type = light_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_anti_air_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Taghraru Class"
+			type = heavy_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Tawenzart Class"
+			type = battle_cruiser_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Agadirem Class"
+			type = battle_cruiser_2
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Tawenzart Class"
+			type = battleship_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Agrar Class"
+			type = battleship_2
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_armor_upgrade = 1
+				ship_gun_upgrade = 1
+				ship_engine_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Takila Class"
+			type = carrier_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				ship_engine_upgrade = 1
+				ship_deckspace_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Takila Class"
+			type = submarine_1
+			upgrades = {
+				ship_reliability_upgrade = 1
+				sub_torpedo_upgrade = 1
+				sub_engine_upgrade = 1
+				sub_stealth_upgrade = 1
+			}
+		}
+		create_equipment_variant = {
+			name = "Tawenzart Class"
+			type = submarine_2
+			upgrades = {
+				ship_reliability_upgrade = 1
+				sub_torpedo_upgrade = 1
+				sub_engine_upgrade = 1
+				sub_stealth_upgrade = 1
+			}
+		}
+
+}
+
+
+######### MTG #########
+
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+	basic_battery = 1
+	basic_cruiser_armor_scheme = 1
+	basic_depth_charges = 1
+	basic_heavy_armor_scheme = 1
+	basic_heavy_battery = 1
+	basic_light_battery = 1
+	basic_naval_mines = 1
+	basic_ship_hull_cruiser = 1
+	basic_ship_hull_heavy = 1
+	basic_ship_hull_light = 1
+	basic_ship_hull_submarine = 1
+	basic_torpedo = 1
+	early_ship_hull_carrier = 1
+	early_ship_hull_cruiser = 1
+	early_ship_hull_heavy = 1
+	early_ship_hull_light = 1
+	early_ship_hull_submarine = 1
+	improved_depth_charges = 1
+	improved_ship_torpedo_launcher = 1
+	improved_sonar = 1
+	mtg_transport = 1
+	smoke_generator = 1
+	sonar = 1
+	submarine_mine_laying = 1
+	
+	}
+	set_naval_oob = "HER_1936_naval_mtg"
+}
+
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		create_equipment_variant = {
+			name = "Agadirem Class"
+			type = ship_hull_light_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_1
+				fixed_ship_engine_slot = light_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = ship_torpedo_1
+				mid_1_custom_slot = empty
+				rear_1_custom_slot = ship_mine_layer_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Takila Class"
+			type = ship_hull_light_2
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_battery_slot = ship_light_battery_2
+				fixed_ship_engine_slot = light_ship_engine_2
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				fixed_ship_torpedo_slot = ship_torpedo_2
+				mid_1_custom_slot = ship_torpedo_2
+				rear_1_custom_slot = ship_torpedo_2
+			}
+		}
+		create_equipment_variant = {
+			name = "Agadirem Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = ship_mine_layer_1
+				mid_2_custom_slot = ship_torpedo_1
+				rear_1_custom_slot = ship_depth_charge_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Taghraru Class"
+			type = ship_hull_cruiser_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_battery_slot = ship_medium_battery_1
+				fixed_ship_engine_slot = cruiser_ship_engine_1
+				fixed_ship_fire_control_system_slot = ship_sonar_1
+				fixed_ship_radar_slot = empty
+				mid_1_custom_slot = ship_medium_battery_1
+				mid_2_custom_slot = ship_mine_layer_1
+				rear_1_custom_slot = ship_depth_charge_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Tawenzart Class"
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_bc_1
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Agadirem Class"
+			type = ship_hull_heavy_2
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_bc_2
+				fixed_ship_battery_slot = ship_heavy_battery_2
+				fixed_ship_engine_slot = heavy_ship_engine_2
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = ship_secondaries_1
+			}
+		}
+		create_equipment_variant = {
+			name = "Tawenzart Class"
+			type = ship_hull_heavy_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_bb_1
+				fixed_ship_battery_slot = ship_heavy_battery_1
+				fixed_ship_engine_slot = heavy_ship_engine_1
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = empty
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = empty
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Agrar Class"
+			type = ship_hull_heavy_2
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_bb_2
+				fixed_ship_battery_slot = ship_heavy_battery_2
+				fixed_ship_engine_slot = heavy_ship_engine_2
+				fixed_ship_fire_control_system_slot = empty
+				fixed_ship_radar_slot = empty
+				front_1_custom_slot = ship_heavy_battery_2
+				mid_1_custom_slot = empty
+				mid_2_custom_slot = ship_secondaries_1
+				rear_1_custom_slot = ship_heavy_battery_2
+			}
+		}
+		create_equipment_variant = {
+			name = "Takila Class"
+			type = ship_hull_carrier_1
+			parent_version = 0
+			modules = {
+				fixed_ship_anti_air_slot = empty
+				fixed_ship_armor_slot = ship_armor_cruiser_1
+				fixed_ship_deck_slot_1 = ship_deck_space
+				fixed_ship_deck_slot_2 = ship_deck_space
+				fixed_ship_engine_slot = carrier_ship_engine_1
+				fixed_ship_radar_slot = empty
+				fixed_ship_secondaries_slot = ship_secondaries_1
+				front_1_custom_slot = ship_armor_carrier_deck
+				mid_1_custom_slot = ship_deck_space
+			}
+		}
+		create_equipment_variant = {
+			name = "Takila Class"
+			type = ship_hull_submarine_1
+			parent_version = 0
+			modules = {
+				fixed_ship_engine_slot = sub_ship_engine_1
+				fixed_ship_torpedo_slot = ship_torpedo_sub_1
+				rear_1_custom_slot = empty
+			}
+		}
+		create_equipment_variant = {
+			name = "Tawenzart Class"
+			type = ship_hull_submarine_2
+			parent_version = 0
+			modules = {
+				fixed_ship_engine_slot = sub_ship_engine_2
+				fixed_ship_torpedo_slot = ship_torpedo_sub_2
+				rear_1_custom_slot = empty
+			}
+		}
+
+	}
+
+
+recruit_character = HER_Mokran_Taghraru
+recruit_character = HER_Aziz_Tawenzart
+recruit_character = HER_Tafsut_Agadirem
+recruit_character = HER_Amoun_Agrar
+recruit_character = HER_Aziannissini_Agrar
+recruit_character = HER_Saidi_Tazraw
+recruit_character = HER_Zirimokran_Takila
+recruit_character = HER_Aselmariq_Agadirem
+recruit_character = HER_Amokrannissi_Taza
+recruit_character = HER_Sifax_Taghraru
+recruit_character = HER_Ziriq_Agrar
+recruit_character = HER_Meziane_Azrawin
+recruit_character = HER_Amokrannissi_Agadirem
+recruit_character = HER_Amokran_Takila
+recruit_character = HER_Mimoun_Tawenzart
+recruit_character = HER_Sifax_Tagmilenzal
+recruit_character = HER_Saidi_Azrawin
+recruit_character = HER_Sifane_Agadirt
+recruit_character = HER_Tarim_Agadirem
+recruit_character = HER_Ziri_Azrawin
+recruit_character = HER_Taharimoun_Agadirt
+recruit_character = HER_Iskarim_Tazraw
+recruit_character = HER_Yane_Agrar
+recruit_character = HER_Meziz_Agrar
+recruit_character = HER_Amariq_Tazraw
+recruit_character = HER_Aselmar_Taza
+recruit_character = HER_Saidi_Agrar
+recruit_character = HER_Amariq_Tagmilenzal
+recruit_character = HER_Amad_Takila
+recruit_character = HER_Yane_Takila
+recruit_character = HER_Ziriq_Agadirem
+recruit_character = HER_Aselmad_Taghraru
+recruit_character = HER_Sifane_Takila
+recruit_character = HER_Amokrannissi_Azrawin
+recruit_character = HER_Mimoun_Agrar
+recruit_character = HER_Tariq_Agadirt
+recruit_character = HER_Tariq_Tazraw
+recruit_character = HER_Mezian_Azrawin
+recruit_character = HER_Ziri_Taza
+recruit_character = HER_Aziane_Tagmilenzal
+recruit_character = HER_Mokrannissin_Taghraru
+recruit_character = HER_Aziz_Tazraw
+recruit_character = HER_Iderfane_Taza
+recruit_character = HER_Meziz_Agadirt
+recruit_character = HER_Mimoun_Azrawin
+recruit_character = HER_Meziane_Takila
+recruit_character = HER_Sifax_Azrawin
+recruit_character = HER_Mokrane_Takila
+recruit_character = HER_Sifannis_Agadirt
+recruit_character = HER_Zirimokrane_Tagmilenzal
+recruit_character = HER_Saidi_Agadirem
+recruit_character = HER_Mokrannis_Taghraru
+recruit_character = HER_Amoun_Tagmilenzal
+recruit_character = HER_Iskar_Agadirem
+recruit_character = HER_Sifan_Takila
+recruit_character = HER_Sifannis_Agrar
+recruit_character = HER_Mokrane_Azrawin
+recruit_character = HER_Zirimokrane_Taghraru
+recruit_character = HER_Lyes_Takila
+recruit_character = HER_Mokran_Agadirem
+recruit_character = HER_Zirimokran_Taza
+recruit_character = HER_Taharimokran_Tawenzart
+recruit_character = HER_Aselmarim_Tagmilenzal
+recruit_character = HER_Iskarim_Takila
+recruit_character = HER_Zirimokrane_Agadirem
+recruit_character = HER_Azian_Tazraw
+recruit_character = HER_Iskari_Azrawin
+recruit_character = HER_Karen_Tazraw
+recruit_character = HER_Sifannis_Taza
+recruit_character = HER_Aselmar_Tawenzart
+recruit_character = HER_Azian_Tawenzart
+recruit_character = HER_Tahar_Tazraw
+recruit_character = HER_Amad_Agrar
+recruit_character = HER_Meziannis_Tazraw
+recruit_character = HER_Taren_Tawenzart
+recruit_character = HER_Iskari_Agadirt
+recruit_character = HER_Amokrane_Takila
+recruit_character = HER_Taharimoun_Agrar
+recruit_character = HER_Iskar_Agadirt
+recruit_character = HER_Saidi_Tawenzart
+recruit_character = HER_Tarim_Taghraru
+recruit_character = HER_Iderfannis_Tazraw
+recruit_character = HER_Mezian_Agadirem
+recruit_character = HER_Aselmariq_Agadirt
+recruit_character = HER_Mokrane_Agadirem
+recruit_character = HER_Mokrannissin_Agadirt
+recruit_character = HER_Yane_Agadirem
+
+
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+set_research_slots = 4
+set_convoys = 3440
+set_stability = 87
+set_war_support = 35
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1899.11.18"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	democratic = 11
+	fascism = 17
+	communism = 4
+	neutrality = 68
+}
+
+
+
+
+

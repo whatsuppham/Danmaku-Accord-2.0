@@ -1,0 +1,40 @@
+
+state={
+	id=750
+	name="STATE_750"
+	manpower = 236696
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=1
+	}
+
+	history={
+		victory_points = { 11776 1}
+		victory_points = { 11778 1}
+		victory_points = { 11779 1}
+		
+		owner = FUL
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = FUL
+	}
+
+	provinces={
+		11775 11776 11777 11778 11779 11780 11781 11782 11783 11784 11785 11786 11787 11788 11789 11790 11791 11792 11793 
+	}
+	local_supplies=0.0 
+}

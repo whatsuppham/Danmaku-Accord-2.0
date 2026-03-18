@@ -1,0 +1,41 @@
+
+state={
+	id=115
+	name="STATE_115"
+	manpower = 703126
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=5
+		rubber=0
+		steel=7
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1696 2}
+		victory_points = { 1702 10}
+		victory_points = { 1712 2}
+		victory_points = { 1715 2}
+		
+		owner = HER
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = HER
+	}
+
+	provinces={
+		1696 1697 1698 1699 1700 1701 1702 1703 1704 1705 1706 1707 1708 1709 1710 1711 1712 1713 1714 1715 1716 1717 1718 1719 1720 1721 1722 1723 1724 1725 1726 1727 1728 1729 1730 1731 1732 1733 1734 1735 1736 1737 1738 
+	}
+	local_supplies=0.0 
+}

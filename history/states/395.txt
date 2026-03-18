@@ -1,0 +1,41 @@
+
+state={
+	id=395
+	name="STATE_395"
+	manpower = 495124
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6089 2}
+		victory_points = { 6092 15}
+		victory_points = { 6094 2}
+		victory_points = { 6100 2}
+		
+		owner = SEA
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 4
+			
+			
+		}
+		add_core_of = SEA
+	}
+
+	provinces={
+		6089 6090 6091 6092 6093 6094 6095 6096 6097 6098 6099 6100 6101 6102 6103 6104 
+	}
+	local_supplies=0.0 
+}

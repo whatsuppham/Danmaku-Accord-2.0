@@ -1,0 +1,39 @@
+
+state={
+	id=158
+	name="STATE_158"
+	manpower = 504503
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=5
+		coal=0
+	}
+
+	history={
+		victory_points = { 2242 13}
+		victory_points = { 2246 2}
+		
+		owner = HER
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = HER
+	}
+
+	provinces={
+		2228 2229 2230 2231 2232 2233 2234 2235 2236 2237 2238 2239 2240 2241 2242 2243 2244 2245 2246 2247 2248 
+	}
+	local_supplies=0.0 
+}

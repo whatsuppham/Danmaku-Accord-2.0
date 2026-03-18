@@ -1,0 +1,880 @@
+characters = {
+	HER_Mokran_Taghraru={
+		name="Mokran Taghraru"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HER_Aziz_Tawenzart={
+		name="Aziz Tawenzart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Aziz_Tawenzart
+				traits = {	humble 	}
+		}
+
+	}
+	HER_Tafsut_Agadirem={
+		name="Tafsut Agadirem"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Tafsut_Agadirem
+				traits = {	headstrong 	}
+		}
+
+	}
+	HER_Amoun_Agrar={
+		name="Amoun Agrar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Amoun_Agrar
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	HER_Aziannissini_Agrar={
+		name="Aziannissini Agrar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Aziannissini_Agrar
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	HER_Saidi_Tazraw={
+		name="Saidi Tazraw"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Saidi_Tazraw
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	HER_Zirimokran_Takila={
+		name="Zirimokran Takila"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Zirimokran_Takila
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	HER_Aselmariq_Agadirem={
+		name="Aselmariq Agadirem"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Aselmariq_Agadirem
+				traits = {	army_chief_reform_1 	}
+		}
+
+	}
+	HER_Amokrannissi_Taza={
+		name="Amokrannissi Taza"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Amokrannissi_Taza
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	HER_Sifax_Taghraru={
+		name="Sifax Taghraru"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Sifax_Taghraru
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	HER_Ziriq_Agrar={
+		name="Ziriq Agrar"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Ziriq_Agrar
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	HER_Meziane_Azrawin={
+		name="Meziane Azrawin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HER_Meziane_Azrawin
+				traits = {	navy_chief_maneuver_2 	}
+		}
+
+	}
+	HER_Amokrannissi_Agadirem={
+		name="Amokrannissi Agadirem"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HER_Amokrannissi_Agadirem
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	HER_Amokran_Takila={
+		name="Amokran Takila"
+
+		advisor={
+			slot = air_chief
+			idea_token = HER_Amokran_Takila
+				traits = {	air_chief_all_weather_1 	}
+		}
+
+	}
+	HER_Mimoun_Tawenzart={
+		name="Mimoun Tawenzart"
+
+		advisor={
+			slot = air_chief
+			idea_token = HER_Mimoun_Tawenzart
+				traits = {	air_chief_ground_support_2 	}
+		}
+
+	}
+	HER_Sifax_Tagmilenzal={
+		name="Sifax Tagmilenzal"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Sifax_Tagmilenzal
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	HER_Saidi_Azrawin={
+		name="Saidi Azrawin"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Saidi_Azrawin
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	HER_Sifane_Agadirt={
+		name="Sifane Agadirt"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Sifane_Agadirt
+				traits = {	air_pilot_training_2 	}
+		}
+
+	}
+	HER_Tarim_Agadirem={
+		name="Tarim Agadirem"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Tarim_Agadirem
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	HER_Ziri_Azrawin={
+		name="Ziri Azrawin"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Ziri_Azrawin
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	HER_Taharimoun_Agadirt={
+		name="Taharimoun Agadirt"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Taharimoun_Agadirt
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	HER_Iskarim_Tazraw={
+		name="Iskarim Tazraw"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { warmonger  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HER_Yane_Agrar={
+		name="Yane Agrar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Yane_Agrar
+				traits = {	autokrator 	}
+		}
+
+	}
+	HER_Meziz_Agrar={
+		name="Meziz Agrar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Meziz_Agrar
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	HER_Amariq_Tazraw={
+		name="Amariq Tazraw"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Amariq_Tazraw
+				traits = {	collaborator_king 	}
+		}
+
+	}
+	HER_Aselmar_Taza={
+		name="Aselmar Taza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Aselmar_Taza
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	HER_Saidi_Agrar={
+		name="Saidi Agrar"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Saidi_Agrar
+				traits = {	infirm 	}
+		}
+
+	}
+	HER_Amariq_Tagmilenzal={
+		name="Amariq Tagmilenzal"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Amariq_Tagmilenzal
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	HER_Amad_Takila={
+		name="Amad Takila"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Amad_Takila
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	HER_Yane_Takila={
+		name="Yane Takila"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Yane_Takila
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	HER_Ziriq_Agadirem={
+		name="Ziriq Agadirem"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Ziriq_Agadirem
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	HER_Aselmad_Taghraru={
+		name="Aselmad Taghraru"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Aselmad_Taghraru
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	HER_Sifane_Takila={
+		name="Sifane Takila"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HER_Sifane_Takila
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	HER_Amokrannissi_Azrawin={
+		name="Amokrannissi Azrawin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HER_Amokrannissi_Azrawin
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	HER_Mimoun_Agrar={
+		name="Mimoun Agrar"
+
+		advisor={
+			slot = air_chief
+			idea_token = HER_Mimoun_Agrar
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	HER_Tariq_Agadirt={
+		name="Tariq Agadirt"
+
+		advisor={
+			slot = air_chief
+			idea_token = HER_Tariq_Agadirt
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	HER_Tariq_Tazraw={
+		name="Tariq Tazraw"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Tariq_Tazraw
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	HER_Mezian_Azrawin={
+		name="Mezian Azrawin"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Mezian_Azrawin
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	HER_Ziri_Taza={
+		name="Ziri Taza"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Ziri_Taza
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	HER_Aziane_Tagmilenzal={
+		name="Aziane Tagmilenzal"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Aziane_Tagmilenzal
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	HER_Mokrannissin_Taghraru={
+		name="Mokrannissin Taghraru"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Mokrannissin_Taghraru
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	HER_Aziz_Tazraw={
+		name="Aziz Tazraw"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Aziz_Tazraw
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	HER_Iderfane_Taza={
+		name="Iderfane Taza"
+
+		
+		country_leader={
+			ideology=anti_revisionism
+			traits = { polemarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HER_Meziz_Agadirt={
+		name="Meziz Agadirt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Meziz_Agadirt
+				traits = {	infirm 	}
+		}
+
+	}
+	HER_Mimoun_Azrawin={
+		name="Mimoun Azrawin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Mimoun_Azrawin
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	HER_Meziane_Takila={
+		name="Meziane Takila"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Meziane_Takila
+				traits = {	political_dancer 	}
+		}
+
+	}
+	HER_Sifax_Azrawin={
+		name="Sifax Azrawin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Sifax_Azrawin
+				traits = {	polemarch 	}
+		}
+
+	}
+	HER_Mokrane_Takila={
+		name="Mokrane Takila"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Mokrane_Takila
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	HER_Sifannis_Agadirt={
+		name="Sifannis Agadirt"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Sifannis_Agadirt
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	HER_Zirimokrane_Tagmilenzal={
+		name="Zirimokrane Tagmilenzal"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Zirimokrane_Tagmilenzal
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	HER_Saidi_Agadirem={
+		name="Saidi Agadirem"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Saidi_Agadirem
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	HER_Mokrannis_Taghraru={
+		name="Mokrannis Taghraru"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Mokrannis_Taghraru
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	HER_Amoun_Tagmilenzal={
+		name="Amoun Tagmilenzal"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Amoun_Tagmilenzal
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	HER_Iskar_Agadirem={
+		name="Iskar Agadirem"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HER_Iskar_Agadirem
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	HER_Sifan_Takila={
+		name="Sifan Takila"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HER_Sifan_Takila
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	HER_Sifannis_Agrar={
+		name="Sifannis Agrar"
+
+		advisor={
+			slot = air_chief
+			idea_token = HER_Sifannis_Agrar
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	HER_Mokrane_Azrawin={
+		name="Mokrane Azrawin"
+
+		advisor={
+			slot = air_chief
+			idea_token = HER_Mokrane_Azrawin
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	HER_Zirimokrane_Taghraru={
+		name="Zirimokrane Taghraru"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Zirimokrane_Taghraru
+				traits = {	air_close_air_support_1 	}
+		}
+
+	}
+	HER_Lyes_Takila={
+		name="Lyes Takila"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Lyes_Takila
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	HER_Mokran_Agadirem={
+		name="Mokran Agadirem"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Mokran_Agadirem
+				traits = {	army_concealment_2 	}
+		}
+
+	}
+	HER_Zirimokran_Taza={
+		name="Zirimokran Taza"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Zirimokran_Taza
+				traits = {	air_close_air_support_2 	}
+		}
+
+	}
+	HER_Taharimokran_Tawenzart={
+		name="Taharimokran Tawenzart"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Taharimokran_Tawenzart
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	HER_Aselmarim_Tagmilenzal={
+		name="Aselmarim Tagmilenzal"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Aselmarim_Tagmilenzal
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	HER_Iskarim_Takila={
+		name="Iskarim Takila"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	HER_Zirimokrane_Agadirem={
+		name="Zirimokrane Agadirem"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Zirimokrane_Agadirem
+				traits = {	rearmer 	}
+		}
+
+	}
+	HER_Azian_Tazraw={
+		name="Azian Tazraw"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Azian_Tazraw
+				traits = {	the_banker 	}
+		}
+
+	}
+	HER_Iskari_Azrawin={
+		name="Iskari Azrawin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Iskari_Azrawin
+				traits = {	first_lady 	}
+		}
+
+	}
+	HER_Karen_Tazraw={
+		name="Karen Tazraw"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Karen_Tazraw
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	HER_Sifannis_Taza={
+		name="Sifannis Taza"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Sifannis_Taza
+				traits = {	rearmer 	}
+		}
+
+	}
+	HER_Aselmar_Tawenzart={
+		name="Aselmar Tawenzart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = HER_Aselmar_Tawenzart
+				traits = {	rearmer 	}
+		}
+
+	}
+	HER_Azian_Tawenzart={
+		name="Azian Tawenzart"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Azian_Tawenzart
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	HER_Tahar_Tazraw={
+		name="Tahar Tazraw"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Tahar_Tazraw
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	HER_Amad_Agrar={
+		name="Amad Agrar"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Amad_Agrar
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	HER_Meziannis_Tazraw={
+		name="Meziannis Tazraw"
+
+		advisor={
+			slot = army_chief
+			idea_token = HER_Meziannis_Tazraw
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	HER_Taren_Tawenzart={
+		name="Taren Tawenzart"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HER_Taren_Tawenzart
+				traits = {	navy_chief_commerce_raiding_2 	}
+		}
+
+	}
+	HER_Iskari_Agadirt={
+		name="Iskari Agadirt"
+
+		advisor={
+			slot = navy_chief
+			idea_token = HER_Iskari_Agadirt
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	HER_Amokrane_Takila={
+		name="Amokrane Takila"
+
+		advisor={
+			slot = air_chief
+			idea_token = HER_Amokrane_Takila
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	HER_Taharimoun_Agrar={
+		name="Taharimoun Agrar"
+
+		advisor={
+			slot = air_chief
+			idea_token = HER_Taharimoun_Agrar
+				traits = {	air_chief_night_operations_1 	}
+		}
+
+	}
+	HER_Iskar_Agadirt={
+		name="Iskar Agadirt"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Iskar_Agadirt
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	HER_Saidi_Tawenzart={
+		name="Saidi Tawenzart"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Saidi_Tawenzart
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	HER_Tarim_Taghraru={
+		name="Tarim Taghraru"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Tarim_Taghraru
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	HER_Iderfannis_Tazraw={
+		name="Iderfannis Tazraw"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Iderfannis_Tazraw
+				traits = {	navy_submarine_1 	}
+		}
+
+	}
+	HER_Mezian_Agadirem={
+		name="Mezian Agadirem"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Mezian_Agadirem
+				traits = {	army_artillery_1 	}
+		}
+
+	}
+	HER_Aselmariq_Agadirt={
+		name="Aselmariq Agadirt"
+
+		advisor={
+			slot = high_command
+			idea_token = HER_Aselmariq_Agadirt
+				traits = {	army_logistics_1 	}
+		}
+
+	}
+	HER_Mokrane_Agadirem={
+		name="Mokrane Agadirem"
+
+		advisor={
+			slot = theorist
+			idea_token = HER_Mokrane_Agadirem
+				traits = {	military_theorist 	}
+		}
+
+	}
+	HER_Mokrannissin_Agadirt={
+		name="Mokrannissin Agadirt"
+
+		advisor={
+			slot = theorist
+			idea_token = HER_Mokrannissin_Agadirt
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	HER_Yane_Agadirem={
+		name="Yane Agadirem"
+
+		advisor={
+			slot = theorist
+			idea_token = HER_Yane_Agadirem
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

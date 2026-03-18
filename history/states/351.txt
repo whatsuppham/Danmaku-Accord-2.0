@@ -1,0 +1,38 @@
+
+state={
+	id=351
+	name="STATE_351"
+	manpower = 176722
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5512 2}
+		
+		owner = TIR
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = TIR
+	}
+
+	provinces={
+		5507 5508 5509 5510 5511 5512 5513 5514 5515 5516 5517 5518 
+	}
+	local_supplies=0.0 
+}

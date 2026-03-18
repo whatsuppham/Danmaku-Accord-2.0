@@ -1,0 +1,41 @@
+
+state={
+	id=991
+	name="STATE_991"
+	manpower = 165890
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 14395 3}
+		
+		owner = SEA
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
+			
+			14395 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = SEA
+	}
+
+	provinces={
+		14393 14394 14395 14396 14397 
+	}
+	local_supplies=0.0 
+}

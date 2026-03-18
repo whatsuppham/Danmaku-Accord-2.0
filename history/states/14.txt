@@ -1,0 +1,41 @@
+
+state={
+	id=14
+	name="STATE_14"
+	manpower = 207985
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=13
+		rubber=17
+		steel=0
+		tungsten=0
+		coal=3
+	}
+
+	history={
+		victory_points = { 174 1}
+		
+		owner = HER
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			168 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HER
+	}
+
+	provinces={
+		156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 
+	}
+	local_supplies=0.0 
+}

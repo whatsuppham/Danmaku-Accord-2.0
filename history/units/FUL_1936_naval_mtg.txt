@@ -1,0 +1,222 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Fulgus Fleet"			
+		naval_base = 14978
+		task_force = {
+			name = "Fulgus Fleet"
+			location = 14978
+			
+						ship = { name = "Awalut" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FUL version_name = "Tafawint Class" } }	}
+			ship = { name = "Azou" definition = heavy_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Azou 2" definition = battle_cruiser equipment = { ship_hull_heavy_1 = { amount = 1 owner = FUL version_name = "Azou Class" } }	}
+			ship = { name = "Awalut 2" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FUL version_name = "Tafawint Class" } }	}
+			ship = { name = "Awart" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tafawint" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tafawint 2" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tafawint 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tazaghrem" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awalut 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tafawint 4" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tafawint 5" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tazaghrem 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Azou 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awalut 4" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awalut 5" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awalut 6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awart 2" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Azou 4" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awart 3" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awart 4" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awart 5" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Azou 5" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tafawint 6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Azou 6" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tafawint 7" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awart 6" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awalut 7" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awart 7" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awalut 8" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tafawint 8" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awalut 9" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tafawint 9" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tafawint 10" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tafawint 11" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tazaghrem 3" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Azou 7" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awart 8" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tazaghrem 4" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Azou 8" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tafawint 12" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tazaghrem 5" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awalut 10" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awart 9" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Azou 9" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tafawint 13" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awart 10" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tafawint 14" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tazaghrem 6" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awalut 11" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Azou 10" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Azou 11" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tazaghrem 7" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awart 11" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awart 12" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awart 13" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tafawint 15" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awalut 12" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tafawint 16" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tafawint 17" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tafawint 18" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tazaghrem 8" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tazaghrem 9" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tazaghrem 10" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tafawint 19" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tafawint 20" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awart 14" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Azou 12" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awart 15" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awalut 13" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tafawint 21" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tafawint 22" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tafawint 23" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awart 16" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awalut 14" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tazaghrem 11" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tazaghrem 12" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tafawint 24" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Azou 13" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tazaghrem 13" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awart 17" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tafawint 25" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awalut 15" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awalut 16" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awart 18" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tazaghrem 14" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tafawint 26" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awart 19" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tafawint 27" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awalut 17" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tazaghrem 15" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awalut 18" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Azou 14" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awart 20" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awart 21" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awalut 19" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Azou 15" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Azou 16" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tazaghrem 16" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awalut 20" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tazaghrem 17" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tafawint 28" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awalut 21" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awart 22" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tafawint 29" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awart 23" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tafawint 30" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Azou 17" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Azou 18" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awart 24" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awart 25" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tazaghrem 18" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awalut 22" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tazaghrem 19" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tazaghrem 20" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awalut 23" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tazaghrem 21" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awalut 24" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awalut 25" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tazaghrem 22" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awart 26" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awart 27" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Azou 19" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tafawint 31" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awalut 26" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awalut 27" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awalut 28" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awalut 29" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awalut 30" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awart 28" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tafawint 32" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awart 29" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tazaghrem 23" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awalut 31" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Azou 20" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awalut 32" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awalut 33" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Azou 21" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tafawint 33" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awalut 34" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tazaghrem 24" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tazaghrem 25" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awart 30" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awalut 35" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tafawint 34" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awalut 36" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awalut 37" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tazaghrem 26" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tazaghrem 27" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Azou 22" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tazaghrem 28" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tafawint 35" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Azou 23" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awart 31" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awart 32" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awart 33" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tazaghrem 29" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Azou 24" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awalut 38" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tafawint 36" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awalut 39" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awart 34" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tafawint 37" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awart 35" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Azou 25" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tafawint 38" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Azou 26" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awalut 40" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Azou 27" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Azou 28" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awalut 41" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Azou 29" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Azou 30" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awart 36" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awart 37" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awalut 42" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tazaghrem 30" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awalut 43" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tafawint 39" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tazaghrem 31" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awart 38" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tafawint 40" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awalut 44" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Azou 31" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awart 39" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Azou 32" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awart 40" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awalut 45" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Azou 33" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awart 41" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tazaghrem 32" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awart 42" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Tazaghrem 33" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Tafawint 41" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+			ship = { name = "Awalut 46" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FUL version_name = "Awalut Class" } }	}
+			ship = { name = "Awalut 47" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FUL version_name = "Awart Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

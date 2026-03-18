@@ -1,0 +1,42 @@
+
+state={
+	id=495
+	name="STATE_495"
+	manpower = 205098
+	
+	state_category = town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 7532 2}
+		victory_points = { 7534 2}
+		
+		owner = SEA
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			
+			7532 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = SEA
+	}
+
+	provinces={
+		7527 7528 7529 7530 7531 7532 7533 7534 
+	}
+	local_supplies=0.0 
+}

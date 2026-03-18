@@ -1,0 +1,41 @@
+
+state={
+	id=544
+	name="STATE_544"
+	manpower = 778959
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=9
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8154 2}
+		victory_points = { 8162 6}
+		victory_points = { 8176 6}
+		victory_points = { 8186 6}
+		
+		owner = SEA
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = SEA
+	}
+
+	provinces={
+		8153 8154 8155 8156 8157 8158 8159 8160 8161 8162 8163 8164 8165 8166 8167 8168 8169 8170 8171 8172 8173 8174 8175 8176 8177 8178 8179 8180 8181 8182 8183 8184 8185 8186 8187 8188 8189 8190 8191 8192 
+	}
+	local_supplies=0.0 
+}

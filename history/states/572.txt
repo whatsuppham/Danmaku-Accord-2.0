@@ -1,0 +1,45 @@
+
+state={
+	id=572
+	name="STATE_572"
+	manpower = 435389
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8512 3}
+		victory_points = { 8519 3}
+		victory_points = { 8521 3}
+		victory_points = { 8522 3}
+		victory_points = { 8523 3}
+		
+		owner = FUL
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 1
+			8522 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = FUL
+	}
+
+	provinces={
+		8509 8510 8511 8512 8513 8514 8515 8516 8517 8518 8519 8520 8521 8522 8523 8524 8525 
+	}
+	local_supplies=0.0 
+}

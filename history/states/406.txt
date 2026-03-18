@@ -1,0 +1,44 @@
+
+state={
+	id=406
+	name="STATE_406"
+	manpower = 591600
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6218 7}
+		victory_points = { 6219 7}
+		victory_points = { 6220 1}
+		victory_points = { 6230 1}
+		
+		owner = SEA
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 2
+			industrial_complex = 0
+			
+			6231 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = SEA
+	}
+
+	provinces={
+		6218 6219 6220 6221 6222 6223 6224 6225 6226 6227 6228 6229 6230 6231 6232 6233 6234 6235 6236 6237 6238 6239 6240 6241 6242 6243 
+	}
+	local_supplies=0.0 
+}

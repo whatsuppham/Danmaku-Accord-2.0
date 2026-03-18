@@ -1,0 +1,37 @@
+
+state={
+	id=559
+	name="STATE_559"
+	manpower = 18475
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=4
+		rubber=0
+		steel=19
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = SEA
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = SEA
+	}
+
+	provinces={
+		8311 8312 8313 8314 8315 8316 8317 8318 8319 8320 8321 8322 
+	}
+	local_supplies=0.0 
+}

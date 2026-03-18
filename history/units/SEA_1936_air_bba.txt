@@ -1,0 +1,186 @@
+air_wings = {
+		540 = { 								
+		small_plane_cas_airframe_0 = { owner = "SEA" amount = 50 version_name = "Torc Mk 1" }
+
+	}
+	526 = { 								
+		medium_plane_airframe_1 = { owner = "SEA" amount = 50 version_name = "Geas Mk 1" }
+
+	}
+	530 = { 								
+		small_plane_airframe_0 = { owner = "SEA" amount = 50 version_name = "Bainach Mk 1" }
+
+	}
+	517 = { 								
+		small_plane_airframe_0 = { owner = "SEA" amount = 50 version_name = "Bainach Mk 1" }
+
+	}
+	533 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "SEA" amount = 50 version_name = "Luain Mk 1" }
+
+	}
+	541 = { 								
+		small_plane_airframe_0 = { owner = "SEA" amount = 50 version_name = "Bainach Mk 1" }
+
+	}
+	555 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "SEA" amount = 50 version_name = "Luain Mk 1" }
+
+	}
+	559 = { 								
+		medium_plane_airframe_1 = { owner = "SEA" amount = 50 version_name = "Geas Mk 1" }
+
+	}
+	558 = { 								
+		medium_plane_airframe_0 = { owner = "SEA" amount = 50 version_name = "Reolairsear Mk 1" }
+
+	}
+	567 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "SEA" amount = 50 version_name = "Luain Mk 1" }
+
+	}
+	576 = { 								
+		small_plane_airframe_0 = { owner = "SEA" amount = 50 version_name = "Bainach Mk 1" }
+small_plane_airframe_0 = { owner = "SEA" amount = 50 version_name = "Bainach Mk 1" }
+
+	}
+	584 = { 								
+		medium_plane_airframe_1 = { owner = "SEA" amount = 50 version_name = "Geas Mk 1" }
+
+	}
+	382 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "SEA" amount = 50 version_name = "Luain Mk 1" }
+
+	}
+	378 = { 								
+		medium_plane_airframe_0 = { owner = "SEA" amount = 50 version_name = "Reolairsear Mk 1" }
+
+	}
+	390 = { 								
+		medium_plane_airframe_1 = { owner = "SEA" amount = 50 version_name = "Geas Mk 1" }
+
+	}
+	385 = { 								
+		small_plane_cas_airframe_0 = { owner = "SEA" amount = 50 version_name = "Torc Mk 1" }
+
+	}
+	401 = { 								
+		small_plane_cas_airframe_0 = { owner = "SEA" amount = 50 version_name = "Torc Mk 1" }
+
+	}
+	396 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "SEA" amount = 50 version_name = "Luain Mk 1" }
+small_plane_naval_bomber_airframe_0 = { owner = "SEA" amount = 50 version_name = "Luain Mk 1" }
+
+	}
+	400 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "SEA" amount = 50 version_name = "Luain Mk 1" }
+
+	}
+	425 = { 								
+		small_plane_airframe_0 = { owner = "SEA" amount = 50 version_name = "Bainach Mk 1" }
+
+	}
+	434 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "SEA" amount = 50 version_name = "Luain Mk 1" }
+
+	}
+	1052 = { 								
+		small_plane_cas_airframe_0 = { owner = "SEA" amount = 50 version_name = "Torc Mk 1" }
+
+	}
+	1087 = { 								
+		medium_plane_airframe_1 = { owner = "SEA" amount = 50 version_name = "Geas Mk 1" }
+medium_plane_airframe_0 = { owner = "SEA" amount = 50 version_name = "Reolairsear Mk 1" }
+
+	}
+	100 = { 								
+		small_plane_cas_airframe_0 = { owner = "SEA" amount = 50 version_name = "Torc Mk 1" }
+
+	}
+	922 = { 								
+		small_plane_cas_airframe_0 = { owner = "SEA" amount = 50 version_name = "Torc Mk 1" }
+
+	}
+	929 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "SEA" amount = 50 version_name = "Luain Mk 1" }
+
+	}
+	958 = { 								
+		medium_plane_airframe_0 = { owner = "SEA" amount = 50 version_name = "Reolairsear Mk 1" }
+
+	}
+	974 = { 								
+		medium_plane_airframe_0 = { owner = "SEA" amount = 50 version_name = "Reolairsear Mk 1" }
+
+	}
+	980 = { 								
+		medium_plane_airframe_1 = { owner = "SEA" amount = 50 version_name = "Geas Mk 1" }
+
+	}
+	993 = { 								
+		small_plane_airframe_0 = { owner = "SEA" amount = 50 version_name = "Bainach Mk 1" }
+
+	}
+	991 = { 								
+		small_plane_cas_airframe_0 = { owner = "SEA" amount = 50 version_name = "Torc Mk 1" }
+medium_plane_airframe_0 = { owner = "SEA" amount = 50 version_name = "Reolairsear Mk 1" }
+
+	}
+	1033 = { 								
+		medium_plane_airframe_1 = { owner = "SEA" amount = 50 version_name = "Geas Mk 1" }
+
+	}
+	1035 = { 								
+		medium_plane_airframe_1 = { owner = "SEA" amount = 50 version_name = "Geas Mk 1" }
+
+	}
+	132 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "SEA" amount = 50 version_name = "Luain Mk 1" }
+
+	}
+	456 = { 								
+		medium_plane_airframe_0 = { owner = "SEA" amount = 50 version_name = "Reolairsear Mk 1" }
+
+	}
+	457 = { 								
+		medium_plane_airframe_1 = { owner = "SEA" amount = 50 version_name = "Geas Mk 1" }
+
+	}
+	467 = { 								
+		medium_plane_airframe_0 = { owner = "SEA" amount = 50 version_name = "Reolairsear Mk 1" }
+
+	}
+	472 = { 								
+		medium_plane_airframe_0 = { owner = "SEA" amount = 50 version_name = "Reolairsear Mk 1" }
+medium_plane_airframe_0 = { owner = "SEA" amount = 50 version_name = "Reolairsear Mk 1" }
+
+	}
+	466 = { 								
+		small_plane_airframe_0 = { owner = "SEA" amount = 50 version_name = "Bainach Mk 1" }
+
+	}
+	494 = { 								
+		small_plane_cas_airframe_0 = { owner = "SEA" amount = 50 version_name = "Torc Mk 1" }
+
+	}
+	1206 = { 								
+		small_plane_cas_airframe_0 = { owner = "SEA" amount = 50 version_name = "Torc Mk 1" }
+
+	}
+	1296 = { 								
+		medium_plane_airframe_1 = { owner = "SEA" amount = 50 version_name = "Geas Mk 1" }
+small_plane_airframe_0 = { owner = "SEA" amount = 50 version_name = "Bainach Mk 1" }
+
+	}
+	1332 = { 								
+		small_plane_airframe_0 = { owner = "SEA" amount = 50 version_name = "Bainach Mk 1" }
+
+	}
+	1130 = { 								
+		small_plane_cas_airframe_0 = { owner = "SEA" amount = 50 version_name = "Torc Mk 1" }
+
+	}
+
+
+}

@@ -1,0 +1,44 @@
+
+state={
+	id=332
+	name="STATE_332"
+	manpower = 351665
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=8
+		coal=0
+	}
+
+	history={
+		victory_points = { 5108 1}
+		victory_points = { 5109 1}
+		victory_points = { 5115 1}
+		victory_points = { 5117 6}
+		
+		owner = TIR
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			5102 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = TIR
+	}
+
+	provinces={
+		5102 5103 5104 5105 5106 5107 5108 5109 5110 5111 5112 5113 5114 5115 5116 5117 
+	}
+	local_supplies=0.0 
+}

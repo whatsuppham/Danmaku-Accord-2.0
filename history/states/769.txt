@@ -1,0 +1,44 @@
+
+state={
+	id=769
+	name="STATE_769"
+	manpower = 439601
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=2
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11985 11}
+		victory_points = { 11987 1}
+		victory_points = { 11989 1}
+		victory_points = { 11991 1}
+		
+		owner = FUL
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 1
+			industrial_complex = 2
+			
+			11988 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = FUL
+	}
+
+	provinces={
+		11984 11985 11986 11987 11988 11989 11990 11991 11992 11993 11994 11995 11996 11997 11998 11999 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=998
+	name="STATE_998"
+	manpower = 904
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = FUL
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			14440 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = FUL
+	}
+
+	provinces={
+		14437 14438 14439 14440 14441 
+	}
+	local_supplies=0.0 
+}

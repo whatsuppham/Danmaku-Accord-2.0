@@ -1,0 +1,40 @@
+
+state={
+	id=957
+	name="STATE_957"
+	manpower = 6467
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = TIR
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			14116 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = TIR
+	}
+
+	provinces={
+		14113 14114 14115 14116 14117 14118 14119 14120 14121 14122 14123 
+	}
+	local_supplies=0.0 
+}

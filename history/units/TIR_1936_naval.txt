@@ -1,0 +1,282 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Torc Fleet"			
+		naval_base = 14991
+		task_force = {
+			name = "Torc Fleet"
+			location = 14991
+			
+						ship = { name = "Uchatifalki" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchare" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 2" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = TIR version_name = "Mwili Class" } }	}
+			ship = { name = "Mele" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mele 2" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = TIR version_name = "Mwili Class" } }	}
+			ship = { name = "Uchatifalki 3" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = TIR version_name = "Mwili Class" } }	}
+			ship = { name = "Mwili" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Soko" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = TIR version_name = "Mwili Class" } }	}
+			ship = { name = "Mwili 2" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mwili 3" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Soko 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mwili 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Soko 3" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchare 2" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mele 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Uchatifalki 4" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Uchare 3" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mele 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 5" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mele 5" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchare 4" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mele 6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mwili 5" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 2" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Mwili 6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchare 5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchare 6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchare 7" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mwili 7" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Mele 7" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Soko 4" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Uchare 8" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 6" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Uchatifalki 7" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchare 9" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchare 10" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Mwili 8" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mwili 9" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mwili 10" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 8" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 9" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 4" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Soko 5" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Mele 8" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mele 9" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mwili 11" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mele 10" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 5" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 10" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Mele 11" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Uchatifalki 11" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchare 11" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mwili 12" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 6" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Uchare 12" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mwili 13" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Soko 6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mwili 14" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Uchare 13" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mele 12" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mwili 15" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mele 13" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 7" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchare 14" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mele 14" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchare 15" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Soko 7" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Soko 8" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mele 15" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 12" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mwili 16" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mwili 17" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Soko 9" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Mele 16" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Uchare 16" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mwili 18" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mele 17" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 13" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Soko 10" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mwili 19" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Soko 11" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Soko 12" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchare 17" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Mwili 20" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Uchatifalki 14" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 8" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Soko 13" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 9" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mele 18" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 15" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mele 19" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 16" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 10" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchare 18" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchare 19" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Mwili 21" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 17" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mele 20" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 18" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchare 20" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Mele 21" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Uchawitu 11" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Mele 22" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 19" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Mwili 22" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mele 23" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mwili 23" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mele 24" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 20" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchare 21" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Uchare 22" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mele 25" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Soko 14" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Soko 15" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 21" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Uchare 23" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 22" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchare 24" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mwili 24" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Uchawitu 12" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 23" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Soko 16" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Soko 17" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 24" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchare 25" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mwili 25" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchare 26" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Uchawitu 13" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Soko 18" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mwili 26" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 14" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Mwili 27" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 15" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 25" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 26" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Mele 26" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mwili 28" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Uchare 27" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Mwili 29" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Uchatifalki 27" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 16" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 28" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Mwili 30" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Uchawitu 17" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 18" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 29" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 30" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Soko 19" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Soko 20" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Mwili 31" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 31" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 32" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Soko 21" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchare 28" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 19" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 20" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mwili 32" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 33" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mele 27" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Soko 22" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchare 29" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchare 30" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 21" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 22" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 23" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Uchatifalki 34" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchare 31" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Uchawitu 24" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchare 32" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 25" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchare 33" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 35" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 26" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 27" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchare 34" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mele 28" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 36" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 28" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 37" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mwili 33" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mele 29" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 29" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Uchawitu 30" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Soko 23" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 31" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 32" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 33" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchare 35" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mwili 34" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Soko 24" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Uchawitu 34" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 38" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Mele 30" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 39" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 40" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mele 31" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Soko 25" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Soko 26" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mwili 35" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 41" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mwili 36" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 35" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Soko 27" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mele 32" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mele 33" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 36" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Uchatifalki 42" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 43" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Soko 28" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Uchatifalki 44" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mwili 37" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 37" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Soko 29" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 45" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchare 36" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 46" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 47" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 48" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchare 37" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 38" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mwili 38" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchare 38" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Soko 30" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Soko 31" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Mwili 39" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Uchare 39" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Mele 34" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Uchare 40" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Soko 32" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Soko 33" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 49" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 50" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mele 35" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mwili 40" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Uchawitu 39" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 40" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 41" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Uchare 41" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Soko 34" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mele 36" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 42" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 51" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Mwili 41" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mele 37" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Uchatifalki 52" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Soko 35" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mele 38" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Uchatifalki 53" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mwili 42" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mele 39" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchawitu 43" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = TIR version_name = "Mele Class" } }	}
+			ship = { name = "Soko 36" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Mele 40" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+			ship = { name = "Uchatifalki 54" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = TIR version_name = "Uchawitu Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

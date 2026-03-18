@@ -1,0 +1,43 @@
+
+state={
+	id=680
+	name="STATE_680"
+	manpower = 197854
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=2
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10790 1}
+		victory_points = { 10793 1}
+		victory_points = { 10795 1}
+		
+		owner = TIR
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			10793 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = TIR
+	}
+
+	provinces={
+		10790 10791 10792 10793 10794 10795 10796 10797 10798 
+	}
+	local_supplies=0.0 
+}

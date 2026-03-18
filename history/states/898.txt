@@ -1,0 +1,43 @@
+
+state={
+	id=898
+	name="STATE_898"
+	manpower = 336938
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=4
+		steel=9
+		tungsten=0
+		coal=65
+	}
+
+	history={
+		victory_points = { 13684 1}
+		victory_points = { 13688 6}
+		victory_points = { 13690 1}
+		
+		owner = TIR
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			13688 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = TIR
+	}
+
+	provinces={
+		13683 13684 13685 13686 13687 13688 13689 13690 13691 13692 13693 13694 13695 13696 13697 13698 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=432
+	name="STATE_432"
+	manpower = 543627
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6628 1}
+		victory_points = { 6630 1}
+		victory_points = { 6633 1}
+		victory_points = { 6637 16}
+		
+		owner = SEA
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 2
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = SEA
+	}
+
+	provinces={
+		6626 6627 6628 6629 6630 6631 6632 6633 6634 6635 6636 6637 6638 6639 6640 6641 6642 6643 6644 6645 
+	}
+	local_supplies=0.0 
+}

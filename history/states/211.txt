@@ -1,0 +1,45 @@
+
+state={
+	id=211
+	name="STATE_211"
+	manpower = 288746
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=1
+		coal=0
+	}
+
+	history={
+		victory_points = { 3165 1}
+		victory_points = { 3166 1}
+		victory_points = { 3169 1}
+		victory_points = { 3170 1}
+		victory_points = { 3172 3}
+		
+		owner = TIR
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			3170 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = TIR
+	}
+
+	provinces={
+		3164 3165 3166 3167 3168 3169 3170 3171 3172 3173 3174 3175 3176 3177 
+	}
+	local_supplies=0.0 
+}

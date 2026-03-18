@@ -1,0 +1,4 @@
+FUL = "countries/Fulgus.txt"
+HER = "countries/Herz.txt"
+SEA = "countries/Seann.txt"
+TIR = "countries/Torc.txt"

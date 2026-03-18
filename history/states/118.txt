@@ -1,0 +1,39 @@
+
+state={
+	id=118
+	name="STATE_118"
+	manpower = 550686
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=3
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1766 15}
+		victory_points = { 1770 2}
+		
+		owner = HER
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = HER
+	}
+
+	provinces={
+		1753 1754 1755 1756 1757 1758 1759 1760 1761 1762 1763 1764 1765 1766 1767 1768 1769 1770 1771 1772 1773 
+	}
+	local_supplies=0.0 
+}

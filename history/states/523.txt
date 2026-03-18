@@ -1,0 +1,40 @@
+
+state={
+	id=523
+	name="STATE_523"
+	manpower = 631568
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 7871 3}
+		victory_points = { 7876 16}
+		victory_points = { 7883 3}
+		
+		owner = SEA
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+			arms_factory = 2
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = SEA
+	}
+
+	provinces={
+		7863 7864 7865 7866 7867 7868 7869 7870 7871 7872 7873 7874 7875 7876 7877 7878 7879 7880 7881 7882 7883 7884 7885 7886 
+	}
+	local_supplies=0.0 
+}

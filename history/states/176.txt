@@ -1,0 +1,44 @@
+
+state={
+	id=176
+	name="STATE_176"
+	manpower = 422261
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2580 2}
+		victory_points = { 2581 2}
+		victory_points = { 2588 2}
+		victory_points = { 2592 12}
+		
+		owner = HER
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 2
+			2582 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HER
+	}
+
+	provinces={
+		2580 2581 2582 2583 2584 2585 2586 2587 2588 2589 2590 2591 2592 2593 
+	}
+	local_supplies=0.0 
+}

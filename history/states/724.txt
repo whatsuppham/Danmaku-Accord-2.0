@@ -1,0 +1,41 @@
+
+state={
+	id=724
+	name="STATE_724"
+	manpower = 85857
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11419 1}
+		
+		owner = FUL
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			11418 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = FUL
+	}
+
+	provinces={
+		11418 11419 
+	}
+	local_supplies=0.0 
+}

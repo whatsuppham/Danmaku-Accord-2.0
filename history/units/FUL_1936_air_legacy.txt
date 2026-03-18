@@ -1,0 +1,94 @@
+air_wings = {
+		753 = { 								
+		nav_bomber_equipment_0 = { owner = "FUL" amount = 50 version_name = "Tafaw Mk 1" }
+
+	}
+	768 = { 								
+		fighter_equipment_0 = { owner = "FUL" amount = 50 version_name = "Tizirin Mk 1" }
+
+	}
+	751 = { 								
+		nav_bomber_equipment_0 = { owner = "FUL" amount = 50 version_name = "Tafaw Mk 1" }
+
+	}
+	766 = { 								
+		nav_bomber_equipment_0 = { owner = "FUL" amount = 50 version_name = "Tafaw Mk 1" }
+
+	}
+	780 = { 								
+		fighter_equipment_0 = { owner = "FUL" amount = 50 version_name = "Tizirin Mk 1" }
+
+	}
+	786 = { 								
+		nav_bomber_equipment_0 = { owner = "FUL" amount = 50 version_name = "Tafaw Mk 1" }
+nav_bomber_equipment_0 = { owner = "FUL" amount = 50 version_name = "Tafaw Mk 1" }
+
+	}
+	781 = { 								
+		fighter_equipment_0 = { owner = "FUL" amount = 50 version_name = "Tizirin Mk 1" }
+nav_bomber_equipment_0 = { owner = "FUL" amount = 50 version_name = "Tafaw Mk 1" }
+
+	}
+	790 = { 								
+		fighter_equipment_0 = { owner = "FUL" amount = 50 version_name = "Tizirin Mk 1" }
+
+	}
+	796 = { 								
+		fighter_equipment_0 = { owner = "FUL" amount = 50 version_name = "Tizirin Mk 1" }
+
+	}
+	688 = { 								
+		fighter_equipment_0 = { owner = "FUL" amount = 50 version_name = "Tizirin Mk 1" }
+
+	}
+	702 = { 								
+		fighter_equipment_0 = { owner = "FUL" amount = 50 version_name = "Tizirin Mk 1" }
+
+	}
+	691 = { 								
+		nav_bomber_equipment_0 = { owner = "FUL" amount = 50 version_name = "Tafaw Mk 1" }
+
+	}
+	689 = { 								
+		nav_bomber_equipment_0 = { owner = "FUL" amount = 50 version_name = "Tafaw Mk 1" }
+
+	}
+	712 = { 								
+		nav_bomber_equipment_0 = { owner = "FUL" amount = 50 version_name = "Tafaw Mk 1" }
+
+	}
+	729 = { 								
+		nav_bomber_equipment_0 = { owner = "FUL" amount = 50 version_name = "Tafaw Mk 1" }
+
+	}
+	732 = { 								
+		fighter_equipment_0 = { owner = "FUL" amount = 50 version_name = "Tizirin Mk 1" }
+
+	}
+	1083 = { 								
+		nav_bomber_equipment_0 = { owner = "FUL" amount = 50 version_name = "Tafaw Mk 1" }
+
+	}
+	1105 = { 								
+		fighter_equipment_0 = { owner = "FUL" amount = 50 version_name = "Tizirin Mk 1" }
+
+	}
+	451 = { 								
+		fighter_equipment_0 = { owner = "FUL" amount = 50 version_name = "Tizirin Mk 1" }
+
+	}
+	1211 = { 								
+		fighter_equipment_0 = { owner = "FUL" amount = 50 version_name = "Tizirin Mk 1" }
+
+	}
+	1269 = { 								
+		nav_bomber_equipment_0 = { owner = "FUL" amount = 50 version_name = "Tafaw Mk 1" }
+
+	}
+	1177 = { 								
+		fighter_equipment_0 = { owner = "FUL" amount = 50 version_name = "Tizirin Mk 1" }
+
+	}
+
+
+}

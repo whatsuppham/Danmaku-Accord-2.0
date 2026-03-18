@@ -1,0 +1,880 @@
+characters = {
+	FUL_Mokran_Tafaw={
+		name="Mokran Tafaw"
+
+		
+		country_leader={
+			ideology=despotism
+			traits = { inexperienced_monarch  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	FUL_Massinis_Tazaghrem={
+		name="Massinis Tazaghrem"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Massinis_Tazaghrem
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	FUL_Amarim_Tazi={
+		name="Amarim Tazi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Amarim_Tazi
+				traits = {	humble 	}
+		}
+
+	}
+	FUL_Meziane_Tafaw={
+		name="Meziane Tafaw"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Meziane_Tafaw
+				traits = {	inexperienced_monarch 	}
+		}
+
+	}
+	FUL_Mokrane_Tagzawen={
+		name="Mokrane Tagzawen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Mokrane_Tagzawen
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	FUL_Meziz_Tafaw={
+		name="Meziz Tafaw"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Meziz_Tafaw
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	FUL_Ziri_Azou={
+		name="Ziri Azou"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Ziri_Azou
+				traits = {	humble 	}
+		}
+
+	}
+	FUL_Iderfane_Tafaw={
+		name="Iderfane Tafaw"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Iderfane_Tafaw
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	FUL_Iderfane_Awalut={
+		name="Iderfane Awalut"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Iderfane_Awalut
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	FUL_Ziri_Awart={
+		name="Ziri Awart"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Ziri_Awart
+				traits = {	army_chief_drill_1 	}
+		}
+
+	}
+	FUL_Iderfannis_Tafawint={
+		name="Iderfannis Tafawint"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Iderfannis_Tafawint
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	FUL_Sifan_Tazaghrem={
+		name="Sifan Tazaghrem"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FUL_Sifan_Tazaghrem
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	FUL_Mokrannissin_Tafawint={
+		name="Mokrannissin Tafawint"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FUL_Mokrannissin_Tafawint
+				traits = {	navy_chief_decisive_battle_1 	}
+		}
+
+	}
+	FUL_Aziz_Tafawint={
+		name="Aziz Tafawint"
+
+		advisor={
+			slot = air_chief
+			idea_token = FUL_Aziz_Tafawint
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	FUL_Yuba_Tazaghrem={
+		name="Yuba Tazaghrem"
+
+		advisor={
+			slot = air_chief
+			idea_token = FUL_Yuba_Tazaghrem
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	FUL_Sifax_Tazi={
+		name="Sifax Tazi"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Sifax_Tazi
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	FUL_Kari_Tizirin={
+		name="Kari Tizirin"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Kari_Tizirin
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	FUL_Iskari_Tafaw={
+		name="Iskari Tafaw"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Iskari_Tafaw
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	FUL_Yuba_Tidett={
+		name="Yuba Tidett"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Yuba_Tidett
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	FUL_Saidi_Tazaghrem={
+		name="Saidi Tazaghrem"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Saidi_Tazaghrem
+				traits = {	navy_naval_air_defense_1 	}
+		}
+
+	}
+	FUL_Zirimoun_Awart={
+		name="Zirimoun Awart"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Zirimoun_Awart
+				traits = {	air_pilot_training_1 	}
+		}
+
+	}
+	FUL_Iderfax_Tidett={
+		name="Iderfax Tidett"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { autocratic_imperialist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	FUL_Kari_Tafawint={
+		name="Kari Tafawint"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Kari_Tafawint
+				traits = {	basileus 	}
+		}
+
+	}
+	FUL_Tariq_Awalut={
+		name="Tariq Awalut"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Tariq_Awalut
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	FUL_Taharen_Awart={
+		name="Taharen Awart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Taharen_Awart
+				traits = {	autocratic_imperialist 	}
+		}
+
+	}
+	FUL_Iskar_Tizirin={
+		name="Iskar Tizirin"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Iskar_Tizirin
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	FUL_Lyes_Azou={
+		name="Lyes Azou"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Lyes_Azou
+				traits = {	polemarch 	}
+		}
+
+	}
+	FUL_Amad_Tagzawen={
+		name="Amad Tagzawen"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Amad_Tagzawen
+				traits = {	polemarch 	}
+		}
+
+	}
+	FUL_Iskar_Awart={
+		name="Iskar Awart"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Iskar_Awart
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	FUL_Massinissini_Awart={
+		name="Massinissini Awart"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Massinissini_Awart
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	FUL_Amarim_Tazaghrem={
+		name="Amarim Tazaghrem"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Amarim_Tazaghrem
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	FUL_Yane_Azou={
+		name="Yane Azou"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Yane_Azou
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	FUL_Meziane_Tagzawen={
+		name="Meziane Tagzawen"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FUL_Meziane_Tagzawen
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	FUL_Aselmad_Tafawint={
+		name="Aselmad Tafawint"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FUL_Aselmad_Tafawint
+				traits = {	navy_chief_old_guard_2 	}
+		}
+
+	}
+	FUL_Ziriq_Azou={
+		name="Ziriq Azou"
+
+		advisor={
+			slot = air_chief
+			idea_token = FUL_Ziriq_Azou
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	FUL_Aselmariq_Tagzawen={
+		name="Aselmariq Tagzawen"
+
+		advisor={
+			slot = air_chief
+			idea_token = FUL_Aselmariq_Tagzawen
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	FUL_Karen_Awalut={
+		name="Karen Awalut"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Karen_Awalut
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	FUL_Amaren_Awart={
+		name="Amaren Awart"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Amaren_Awart
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	FUL_Massinissini_Tafaw={
+		name="Massinissini Tafaw"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Massinissini_Tafaw
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	FUL_Iderfax_Azou={
+		name="Iderfax Azou"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Iderfax_Azou
+				traits = {	army_entrenchment_2 	}
+		}
+
+	}
+	FUL_Tariq_Tidett={
+		name="Tariq Tidett"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Tariq_Tidett
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	FUL_Tafsut_Tidett={
+		name="Tafsut Tidett"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Tafsut_Tidett
+				traits = {	air_tactical_bombing_1 	}
+		}
+
+	}
+	FUL_Yane_Tidett={
+		name="Yane Tidett"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { reluctant_stalinist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	FUL_Mokrannis_Tafaw={
+		name="Mokrannis Tafaw"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Mokrannis_Tafaw
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	FUL_Taren_Tazaghrem={
+		name="Taren Tazaghrem"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Taren_Tazaghrem
+				traits = {	political_dancer 	}
+		}
+
+	}
+	FUL_Mokrannissin_Awalut={
+		name="Mokrannissin Awalut"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Mokrannissin_Awalut
+				traits = {	infirm 	}
+		}
+
+	}
+	FUL_Tahari_Tazi={
+		name="Tahari Tazi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Tahari_Tazi
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	FUL_Aselmariq_Tazaghrem={
+		name="Aselmariq Tazaghrem"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Aselmariq_Tazaghrem
+				traits = {	political_dancer 	}
+		}
+
+	}
+	FUL_Lyes_Tidett={
+		name="Lyes Tidett"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Lyes_Tidett
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	FUL_Mimoun_Awalut={
+		name="Mimoun Awalut"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Mimoun_Awalut
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	FUL_Iderfan_Azou={
+		name="Iderfan Azou"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Iderfan_Azou
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	FUL_Zirim_Tafawint={
+		name="Zirim Tafawint"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Zirim_Tafawint
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	FUL_Massinis_Awart={
+		name="Massinis Awart"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Massinis_Awart
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	FUL_Yannissa_Tizirin={
+		name="Yannissa Tizirin"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FUL_Yannissa_Tizirin
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	FUL_Aziz_Tagzawen={
+		name="Aziz Tagzawen"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FUL_Aziz_Tagzawen
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	FUL_Aselmad_Tazaghrem={
+		name="Aselmad Tazaghrem"
+
+		advisor={
+			slot = air_chief
+			idea_token = FUL_Aselmad_Tazaghrem
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	FUL_Ziri_Tafaw={
+		name="Ziri Tafaw"
+
+		advisor={
+			slot = air_chief
+			idea_token = FUL_Ziri_Tafaw
+				traits = {	air_chief_safety_2 	}
+		}
+
+	}
+	FUL_Amad_Tidett={
+		name="Amad Tidett"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Amad_Tidett
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	FUL_Ziriq_Tafawint={
+		name="Ziriq Tafawint"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Ziriq_Tafawint
+				traits = {	navy_capital_ship_1 	}
+		}
+
+	}
+	FUL_Tari_Azou={
+		name="Tari Azou"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Tari_Azou
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	FUL_Iderfannis_Tafaw={
+		name="Iderfannis Tafaw"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Iderfannis_Tafaw
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	FUL_Mimokrannis_Tidett={
+		name="Mimokrannis Tidett"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Mimokrannis_Tidett
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	FUL_Iskari_Tazi={
+		name="Iskari Tazi"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Iskari_Tazi
+				traits = {	army_cavalry_1 	}
+		}
+
+	}
+	FUL_Amaren_Azou={
+		name="Amaren Azou"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { famous_aviator  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	FUL_Aziannissa_Tidett={
+		name="Aziannissa Tidett"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Aziannissa_Tidett
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	FUL_Yane_Awart={
+		name="Yane Awart"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Yane_Awart
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	FUL_Iderfannissa_Tazi={
+		name="Iderfannissa Tazi"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Iderfannissa_Tazi
+				traits = {	rearmer 	}
+		}
+
+	}
+	FUL_Mokrannissin_Tafaw={
+		name="Mokrannissin Tafaw"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Mokrannissin_Tafaw
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	FUL_Iskari_Azou={
+		name="Iskari Azou"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Iskari_Azou
+				traits = {	infirm 	}
+		}
+
+	}
+	FUL_Sifan_Tafawint={
+		name="Sifan Tafawint"
+
+		advisor={
+			slot = political_advisor
+			idea_token = FUL_Sifan_Tafawint
+				traits = {	infirm 	}
+		}
+
+	}
+	FUL_Aselmariq_Awalut={
+		name="Aselmariq Awalut"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Aselmariq_Awalut
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	FUL_Tahari_Tafaw={
+		name="Tahari Tafaw"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Tahari_Tafaw
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	FUL_Massinis_Tafawint={
+		name="Massinis Tafawint"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Massinis_Tafawint
+				traits = {	army_chief_morale_2 	}
+		}
+
+	}
+	FUL_Tafsut_Tazi={
+		name="Tafsut Tazi"
+
+		advisor={
+			slot = army_chief
+			idea_token = FUL_Tafsut_Tazi
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	FUL_Tahar_Tazi={
+		name="Tahar Tazi"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FUL_Tahar_Tazi
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	FUL_Saidi_Awart={
+		name="Saidi Awart"
+
+		advisor={
+			slot = navy_chief
+			idea_token = FUL_Saidi_Awart
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	FUL_Tahar_Awart={
+		name="Tahar Awart"
+
+		advisor={
+			slot = air_chief
+			idea_token = FUL_Tahar_Awart
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	FUL_Kari_Tazi={
+		name="Kari Tazi"
+
+		advisor={
+			slot = air_chief
+			idea_token = FUL_Kari_Tazi
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	FUL_Mimokrannis_Awalut={
+		name="Mimokrannis Awalut"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Mimokrannis_Awalut
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	FUL_Mimokrannis_Tagzawen={
+		name="Mimokrannis Tagzawen"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Mimokrannis_Tagzawen
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	FUL_Mimokrannis_Tazi={
+		name="Mimokrannis Tazi"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Mimokrannis_Tazi
+				traits = {	army_commando_2 	}
+		}
+
+	}
+	FUL_Iderfannissa_Awalut={
+		name="Iderfannissa Awalut"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Iderfannissa_Awalut
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	FUL_Massinissini_Tazi={
+		name="Massinissini Tazi"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Massinissini_Tazi
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	FUL_Iskari_Tizirin={
+		name="Iskari Tizirin"
+
+		advisor={
+			slot = high_command
+			idea_token = FUL_Iskari_Tizirin
+				traits = {	army_radio_intelligence_1 	}
+		}
+
+	}
+	FUL_Aziannissa_Tafawint={
+		name="Aziannissa Tafawint"
+
+		advisor={
+			slot = theorist
+			idea_token = FUL_Aziannissa_Tafawint
+				traits = {	military_theorist 	}
+		}
+
+	}
+	FUL_Iderfannis_Tagzawen={
+		name="Iderfannis Tagzawen"
+
+		advisor={
+			slot = theorist
+			idea_token = FUL_Iderfannis_Tagzawen
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	FUL_Karen_Tizirin={
+		name="Karen Tizirin"
+
+		advisor={
+			slot = theorist
+			idea_token = FUL_Karen_Tizirin
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

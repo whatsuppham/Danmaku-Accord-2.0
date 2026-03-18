@@ -1,0 +1,40 @@
+
+state={
+	id=440
+	name="STATE_440"
+	manpower = 232008
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=7
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6743 2}
+		victory_points = { 6747 1}
+		victory_points = { 6748 4}
+		
+		owner = SEA
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = SEA
+	}
+
+	provinces={
+		6743 6744 6745 6746 6747 6748 6749 
+	}
+	local_supplies=0.0 
+}

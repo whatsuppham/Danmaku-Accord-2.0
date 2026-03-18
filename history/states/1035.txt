@@ -1,0 +1,41 @@
+
+state={
+	id=1035
+	name="STATE_1035"
+	manpower = 245058
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=2
+		coal=0
+	}
+
+	history={
+		victory_points = { 14567 7}
+		
+		owner = SEA
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			14565 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = SEA
+	}
+
+	provinces={
+		14565 14566 14567 14568 14569 14570 14571 14572 14573 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,41 @@
+
+state={
+	id=40
+	name="STATE_40"
+	manpower = 385735
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 635 1}
+		victory_points = { 636 1}
+		victory_points = { 638 1}
+		victory_points = { 645 11}
+		
+		owner = HER
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 0
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = HER
+	}
+
+	provinces={
+		634 635 636 637 638 639 640 641 642 643 644 645 
+	}
+	local_supplies=0.0 
+}

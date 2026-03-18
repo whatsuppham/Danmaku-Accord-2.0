@@ -1,0 +1,41 @@
+
+state={
+	id=731
+	name="STATE_731"
+	manpower = 604176
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11532 2}
+		victory_points = { 11537 10}
+		victory_points = { 11541 2}
+		victory_points = { 11547 2}
+		
+		owner = FUL
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 2
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = FUL
+	}
+
+	provinces={
+		11528 11529 11530 11531 11532 11533 11534 11535 11536 11537 11538 11539 11540 11541 11542 11543 11544 11545 11546 11547 11548 11549 11550 11551 11552 11553 11554 11555 
+	}
+	local_supplies=0.0 
+}

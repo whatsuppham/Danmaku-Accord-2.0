@@ -1,0 +1,45 @@
+
+state={
+	id=354
+	name="STATE_354"
+	manpower = 795242
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5551 1}
+		victory_points = { 5554 12}
+		victory_points = { 5560 2}
+		victory_points = { 5573 2}
+		victory_points = { 5585 2}
+		
+		owner = TIR
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			5551 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = TIR
+	}
+
+	provinces={
+		5546 5547 5548 5549 5550 5551 5552 5553 5554 5555 5556 5557 5558 5559 5560 5561 5562 5563 5564 5565 5566 5567 5568 5569 5570 5571 5572 5573 5574 5575 5576 5577 5578 5579 5580 5581 5582 5583 5584 5585 
+	}
+	local_supplies=0.0 
+}

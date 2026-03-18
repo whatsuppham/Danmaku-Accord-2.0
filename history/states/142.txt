@@ -1,0 +1,38 @@
+
+state={
+	id=142
+	name="STATE_142"
+	manpower = 176551
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2040 2}
+		
+		owner = HER
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = HER
+	}
+
+	provinces={
+		2040 2041 2042 2043 2044 2045 2046 2047 
+	}
+	local_supplies=0.0 
+}

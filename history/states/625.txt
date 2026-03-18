@@ -1,0 +1,44 @@
+
+state={
+	id=625
+	name="STATE_625"
+	manpower = 534144
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=7
+		chromium=0
+		oil=0
+		rubber=20
+		steel=19
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 9503 2}
+		victory_points = { 9509 2}
+		victory_points = { 9526 2}
+		victory_points = { 9531 2}
+		
+		owner = TIR
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			9536 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = TIR
+	}
+
+	provinces={
+		9487 9488 9489 9490 9491 9492 9493 9494 9495 9496 9497 9498 9499 9500 9501 9502 9503 9504 9505 9506 9507 9508 9509 9510 9511 9512 9513 9514 9515 9516 9517 9518 9519 9520 9521 9522 9523 9524 9525 9526 9527 9528 9529 9530 9531 9532 9533 9534 9535 9536 9537 9538 9539 9540 9541 9542 9543 9544 9545 9546 9547 9548 9549 9550 9551 9552 9553 
+	}
+	local_supplies=0.0 
+}

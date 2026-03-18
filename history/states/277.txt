@@ -1,0 +1,44 @@
+
+state={
+	id=277
+	name="STATE_277"
+	manpower = 413794
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4354 3}
+		victory_points = { 4356 3}
+		victory_points = { 4362 4}
+		victory_points = { 4363 3}
+		
+		owner = HER
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 1
+			4358 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HER
+	}
+
+	provinces={
+		4349 4350 4351 4352 4353 4354 4355 4356 4357 4358 4359 4360 4361 4362 4363 4364 
+	}
+	local_supplies=0.0 
+}

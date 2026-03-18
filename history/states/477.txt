@@ -1,0 +1,41 @@
+
+state={
+	id=477
+	name="STATE_477"
+	manpower = 411856
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 7317 4}
+		victory_points = { 7318 4}
+		victory_points = { 7322 2}
+		victory_points = { 7325 4}
+		
+		owner = SEA
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = SEA
+	}
+
+	provinces={
+		7317 7318 7319 7320 7321 7322 7323 7324 7325 7326 7327 7328 7329 7330 
+	}
+	local_supplies=0.0 
+}

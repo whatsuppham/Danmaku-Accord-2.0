@@ -1,0 +1,38 @@
+
+state={
+	id=577
+	name="STATE_577"
+	manpower = 162330
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8605 1}
+		
+		owner = SEA
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = SEA
+	}
+
+	provinces={
+		8599 8600 8601 8602 8603 8604 8605 8606 8607 
+	}
+	local_supplies=0.0 
+}

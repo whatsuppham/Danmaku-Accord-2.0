@@ -1,0 +1,38 @@
+
+state={
+	id=500
+	name="STATE_500"
+	manpower = 171632
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=2
+		steel=1
+		tungsten=1
+		coal=0
+	}
+
+	history={
+		victory_points = { 7585 2}
+		
+		owner = SEA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = SEA
+	}
+
+	provinces={
+		7581 7582 7583 7584 7585 7586 7587 7588 7589 
+	}
+	local_supplies=0.0 
+}

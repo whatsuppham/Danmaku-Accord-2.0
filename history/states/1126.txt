@@ -1,0 +1,40 @@
+
+state={
+	id=1126
+	name="STATE_1126"
+	manpower = 67937
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = TIR
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			14767 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = TIR
+	}
+
+	provinces={
+		14766 14767 
+	}
+	local_supplies=0.0 
+}

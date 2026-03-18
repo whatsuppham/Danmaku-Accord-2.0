@@ -1,0 +1,39 @@
+
+state={
+	id=715
+	name="STATE_715"
+	manpower = 509456
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=10
+		tungsten=0
+		coal=7
+	}
+
+	history={
+		victory_points = { 11273 12}
+		victory_points = { 11277 2}
+		
+		owner = FUL
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = FUL
+	}
+
+	provinces={
+		11263 11264 11265 11266 11267 11268 11269 11270 11271 11272 11273 11274 11275 11276 11277 11278 11279 11280 11281 11282 11283 11284 11285 
+	}
+	local_supplies=0.0 
+}

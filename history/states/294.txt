@@ -1,0 +1,38 @@
+
+state={
+	id=294
+	name="STATE_294"
+	manpower = 100636
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=1
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 4584 1}
+		
+		owner = HER
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = HER
+	}
+
+	provinces={
+		4582 4583 4584 4585 4586 4587 4588 4589 4590 
+	}
+	local_supplies=0.0 
+}

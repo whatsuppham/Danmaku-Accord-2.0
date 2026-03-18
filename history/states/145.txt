@@ -1,0 +1,39 @@
+
+state={
+	id=145
+	name="STATE_145"
+	manpower = 398617
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=1
+		chromium=0
+		oil=5
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2065 4}
+		victory_points = { 2076 4}
+		
+		owner = HER
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = HER
+	}
+
+	provinces={
+		2062 2063 2064 2065 2066 2067 2068 2069 2070 2071 2072 2073 2074 2075 2076 2077 2078 2079 2080 2081 2082 2083 2084 2085 2086 
+	}
+	local_supplies=0.0 
+}

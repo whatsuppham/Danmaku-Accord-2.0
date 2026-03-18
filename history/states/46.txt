@@ -1,0 +1,41 @@
+
+state={
+	id=46
+	name="STATE_46"
+	manpower = 484699
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=3
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 739 1}
+		victory_points = { 749 1}
+		victory_points = { 751 6}
+		victory_points = { 759 1}
+		
+		owner = HER
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = HER
+	}
+
+	provinces={
+		733 734 735 736 737 738 739 740 741 742 743 744 745 746 747 748 749 750 751 752 753 754 755 756 757 758 759 760 761 762 
+	}
+	local_supplies=0.0 
+}

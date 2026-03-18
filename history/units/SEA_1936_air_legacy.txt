@@ -1,0 +1,186 @@
+air_wings = {
+		540 = { 								
+		CAS_equipment_0 = { owner = "SEA" amount = 50 version_name = "Torc Mk 1" }
+
+	}
+	526 = { 								
+		tac_bomber_equipment_0 = { owner = "SEA" amount = 50 version_name = "Geas Mk 1" }
+
+	}
+	530 = { 								
+		fighter_equipment_0 = { owner = "SEA" amount = 50 version_name = "Bainach Mk 1" }
+
+	}
+	517 = { 								
+		fighter_equipment_0 = { owner = "SEA" amount = 50 version_name = "Bainach Mk 1" }
+
+	}
+	533 = { 								
+		nav_bomber_equipment_0 = { owner = "SEA" amount = 50 version_name = "Luain Mk 1" }
+
+	}
+	541 = { 								
+		fighter_equipment_0 = { owner = "SEA" amount = 50 version_name = "Bainach Mk 1" }
+
+	}
+	555 = { 								
+		nav_bomber_equipment_0 = { owner = "SEA" amount = 50 version_name = "Luain Mk 1" }
+
+	}
+	559 = { 								
+		tac_bomber_equipment_0 = { owner = "SEA" amount = 50 version_name = "Geas Mk 1" }
+
+	}
+	558 = { 								
+		tac_bomber_equipment_0 = { owner = "SEA" amount = 50 version_name = "Reolairsear Mk 1" }
+
+	}
+	567 = { 								
+		nav_bomber_equipment_0 = { owner = "SEA" amount = 50 version_name = "Luain Mk 1" }
+
+	}
+	576 = { 								
+		fighter_equipment_0 = { owner = "SEA" amount = 50 version_name = "Bainach Mk 1" }
+fighter_equipment_0 = { owner = "SEA" amount = 50 version_name = "Bainach Mk 1" }
+
+	}
+	584 = { 								
+		tac_bomber_equipment_0 = { owner = "SEA" amount = 50 version_name = "Geas Mk 1" }
+
+	}
+	382 = { 								
+		nav_bomber_equipment_0 = { owner = "SEA" amount = 50 version_name = "Luain Mk 1" }
+
+	}
+	378 = { 								
+		tac_bomber_equipment_0 = { owner = "SEA" amount = 50 version_name = "Reolairsear Mk 1" }
+
+	}
+	390 = { 								
+		tac_bomber_equipment_0 = { owner = "SEA" amount = 50 version_name = "Geas Mk 1" }
+
+	}
+	385 = { 								
+		CAS_equipment_0 = { owner = "SEA" amount = 50 version_name = "Torc Mk 1" }
+
+	}
+	401 = { 								
+		CAS_equipment_0 = { owner = "SEA" amount = 50 version_name = "Torc Mk 1" }
+
+	}
+	396 = { 								
+		nav_bomber_equipment_0 = { owner = "SEA" amount = 50 version_name = "Luain Mk 1" }
+nav_bomber_equipment_0 = { owner = "SEA" amount = 50 version_name = "Luain Mk 1" }
+
+	}
+	400 = { 								
+		nav_bomber_equipment_0 = { owner = "SEA" amount = 50 version_name = "Luain Mk 1" }
+
+	}
+	425 = { 								
+		fighter_equipment_0 = { owner = "SEA" amount = 50 version_name = "Bainach Mk 1" }
+
+	}
+	434 = { 								
+		nav_bomber_equipment_0 = { owner = "SEA" amount = 50 version_name = "Luain Mk 1" }
+
+	}
+	1052 = { 								
+		CAS_equipment_0 = { owner = "SEA" amount = 50 version_name = "Torc Mk 1" }
+
+	}
+	1087 = { 								
+		tac_bomber_equipment_0 = { owner = "SEA" amount = 50 version_name = "Geas Mk 1" }
+tac_bomber_equipment_0 = { owner = "SEA" amount = 50 version_name = "Reolairsear Mk 1" }
+
+	}
+	100 = { 								
+		CAS_equipment_0 = { owner = "SEA" amount = 50 version_name = "Torc Mk 1" }
+
+	}
+	922 = { 								
+		CAS_equipment_0 = { owner = "SEA" amount = 50 version_name = "Torc Mk 1" }
+
+	}
+	929 = { 								
+		nav_bomber_equipment_0 = { owner = "SEA" amount = 50 version_name = "Luain Mk 1" }
+
+	}
+	958 = { 								
+		tac_bomber_equipment_0 = { owner = "SEA" amount = 50 version_name = "Reolairsear Mk 1" }
+
+	}
+	974 = { 								
+		tac_bomber_equipment_0 = { owner = "SEA" amount = 50 version_name = "Reolairsear Mk 1" }
+
+	}
+	980 = { 								
+		tac_bomber_equipment_0 = { owner = "SEA" amount = 50 version_name = "Geas Mk 1" }
+
+	}
+	993 = { 								
+		fighter_equipment_0 = { owner = "SEA" amount = 50 version_name = "Bainach Mk 1" }
+
+	}
+	991 = { 								
+		CAS_equipment_0 = { owner = "SEA" amount = 50 version_name = "Torc Mk 1" }
+tac_bomber_equipment_0 = { owner = "SEA" amount = 50 version_name = "Reolairsear Mk 1" }
+
+	}
+	1033 = { 								
+		tac_bomber_equipment_0 = { owner = "SEA" amount = 50 version_name = "Geas Mk 1" }
+
+	}
+	1035 = { 								
+		tac_bomber_equipment_0 = { owner = "SEA" amount = 50 version_name = "Geas Mk 1" }
+
+	}
+	132 = { 								
+		nav_bomber_equipment_0 = { owner = "SEA" amount = 50 version_name = "Luain Mk 1" }
+
+	}
+	456 = { 								
+		tac_bomber_equipment_0 = { owner = "SEA" amount = 50 version_name = "Reolairsear Mk 1" }
+
+	}
+	457 = { 								
+		tac_bomber_equipment_0 = { owner = "SEA" amount = 50 version_name = "Geas Mk 1" }
+
+	}
+	467 = { 								
+		tac_bomber_equipment_0 = { owner = "SEA" amount = 50 version_name = "Reolairsear Mk 1" }
+
+	}
+	472 = { 								
+		tac_bomber_equipment_0 = { owner = "SEA" amount = 50 version_name = "Reolairsear Mk 1" }
+tac_bomber_equipment_0 = { owner = "SEA" amount = 50 version_name = "Reolairsear Mk 1" }
+
+	}
+	466 = { 								
+		fighter_equipment_0 = { owner = "SEA" amount = 50 version_name = "Bainach Mk 1" }
+
+	}
+	494 = { 								
+		CAS_equipment_0 = { owner = "SEA" amount = 50 version_name = "Torc Mk 1" }
+
+	}
+	1206 = { 								
+		CAS_equipment_0 = { owner = "SEA" amount = 50 version_name = "Torc Mk 1" }
+
+	}
+	1296 = { 								
+		tac_bomber_equipment_0 = { owner = "SEA" amount = 50 version_name = "Geas Mk 1" }
+fighter_equipment_0 = { owner = "SEA" amount = 50 version_name = "Bainach Mk 1" }
+
+	}
+	1332 = { 								
+		fighter_equipment_0 = { owner = "SEA" amount = 50 version_name = "Bainach Mk 1" }
+
+	}
+	1130 = { 								
+		CAS_equipment_0 = { owner = "SEA" amount = 50 version_name = "Torc Mk 1" }
+
+	}
+
+
+}

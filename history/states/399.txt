@@ -1,0 +1,41 @@
+
+state={
+	id=399
+	name="STATE_399"
+	manpower = 204023
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6152 5}
+		
+		owner = SEA
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			6155 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = SEA
+	}
+
+	provinces={
+		6150 6151 6152 6153 6154 6155 6156 
+	}
+	local_supplies=0.0 
+}

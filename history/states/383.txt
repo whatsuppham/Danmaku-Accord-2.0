@@ -1,0 +1,41 @@
+
+state={
+	id=383
+	name="STATE_383"
+	manpower = 249842
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 5967 1}
+		victory_points = { 5968 6}
+		victory_points = { 5969 1}
+		victory_points = { 5973 1}
+		
+		owner = SEA
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = SEA
+	}
+
+	provinces={
+		5966 5967 5968 5969 5970 5971 5972 5973 
+	}
+	local_supplies=0.0 
+}

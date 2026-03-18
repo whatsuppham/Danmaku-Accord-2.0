@@ -1,0 +1,41 @@
+
+state={
+	id=34
+	name="STATE_34"
+	manpower = 649643
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=4
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 547 12}
+		victory_points = { 555 2}
+		victory_points = { 568 2}
+		victory_points = { 575 2}
+		
+		owner = HER
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 2
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = HER
+	}
+
+	provinces={
+		547 548 549 550 551 552 553 554 555 556 557 558 559 560 561 562 563 564 565 566 567 568 569 570 571 572 573 574 575 
+	}
+	local_supplies=0.0 
+}

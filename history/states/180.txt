@@ -1,0 +1,44 @@
+
+state={
+	id=180
+	name="STATE_180"
+	manpower = 559795
+	
+	state_category = large_city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=3
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 2632 2}
+		victory_points = { 2644 10}
+		victory_points = { 2647 2}
+		victory_points = { 2651 2}
+		
+		owner = HER
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 1
+			2648 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HER
+	}
+
+	provinces={
+		2627 2628 2629 2630 2631 2632 2633 2634 2635 2636 2637 2638 2639 2640 2641 2642 2643 2644 2645 2646 2647 2648 2649 2650 2651 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,45 @@
+
+state={
+	id=253
+	name="STATE_253"
+	manpower = 399338
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=4
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 3926 3}
+		victory_points = { 3927 3}
+		victory_points = { 3930 3}
+		victory_points = { 3931 3}
+		victory_points = { 3933 3}
+		
+		owner = TIR
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 3
+			industrial_complex = 0
+			
+			3931 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = TIR
+	}
+
+	provinces={
+		3925 3926 3927 3928 3929 3930 3931 3932 3933 3934 3935 3936 3937 
+	}
+	local_supplies=0.0 
+}

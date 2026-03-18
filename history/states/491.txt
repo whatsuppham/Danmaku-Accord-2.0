@@ -1,0 +1,43 @@
+
+state={
+	id=491
+	name="STATE_491"
+	manpower = 257804
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=7
+		steel=0
+		tungsten=8
+		coal=0
+	}
+
+	history={
+		victory_points = { 7483 1}
+		victory_points = { 7490 2}
+		victory_points = { 7496 1}
+		
+		owner = SEA
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			7492 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = SEA
+	}
+
+	provinces={
+		7478 7479 7480 7481 7482 7483 7484 7485 7486 7487 7488 7489 7490 7491 7492 7493 7494 7495 7496 7497 7498 7499 7500 7501 7502 
+	}
+	local_supplies=0.0 
+}

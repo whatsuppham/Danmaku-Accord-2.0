@@ -1,0 +1,41 @@
+
+state={
+	id=35
+	name="STATE_35"
+	manpower = 380328
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=1
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 579 1}
+		victory_points = { 580 10}
+		victory_points = { 584 1}
+		victory_points = { 586 1}
+		
+		owner = HER
+		buildings = {
+			infrastructure = 4
+			
+			arms_factory = 0
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = HER
+	}
+
+	provinces={
+		576 577 578 579 580 581 582 583 584 585 586 587 588 
+	}
+	local_supplies=0.0 
+}

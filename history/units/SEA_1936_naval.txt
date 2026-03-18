@@ -1,0 +1,195 @@
+units= {
+	##### NAVAL UNITS #####
+	
+		fleet = {
+		name = "Seann Fleet"			
+		naval_base = 14993
+		task_force = {
+			name = "Seann Fleet"
+			location = 14993
+			
+						ship = { name = "Luain" definition = battleship equipment = { battleship_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Torc" definition = heavy_cruiser equipment = { heavy_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Torc 2" definition = heavy_cruiser equipment = { heavy_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Buim" definition = battleship equipment = { battleship_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Cuaill" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Torc 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Rearg" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 3" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Luain 4" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Buim 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Buim 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 5" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Rearg 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 6" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Torc 4" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 7" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 8" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Cuaill 2" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Cuaill 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Cuaill 4" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Cuaill 5" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Torc 5" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Buim 4" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 9" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 10" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Torc 6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Torc 7" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 11" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 12" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Buim 5" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Cuaill 6" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 13" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 14" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Torc 8" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Torc 9" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Buim 6" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 15" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Torc 10" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Cuaill 7" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Luain 16" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Rearg 3" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Cuaill 8" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Torc 11" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Rearg 4" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Cuaill 9" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 17" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Torc 12" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Luain 18" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Rearg 5" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Cuaill 10" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Rearg 6" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Torc 13" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Buim 7" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 19" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Buim 8" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Cuaill 11" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Buim 9" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Buim 10" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Rearg 7" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Buim 11" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Rearg 8" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 20" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Luain 21" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 22" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Buim 12" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Cuaill 12" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 23" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Cuaill 13" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Rearg 9" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Cuaill 14" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Torc 14" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Buim 13" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Torc 15" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 24" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Cuaill 15" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Cuaill 16" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Buim 14" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 25" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Torc 16" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Buim 15" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Rearg 10" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 26" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Rearg 11" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 27" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Torc 17" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Rearg 12" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 28" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 29" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Buim 16" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Buim 17" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Cuaill 17" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 30" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Buim 18" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Rearg 13" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Torc 18" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Buim 19" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Cuaill 18" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Buim 20" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Cuaill 19" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Buim 21" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Torc 19" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Torc 20" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 31" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 32" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Buim 22" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 33" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 34" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Rearg 14" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Cuaill 20" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Rearg 15" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Rearg 16" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Rearg 17" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Cuaill 21" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Rearg 18" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Rearg 19" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Buim 23" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Torc 21" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Rearg 20" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Buim 24" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Torc 22" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Torc 23" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Buim 25" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Cuaill 22" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Rearg 21" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Cuaill 23" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Buim 26" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Torc 24" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Cuaill 24" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Buim 27" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 35" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 36" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Rearg 22" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Rearg 23" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Torc 25" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Cuaill 25" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Cuaill 26" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Buim 28" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Torc 26" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 37" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Rearg 24" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Buim 29" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Buim 30" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Torc 27" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Torc 28" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Cuaill 27" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Rearg 25" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Buim 31" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Torc 29" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Torc 30" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Cuaill 28" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Cuaill 29" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Buim 32" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Cuaill 30" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Luain 38" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Rearg 26" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Rearg 27" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Cuaill 31" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 39" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Luain 40" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Torc 31" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Rearg 28" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Cuaill 32" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Torc 32" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Cuaill 33" definition = destroyer equipment = { destroyer_2 = { amount = 1 owner = SEA version_name = "Torc Class" } }	}
+			ship = { name = "Cuaill 34" definition = light_cruiser equipment = { light_cruiser_2 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Torc 33" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Rearg 29" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+			ship = { name = "Luain 41" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = SEA version_name = "Luain Class" } }	}
+
+		}
+	}
+
+}
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+
+}
+
+#####################

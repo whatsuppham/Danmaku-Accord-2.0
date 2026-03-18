@@ -1,0 +1,44 @@
+
+state={
+	id=918
+	name="STATE_918"
+	manpower = 356437
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 13834 10}
+		victory_points = { 13836 1}
+		victory_points = { 13837 1}
+		victory_points = { 13841 1}
+		
+		owner = SEA
+		buildings = {
+			infrastructure = 4
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 1
+			13837 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = SEA
+	}
+
+	provinces={
+		13834 13835 13836 13837 13838 13839 13840 13841 13842 13843 13844 
+	}
+	local_supplies=0.0 
+}

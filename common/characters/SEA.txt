@@ -1,0 +1,880 @@
+characters = {
+	SEA_Aidan_Reolairsear={
+		name="Aidan Reolairsear"
+
+		
+		country_leader={
+			ideology=oligarchism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SEA_Taraig_Buim={
+		name="Taraig Buim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEA_Taraig_Buim
+				traits = {	humble 	}
+		}
+
+	}
+	SEA_Eoin_Bainach={
+		name="Eoin Bainach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEA_Eoin_Bainach
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	SEA_Niam_Cuaill={
+		name="Niam Cuaill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEA_Niam_Cuaill
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	SEA_Liareth_Reolairsear={
+		name="Liareth Reolairsear"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEA_Liareth_Reolairsear
+				traits = {	cabinet_crisis 	}
+		}
+
+	}
+	SEA_Ulrich_Reolairsear={
+		name="Ulrich Reolairsear"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEA_Ulrich_Reolairsear
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	SEA_Fergus_Bainach={
+		name="Fergus Bainach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEA_Fergus_Bainach
+				traits = {	humble 	}
+		}
+
+	}
+	SEA_Niam_Bunas={
+		name="Niam Bunas"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEA_Niam_Bunas
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	SEA_Hugh_Bunas={
+		name="Hugh Bunas"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEA_Hugh_Bunas
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	SEA_Eoin_Taill={
+		name="Eoin Taill"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEA_Eoin_Taill
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	SEA_Rhys_Torc={
+		name="Rhys Torc"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEA_Rhys_Torc
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	SEA_Malcolm_Bainach={
+		name="Malcolm Bainach"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SEA_Malcolm_Bainach
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	SEA_Garan_Cuaill={
+		name="Garan Cuaill"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SEA_Garan_Cuaill
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	SEA_Seamus_Rearg={
+		name="Seamus Rearg"
+
+		advisor={
+			slot = air_chief
+			idea_token = SEA_Seamus_Rearg
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	SEA_Malcolm_Cuaill={
+		name="Malcolm Cuaill"
+
+		advisor={
+			slot = air_chief
+			idea_token = SEA_Malcolm_Cuaill
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	SEA_Seamus_Luain={
+		name="Seamus Luain"
+
+		advisor={
+			slot = high_command
+			idea_token = SEA_Seamus_Luain
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	SEA_Ciam_Taill={
+		name="Ciam Taill"
+
+		advisor={
+			slot = high_command
+			idea_token = SEA_Ciam_Taill
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	SEA_Aidan_Bunas={
+		name="Aidan Bunas"
+
+		advisor={
+			slot = high_command
+			idea_token = SEA_Aidan_Bunas
+				traits = {	air_strategic_bombing_1 	}
+		}
+
+	}
+	SEA_Liareth_Bunas={
+		name="Liareth Bunas"
+
+		advisor={
+			slot = high_command
+			idea_token = SEA_Liareth_Bunas
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	SEA_Aidan_Geas={
+		name="Aidan Geas"
+
+		advisor={
+			slot = high_command
+			idea_token = SEA_Aidan_Geas
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	SEA_Hugh_Geas={
+		name="Hugh Geas"
+
+		advisor={
+			slot = high_command
+			idea_token = SEA_Hugh_Geas
+				traits = {	army_entrenchment_1 	}
+		}
+
+	}
+	SEA_Seam_Luain={
+		name="Seam Luain"
+
+		
+		country_leader={
+			ideology=rexism
+			traits = { celebrity_junta_leader  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SEA_Niam_Buim={
+		name="Niam Buim"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEA_Niam_Buim
+				traits = {	archon_basileus 	}
+		}
+
+	}
+	SEA_Seam_Bainach={
+		name="Seam Bainach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEA_Seam_Bainach
+				traits = {	celebrity_junta_leader 	}
+		}
+
+	}
+	SEA_Niaran_Bunas={
+		name="Niaran Bunas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEA_Niaran_Bunas
+				traits = {	infirm 	}
+		}
+
+	}
+	SEA_Keiran_Cuaill={
+		name="Keiran Cuaill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEA_Keiran_Cuaill
+				traits = {	polemarch 	}
+		}
+
+	}
+	SEA_Ciamus_Rearg={
+		name="Ciamus Rearg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEA_Ciamus_Rearg
+				traits = {	autokrator 	}
+		}
+
+	}
+	SEA_Liamus_Bainach={
+		name="Liamus Bainach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEA_Liamus_Bainach
+				traits = {	warmonger 	}
+		}
+
+	}
+	SEA_Eoinn_Bunas={
+		name="Eoinn Bunas"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEA_Eoinn_Bunas
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	SEA_Hugh_Reolairsear={
+		name="Hugh Reolairsear"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEA_Hugh_Reolairsear
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	SEA_Eoin_Buim={
+		name="Eoin Buim"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEA_Eoin_Buim
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	SEA_Quin_Cuaill={
+		name="Quin Cuaill"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEA_Quin_Cuaill
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	SEA_Gareth_Geas={
+		name="Gareth Geas"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SEA_Gareth_Geas
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	SEA_Taraig_Reolairsear={
+		name="Taraig Reolairsear"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SEA_Taraig_Reolairsear
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	SEA_Mall_Reolairsear={
+		name="Mall Reolairsear"
+
+		advisor={
+			slot = air_chief
+			idea_token = SEA_Mall_Reolairsear
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	SEA_Nialcolm_Geas={
+		name="Nialcolm Geas"
+
+		advisor={
+			slot = air_chief
+			idea_token = SEA_Nialcolm_Geas
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	SEA_Niaran_Reolairsear={
+		name="Niaran Reolairsear"
+
+		advisor={
+			slot = high_command
+			idea_token = SEA_Niaran_Reolairsear
+				traits = {	air_air_superiority_1 	}
+		}
+
+	}
+	SEA_Bran_Geas={
+		name="Bran Geas"
+
+		advisor={
+			slot = high_command
+			idea_token = SEA_Bran_Geas
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	SEA_Mall_Cuaill={
+		name="Mall Cuaill"
+
+		advisor={
+			slot = high_command
+			idea_token = SEA_Mall_Cuaill
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	SEA_Iwan_Bunas={
+		name="Iwan Bunas"
+
+		advisor={
+			slot = high_command
+			idea_token = SEA_Iwan_Bunas
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	SEA_Garan_Bainach={
+		name="Garan Bainach"
+
+		advisor={
+			slot = high_command
+			idea_token = SEA_Garan_Bainach
+				traits = {	navy_amphibious_assault_2 	}
+		}
+
+	}
+	SEA_Padran_Taill={
+		name="Padran Taill"
+
+		advisor={
+			slot = high_command
+			idea_token = SEA_Padran_Taill
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	SEA_Iwan_Cuaill={
+		name="Iwan Cuaill"
+
+		
+		country_leader={
+			ideology=marxism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SEA_Liaraig_Luain={
+		name="Liaraig Luain"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEA_Liaraig_Luain
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	SEA_Tareth_Geas={
+		name="Tareth Geas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEA_Tareth_Geas
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	SEA_Taran_Bunas={
+		name="Taran Bunas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEA_Taran_Bunas
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	SEA_Ciam_Reolairsear={
+		name="Ciam Reolairsear"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEA_Ciam_Reolairsear
+				traits = {	infirm 	}
+		}
+
+	}
+	SEA_Nialcolm_Cuaill={
+		name="Nialcolm Cuaill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEA_Nialcolm_Cuaill
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	SEA_Fergus_Cuaill={
+		name="Fergus Cuaill"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEA_Fergus_Cuaill
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	SEA_Liareth_Taill={
+		name="Liareth Taill"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEA_Liareth_Taill
+				traits = {	army_chief_defensive_1 	}
+		}
+
+	}
+	SEA_Ciareth_Torc={
+		name="Ciareth Torc"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEA_Ciareth_Torc
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	SEA_Eoinn_Rearg={
+		name="Eoinn Rearg"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEA_Eoinn_Rearg
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	SEA_Liaraig_Rearg={
+		name="Liaraig Rearg"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEA_Liaraig_Rearg
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	SEA_Seamus_Cuaill={
+		name="Seamus Cuaill"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SEA_Seamus_Cuaill
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	SEA_Quinn_Rearg={
+		name="Quinn Rearg"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SEA_Quinn_Rearg
+				traits = {	navy_chief_old_guard_1 	}
+		}
+
+	}
+	SEA_Niam_Bainach={
+		name="Niam Bainach"
+
+		advisor={
+			slot = air_chief
+			idea_token = SEA_Niam_Bainach
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	SEA_Owen_Torc={
+		name="Owen Torc"
+
+		advisor={
+			slot = air_chief
+			idea_token = SEA_Owen_Torc
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	SEA_Iwan_Torc={
+		name="Iwan Torc"
+
+		advisor={
+			slot = high_command
+			idea_token = SEA_Iwan_Torc
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	SEA_Owen_Geas={
+		name="Owen Geas"
+
+		advisor={
+			slot = high_command
+			idea_token = SEA_Owen_Geas
+				traits = {	navy_naval_air_defense_2 	}
+		}
+
+	}
+	SEA_Taran_Luain={
+		name="Taran Luain"
+
+		advisor={
+			slot = high_command
+			idea_token = SEA_Taran_Luain
+				traits = {	army_armored_1 	}
+		}
+
+	}
+	SEA_Niall_Bainach={
+		name="Niall Bainach"
+
+		advisor={
+			slot = high_command
+			idea_token = SEA_Niall_Bainach
+				traits = {	army_commando_1 	}
+		}
+
+	}
+	SEA_Gareth_Buim={
+		name="Gareth Buim"
+
+		advisor={
+			slot = high_command
+			idea_token = SEA_Gareth_Buim
+				traits = {	navy_carrier_2 	}
+		}
+
+	}
+	SEA_Fergus_Luain={
+		name="Fergus Luain"
+
+		advisor={
+			slot = high_command
+			idea_token = SEA_Fergus_Luain
+				traits = {	army_CombinedArms_1 	}
+		}
+
+	}
+	SEA_Ciam_Bunas={
+		name="Ciam Bunas"
+
+		
+		country_leader={
+			ideology=liberalism
+			traits = { rearmer  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	SEA_Eoinn_Bainach={
+		name="Eoinn Bainach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEA_Eoinn_Bainach
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	SEA_Liamus_Luain={
+		name="Liamus Luain"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEA_Liamus_Luain
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	SEA_Fergus_Bunas={
+		name="Fergus Bunas"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEA_Fergus_Bunas
+				traits = {	rearmer 	}
+		}
+
+	}
+	SEA_Liall_Rearg={
+		name="Liall Rearg"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEA_Liall_Rearg
+				traits = {	the_banker 	}
+		}
+
+	}
+	SEA_Lialcolm_Bainach={
+		name="Lialcolm Bainach"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEA_Lialcolm_Bainach
+				traits = {	infirm 	}
+		}
+
+	}
+	SEA_Bran_Torc={
+		name="Bran Torc"
+
+		advisor={
+			slot = political_advisor
+			idea_token = SEA_Bran_Torc
+				traits = {	the_banker 	}
+		}
+
+	}
+	SEA_Padran_Luain={
+		name="Padran Luain"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEA_Padran_Luain
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	SEA_Liall_Taill={
+		name="Liall Taill"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEA_Liall_Taill
+				traits = {	army_chief_maneuver_2 	}
+		}
+
+	}
+	SEA_Declan_Bunas={
+		name="Declan Bunas"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEA_Declan_Bunas
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	SEA_Lialcolm_Torc={
+		name="Lialcolm Torc"
+
+		advisor={
+			slot = army_chief
+			idea_token = SEA_Lialcolm_Torc
+				traits = {	army_chief_maneuver_1 	}
+		}
+
+	}
+	SEA_Nialcolm_Taill={
+		name="Nialcolm Taill"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SEA_Nialcolm_Taill
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	SEA_Owen_Luain={
+		name="Owen Luain"
+
+		advisor={
+			slot = navy_chief
+			idea_token = SEA_Owen_Luain
+				traits = {	navy_chief_naval_aviation_1 	}
+		}
+
+	}
+	SEA_Declan_Torc={
+		name="Declan Torc"
+
+		advisor={
+			slot = air_chief
+			idea_token = SEA_Declan_Torc
+				traits = {	air_chief_reform_1 	}
+		}
+
+	}
+	SEA_Mall_Buim={
+		name="Mall Buim"
+
+		advisor={
+			slot = air_chief
+			idea_token = SEA_Mall_Buim
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	SEA_Liaraig_Cuaill={
+		name="Liaraig Cuaill"
+
+		advisor={
+			slot = high_command
+			idea_token = SEA_Liaraig_Cuaill
+				traits = {	air_tactical_bombing_2 	}
+		}
+
+	}
+	SEA_Niaran_Cuaill={
+		name="Niaran Cuaill"
+
+		advisor={
+			slot = high_command
+			idea_token = SEA_Niaran_Cuaill
+				traits = {	navy_anti_submarine_1 	}
+		}
+
+	}
+	SEA_Rhys_Taill={
+		name="Rhys Taill"
+
+		advisor={
+			slot = high_command
+			idea_token = SEA_Rhys_Taill
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	SEA_Taran_Reolairsear={
+		name="Taran Reolairsear"
+
+		advisor={
+			slot = high_command
+			idea_token = SEA_Taran_Reolairsear
+				traits = {	navy_fleet_logistics_2 	}
+		}
+
+	}
+	SEA_Hugh_Cuaill={
+		name="Hugh Cuaill"
+
+		advisor={
+			slot = high_command
+			idea_token = SEA_Hugh_Cuaill
+				traits = {	air_air_superiority_2 	}
+		}
+
+	}
+	SEA_Mall_Bainach={
+		name="Mall Bainach"
+
+		advisor={
+			slot = high_command
+			idea_token = SEA_Mall_Bainach
+				traits = {	air_air_combat_training_1 	}
+		}
+
+	}
+	SEA_Owen_Bainach={
+		name="Owen Bainach"
+
+		advisor={
+			slot = theorist
+			idea_token = SEA_Owen_Bainach
+				traits = {	military_theorist 	}
+		}
+
+	}
+	SEA_Fergus_Torc={
+		name="Fergus Torc"
+
+		advisor={
+			slot = theorist
+			idea_token = SEA_Fergus_Torc
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	SEA_Padraig_Geas={
+		name="Padraig Geas"
+
+		advisor={
+			slot = theorist
+			idea_token = SEA_Padraig_Geas
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}

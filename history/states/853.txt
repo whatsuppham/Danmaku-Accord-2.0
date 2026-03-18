@@ -1,0 +1,43 @@
+
+state={
+	id=853
+	name="STATE_853"
+	manpower = 385801
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 13174 1}
+		victory_points = { 13180 1}
+		victory_points = { 13181 10}
+		
+		owner = TIR
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			13181 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = TIR
+	}
+
+	provinces={
+		13174 13175 13176 13177 13178 13179 13180 13181 13182 13183 13184 13185 13186 13187 
+	}
+	local_supplies=0.0 
+}

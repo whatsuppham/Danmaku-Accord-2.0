@@ -1,0 +1,40 @@
+
+state={
+	id=83
+	name="STATE_83"
+	manpower = 556064
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1304 5}
+		victory_points = { 1319 6}
+		victory_points = { 1320 6}
+		
+		owner = HER
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 3
+			
+			
+		}
+		add_core_of = HER
+	}
+
+	provinces={
+		1303 1304 1305 1306 1307 1308 1309 1310 1311 1312 1313 1314 1315 1316 1317 1318 1319 1320 1321 1322 1323 1324 
+	}
+	local_supplies=0.0 
+}

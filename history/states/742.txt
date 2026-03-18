@@ -1,0 +1,43 @@
+
+state={
+	id=742
+	name="STATE_742"
+	manpower = 387814
+	
+	state_category = megalopolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=21
+	}
+
+	history={
+		victory_points = { 11684 1}
+		victory_points = { 11685 13}
+		victory_points = { 11694 1}
+		
+		owner = FUL
+		buildings = {
+			infrastructure = 4
+			air_base = 2
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 2
+			11695 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = FUL
+	}
+
+	provinces={
+		11683 11684 11685 11686 11687 11688 11689 11690 11691 11692 11693 11694 11695 
+	}
+	local_supplies=0.0 
+}

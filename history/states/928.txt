@@ -1,0 +1,40 @@
+
+state={
+	id=928
+	name="STATE_928"
+	manpower = 4339
+	
+	state_category = small_island
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = SEA
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			13910 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = SEA
+	}
+
+	provinces={
+		13906 13907 13908 13909 13910 13911 13912 13913 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=533
+	name="STATE_533"
+	manpower = 209289
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=2
+		rubber=9
+		steel=10
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		
+		owner = SEA
+		buildings = {
+			infrastructure = 1
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = SEA
+	}
+
+	provinces={
+		8007 8008 8009 8010 8011 8012 8013 8014 8015 8016 8017 8018 8019 8020 8021 8022 8023 8024 8025 8026 8027 8028 8029 8030 8031 8032 8033 8034 
+	}
+	local_supplies=0.0 
+}

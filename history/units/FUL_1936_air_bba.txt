@@ -1,0 +1,94 @@
+air_wings = {
+		753 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "FUL" amount = 50 version_name = "Tafaw Mk 1" }
+
+	}
+	768 = { 								
+		small_plane_airframe_0 = { owner = "FUL" amount = 50 version_name = "Tizirin Mk 1" }
+
+	}
+	751 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "FUL" amount = 50 version_name = "Tafaw Mk 1" }
+
+	}
+	766 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "FUL" amount = 50 version_name = "Tafaw Mk 1" }
+
+	}
+	780 = { 								
+		small_plane_airframe_0 = { owner = "FUL" amount = 50 version_name = "Tizirin Mk 1" }
+
+	}
+	786 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "FUL" amount = 50 version_name = "Tafaw Mk 1" }
+small_plane_naval_bomber_airframe_0 = { owner = "FUL" amount = 50 version_name = "Tafaw Mk 1" }
+
+	}
+	781 = { 								
+		small_plane_airframe_0 = { owner = "FUL" amount = 50 version_name = "Tizirin Mk 1" }
+small_plane_naval_bomber_airframe_0 = { owner = "FUL" amount = 50 version_name = "Tafaw Mk 1" }
+
+	}
+	790 = { 								
+		small_plane_airframe_0 = { owner = "FUL" amount = 50 version_name = "Tizirin Mk 1" }
+
+	}
+	796 = { 								
+		small_plane_airframe_0 = { owner = "FUL" amount = 50 version_name = "Tizirin Mk 1" }
+
+	}
+	688 = { 								
+		small_plane_airframe_0 = { owner = "FUL" amount = 50 version_name = "Tizirin Mk 1" }
+
+	}
+	702 = { 								
+		small_plane_airframe_0 = { owner = "FUL" amount = 50 version_name = "Tizirin Mk 1" }
+
+	}
+	691 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "FUL" amount = 50 version_name = "Tafaw Mk 1" }
+
+	}
+	689 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "FUL" amount = 50 version_name = "Tafaw Mk 1" }
+
+	}
+	712 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "FUL" amount = 50 version_name = "Tafaw Mk 1" }
+
+	}
+	729 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "FUL" amount = 50 version_name = "Tafaw Mk 1" }
+
+	}
+	732 = { 								
+		small_plane_airframe_0 = { owner = "FUL" amount = 50 version_name = "Tizirin Mk 1" }
+
+	}
+	1083 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "FUL" amount = 50 version_name = "Tafaw Mk 1" }
+
+	}
+	1105 = { 								
+		small_plane_airframe_0 = { owner = "FUL" amount = 50 version_name = "Tizirin Mk 1" }
+
+	}
+	451 = { 								
+		small_plane_airframe_0 = { owner = "FUL" amount = 50 version_name = "Tizirin Mk 1" }
+
+	}
+	1211 = { 								
+		small_plane_airframe_0 = { owner = "FUL" amount = 50 version_name = "Tizirin Mk 1" }
+
+	}
+	1269 = { 								
+		small_plane_naval_bomber_airframe_0 = { owner = "FUL" amount = 50 version_name = "Tafaw Mk 1" }
+
+	}
+	1177 = { 								
+		small_plane_airframe_0 = { owner = "FUL" amount = 50 version_name = "Tizirin Mk 1" }
+
+	}
+
+
+}

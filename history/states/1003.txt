@@ -1,0 +1,42 @@
+
+state={
+	id=1003
+	name="STATE_1003"
+	manpower = 109881
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 14456 1}
+		victory_points = { 14457 1}
+		
+		owner = SEA
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			arms_factory = 0
+			industrial_complex = 0
+			
+			14456 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = SEA
+	}
+
+	provinces={
+		14456 14457 
+	}
+	local_supplies=0.0 
+}

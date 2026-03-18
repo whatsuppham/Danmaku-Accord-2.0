@@ -1,0 +1,42 @@
+
+state={
+	id=59
+	name="STATE_59"
+	manpower = 265982
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=14
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 984 1}
+		victory_points = { 990 5}
+		
+		owner = HER
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			990 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HER
+	}
+
+	provinces={
+		983 984 985 986 987 988 989 990 991 992 993 
+	}
+	local_supplies=0.0 
+}

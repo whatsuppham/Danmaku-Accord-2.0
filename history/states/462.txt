@@ -1,0 +1,38 @@
+
+state={
+	id=462
+	name="STATE_462"
+	manpower = 139362
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=1
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 7013 1}
+		
+		owner = SEA
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = SEA
+	}
+
+	provinces={
+		7013 7014 7015 7016 7017 7018 
+	}
+	local_supplies=0.0 
+}

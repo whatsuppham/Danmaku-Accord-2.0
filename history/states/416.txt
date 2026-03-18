@@ -1,0 +1,43 @@
+
+state={
+	id=416
+	name="STATE_416"
+	manpower = 243526
+	
+	state_category = large_town
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 6385 1}
+		victory_points = { 6386 5}
+		victory_points = { 6388 2}
+		
+		owner = FUL
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			6385 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = FUL
+	}
+
+	provinces={
+		6383 6384 6385 6386 6387 6388 6389 6390 6391 
+	}
+	local_supplies=0.0 
+}

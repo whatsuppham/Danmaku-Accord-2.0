@@ -1,0 +1,41 @@
+
+state={
+	id=716
+	name="STATE_716"
+	manpower = 472973
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 11287 1}
+		victory_points = { 11289 1}
+		victory_points = { 11292 1}
+		victory_points = { 11293 10}
+		
+		owner = FUL
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 2
+			
+			
+		}
+		add_core_of = FUL
+	}
+
+	provinces={
+		11286 11287 11288 11289 11290 11291 11292 11293 11294 11295 11296 11297 11298 11299 11300 11301 11302 11303 
+	}
+	local_supplies=0.0 
+}

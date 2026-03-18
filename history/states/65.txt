@@ -1,0 +1,41 @@
+
+state={
+	id=65
+	name="STATE_65"
+	manpower = 540994
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=23
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1050 2}
+		victory_points = { 1051 8}
+		victory_points = { 1061 2}
+		victory_points = { 1064 2}
+		
+		owner = HER
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = HER
+	}
+
+	provinces={
+		1050 1051 1052 1053 1054 1055 1056 1057 1058 1059 1060 1061 1062 1063 1064 1065 1066 1067 1068 1069 1070 1071 1072 1073 1074 1075 1076 1077 1078 
+	}
+	local_supplies=0.0 
+}

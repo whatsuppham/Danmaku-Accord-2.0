@@ -1,0 +1,43 @@
+
+state={
+	id=640
+	name="STATE_640"
+	manpower = 301512
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=5
+		steel=0
+		tungsten=4
+		coal=0
+	}
+
+	history={
+		victory_points = { 9989 1}
+		victory_points = { 9992 1}
+		victory_points = { 10004 3}
+		
+		owner = HER
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 1
+			industrial_complex = 0
+			
+			10000 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HER
+	}
+
+	provinces={
+		9987 9988 9989 9990 9991 9992 9993 9994 9995 9996 9997 9998 9999 10000 10001 10002 10003 10004 
+	}
+	local_supplies=0.0 
+}

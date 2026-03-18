@@ -1,0 +1,38 @@
+
+state={
+	id=584
+	name="STATE_584"
+	manpower = 236264
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8672 6}
+		
+		owner = SEA
+		buildings = {
+			infrastructure = 3
+			air_base = 2
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = SEA
+	}
+
+	provinces={
+		8671 8672 8673 8674 8675 8676 8677 8678 
+	}
+	local_supplies=0.0 
+}

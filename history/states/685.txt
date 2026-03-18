@@ -1,0 +1,41 @@
+
+state={
+	id=685
+	name="STATE_685"
+	manpower = 418968
+	
+	state_category = metropolis
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 10857 2}
+		victory_points = { 10862 4}
+		victory_points = { 10865 5}
+		victory_points = { 10868 2}
+		
+		owner = FUL
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 2
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = FUL
+	}
+
+	provinces={
+		10855 10856 10857 10858 10859 10860 10861 10862 10863 10864 10865 10866 10867 10868 10869 10870 
+	}
+	local_supplies=0.0 
+}

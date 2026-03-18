@@ -1,0 +1,38 @@
+
+state={
+	id=560
+	name="STATE_560"
+	manpower = 107894
+	
+	state_category = pastoral
+	#impassable = yes
+	resources={
+		aluminium=3
+		chromium=0
+		oil=3
+		rubber=3
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 8331 1}
+		
+		owner = SEA
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			
+		}
+		add_core_of = SEA
+	}
+
+	provinces={
+		8323 8324 8325 8326 8327 8328 8329 8330 8331 
+	}
+	local_supplies=0.0 
+}

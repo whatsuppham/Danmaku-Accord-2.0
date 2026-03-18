@@ -1,0 +1,42 @@
+
+state={
+	id=516
+	name="STATE_516"
+	manpower = 257119
+	
+	state_category = city
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=1
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 7806 4}
+		victory_points = { 7809 4}
+		
+		owner = HER
+		buildings = {
+			infrastructure = 3
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+			7806 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = HER
+	}
+
+	provinces={
+		7803 7804 7805 7806 7807 7808 7809 7810 7811 
+	}
+	local_supplies=0.0 
+}

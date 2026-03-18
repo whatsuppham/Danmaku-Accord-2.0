@@ -1,0 +1,41 @@
+
+state={
+	id=323
+	name="STATE_323"
+	manpower = 116689
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=0
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=10
+	}
+
+	history={
+		victory_points = { 4971 2}
+		
+		owner = TIR
+		buildings = {
+			infrastructure = 2
+			
+			arms_factory = 0
+			industrial_complex = 1
+			
+			4971 = {
+				naval_base = 1
+			}
+			
+		}
+		add_core_of = TIR
+	}
+
+	provinces={
+		4970 4971 
+	}
+	local_supplies=0.0 
+}

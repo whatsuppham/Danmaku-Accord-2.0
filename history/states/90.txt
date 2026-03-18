@@ -1,0 +1,38 @@
+
+state={
+	id=90
+	name="STATE_90"
+	manpower = 212843
+	
+	state_category = rural
+	#impassable = yes
+	resources={
+		aluminium=0
+		chromium=0
+		oil=3
+		rubber=0
+		steel=0
+		tungsten=0
+		coal=0
+	}
+
+	history={
+		victory_points = { 1392 3}
+		
+		owner = HER
+		buildings = {
+			infrastructure = 1
+			
+			arms_factory = 0
+			industrial_complex = 0
+			
+			
+		}
+		add_core_of = HER
+	}
+
+	provinces={
+		1390 1391 1392 1393 1394 1395 1396 1397 1398 1399 1400 1401 1402 1403 
+	}
+	local_supplies=0.0 
+}

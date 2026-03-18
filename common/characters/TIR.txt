@@ -1,0 +1,880 @@
+characters = {
+	TIR_Shakari_Uchawitu={
+		name="Shakari Uchawitu"
+
+		
+		country_leader={
+			ideology=moderatism
+			traits = { humble  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TIR_Jumari_Uhawitabakum={
+		name="Jumari Uhawitabakum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIR_Jumari_Uhawitabakum
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	TIR_Shakari_Jumbo={
+		name="Shakari Jumbo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIR_Shakari_Jumbo
+				traits = {	socialite_connections 	}
+		}
+
+	}
+	TIR_Sefu_Baru={
+		name="Sefu Baru"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIR_Sefu_Baru
+				traits = {	staunch_constitutionalist 	}
+		}
+
+	}
+	TIR_Simba_Mwili={
+		name="Simba Mwili"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIR_Simba_Mwili
+				traits = {	humble 	}
+		}
+
+	}
+	TIR_Kwana_Pano={
+		name="Kwana Pano"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIR_Kwana_Pano
+				traits = {	humble 	}
+		}
+
+	}
+	TIR_Mbwana_Jumbo={
+		name="Mbwana Jumbo"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIR_Mbwana_Jumbo
+				traits = {	headstrong 	}
+		}
+
+	}
+	TIR_Lubanga_Mele={
+		name="Lubanga Mele"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIR_Lubanga_Mele
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	TIR_Omau_Jumbo={
+		name="Omau Jumbo"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIR_Omau_Jumbo
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	TIR_Simbana_Jumbo={
+		name="Simbana Jumbo"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIR_Simbana_Jumbo
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	TIR_Sefu_Soko={
+		name="Sefu Soko"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIR_Sefu_Soko
+				traits = {	army_chief_planning_2 	}
+		}
+
+	}
+	TIR_Tembana_Mwili={
+		name="Tembana Mwili"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIR_Tembana_Mwili
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	TIR_Amari_Uchatifalki={
+		name="Amari Uchatifalki"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIR_Amari_Uchatifalki
+				traits = {	navy_chief_commerce_raiding_1 	}
+		}
+
+	}
+	TIR_Chidi_Uchatifalki={
+		name="Chidi Uchatifalki"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIR_Chidi_Uchatifalki
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	TIR_Temba_Jumbo={
+		name="Temba Jumbo"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIR_Temba_Jumbo
+				traits = {	air_chief_ground_support_1 	}
+		}
+
+	}
+	TIR_Baka_Baru={
+		name="Baka Baru"
+
+		advisor={
+			slot = high_command
+			idea_token = TIR_Baka_Baru
+				traits = {	navy_fleet_logistics_1 	}
+		}
+
+	}
+	TIR_Kwano_Uchare={
+		name="Kwano Uchare"
+
+		advisor={
+			slot = high_command
+			idea_token = TIR_Kwano_Uchare
+				traits = {	army_CombinedArms_2 	}
+		}
+
+	}
+	TIR_Kwanga_Pano={
+		name="Kwanga Pano"
+
+		advisor={
+			slot = high_command
+			idea_token = TIR_Kwanga_Pano
+				traits = {	army_regrouping_1 	}
+		}
+
+	}
+	TIR_Kwana_Uhawitabakum={
+		name="Kwana Uhawitabakum"
+
+		advisor={
+			slot = high_command
+			idea_token = TIR_Kwana_Uhawitabakum
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	TIR_Simba_Mele={
+		name="Simba Mele"
+
+		advisor={
+			slot = high_command
+			idea_token = TIR_Simba_Mele
+				traits = {	army_infantry_2 	}
+		}
+
+	}
+	TIR_Simbana_Uchatifalki={
+		name="Simbana Uchatifalki"
+
+		advisor={
+			slot = high_command
+			idea_token = TIR_Simbana_Uchatifalki
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	TIR_Luba_Jumbo={
+		name="Luba Jumbo"
+
+		
+		country_leader={
+			ideology=falangism
+			traits = { basileus  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TIR_Kwana_Baru={
+		name="Kwana Baru"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIR_Kwana_Baru
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	TIR_Sefu_Uhawitabakum={
+		name="Sefu Uhawitabakum"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIR_Sefu_Uhawitabakum
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	TIR_Omau_Baru={
+		name="Omau Baru"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIR_Omau_Baru
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	TIR_Mbwana_Baru={
+		name="Mbwana Baru"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIR_Mbwana_Baru
+				traits = {	spirit_of_genghis 	}
+		}
+
+	}
+	TIR_Kama_Mele={
+		name="Kama Mele"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIR_Kama_Mele
+				traits = {	generallissimo 	}
+		}
+
+	}
+	TIR_Kwano_Uchatifalki={
+		name="Kwano Uchatifalki"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIR_Kwano_Uchatifalki
+				traits = {	inexperienced_imperialist 	}
+		}
+
+	}
+	TIR_Kato_Uchatifalki={
+		name="Kato Uchatifalki"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIR_Kato_Uchatifalki
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	TIR_Tana_Uchatifalki={
+		name="Tana Uchatifalki"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIR_Tana_Uchatifalki
+				traits = {	army_chief_entrenchment_1 	}
+		}
+
+	}
+	TIR_Simbanga_Jumbo={
+		name="Simbanga Jumbo"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIR_Simbanga_Jumbo
+				traits = {	army_chief_planning_1 	}
+		}
+
+	}
+	TIR_Kwanga_Uchare={
+		name="Kwanga Uchare"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIR_Kwanga_Uchare
+				traits = {	army_chief_offensive_2 	}
+		}
+
+	}
+	TIR_Luba_Mwili={
+		name="Luba Mwili"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIR_Luba_Mwili
+				traits = {	navy_chief_naval_aviation_2 	}
+		}
+
+	}
+	TIR_Shakarakari_Uchawitu={
+		name="Shakarakari Uchawitu"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIR_Shakarakari_Uchawitu
+				traits = {	navy_chief_reform_1 	}
+		}
+
+	}
+	TIR_Amari_Mwili={
+		name="Amari Mwili"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIR_Amari_Mwili
+				traits = {	air_chief_safety_1 	}
+		}
+
+	}
+	TIR_Taji_Pano={
+		name="Taji Pano"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIR_Taji_Pano
+				traits = {	air_chief_old_guard_2 	}
+		}
+
+	}
+	TIR_Kama_Baru={
+		name="Kama Baru"
+
+		advisor={
+			slot = high_command
+			idea_token = TIR_Kama_Baru
+				traits = {	army_logistics_2 	}
+		}
+
+	}
+	TIR_Sefu_Mwili={
+		name="Sefu Mwili"
+
+		advisor={
+			slot = high_command
+			idea_token = TIR_Sefu_Mwili
+				traits = {	army_concealment_1 	}
+		}
+
+	}
+	TIR_Sefu_Jumbo={
+		name="Sefu Jumbo"
+
+		advisor={
+			slot = high_command
+			idea_token = TIR_Sefu_Jumbo
+				traits = {	navy_screen_2 	}
+		}
+
+	}
+	TIR_Kame_Mele={
+		name="Kame Mele"
+
+		advisor={
+			slot = high_command
+			idea_token = TIR_Kame_Mele
+				traits = {	army_regrouping_2 	}
+		}
+
+	}
+	TIR_Amau_Soko={
+		name="Amau Soko"
+
+		advisor={
+			slot = high_command
+			idea_token = TIR_Amau_Soko
+				traits = {	air_air_combat_training_2 	}
+		}
+
+	}
+	TIR_Baka_Uchare={
+		name="Baka Uchare"
+
+		advisor={
+			slot = high_command
+			idea_token = TIR_Baka_Uchare
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	TIR_Nuru_Baru={
+		name="Nuru Baru"
+
+		
+		country_leader={
+			ideology=anarchist_communism
+			traits = { indomitable_perseverance  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TIR_Mbwame_Uchare={
+		name="Mbwame Uchare"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIR_Mbwame_Uchare
+				traits = {	mastermind_code_cracker 	}
+		}
+
+	}
+	TIR_Kwano_Mwili={
+		name="Kwano Mwili"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIR_Kwano_Mwili
+				traits = {	political_dancer 	}
+		}
+
+	}
+	TIR_Tana_Soko={
+		name="Tana Soko"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIR_Tana_Soko
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	TIR_Taji_Mele={
+		name="Taji Mele"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIR_Taji_Mele
+				traits = {	indomitable_perseverance 	}
+		}
+
+	}
+	TIR_Tembana_Mele={
+		name="Tembana Mele"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIR_Tembana_Mele
+				traits = {	polemarch 	}
+		}
+
+	}
+	TIR_Jumari_Uchawitu={
+		name="Jumari Uchawitu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIR_Jumari_Uchawitu
+				traits = {	reluctant_stalinist 	}
+		}
+
+	}
+	TIR_Shakari_Uhawitabakum={
+		name="Shakari Uhawitabakum"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIR_Shakari_Uhawitabakum
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	TIR_Mbwana_Uchare={
+		name="Mbwana Uchare"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIR_Mbwana_Uchare
+				traits = {	army_chief_morale_1 	}
+		}
+
+	}
+	TIR_Shakarakari_Uchare={
+		name="Shakarakari Uchare"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIR_Shakarakari_Uchare
+				traits = {	army_chief_entrenchment_2 	}
+		}
+
+	}
+	TIR_Musa_Mele={
+		name="Musa Mele"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIR_Musa_Mele
+				traits = {	army_chief_reform_2 	}
+		}
+
+	}
+	TIR_Chidi_Mwili={
+		name="Chidi Mwili"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIR_Chidi_Mwili
+				traits = {	navy_chief_maneuver_1 	}
+		}
+
+	}
+	TIR_Kame_Uhawitabakum={
+		name="Kame Uhawitabakum"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIR_Kame_Uhawitabakum
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	TIR_Omaraka_Mele={
+		name="Omaraka Mele"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIR_Omaraka_Mele
+				traits = {	air_chief_old_guard_1 	}
+		}
+
+	}
+	TIR_Tano_Uchare={
+		name="Tano Uchare"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIR_Tano_Uchare
+				traits = {	air_chief_all_weather_2 	}
+		}
+
+	}
+	TIR_Baka_Pano={
+		name="Baka Pano"
+
+		advisor={
+			slot = high_command
+			idea_token = TIR_Baka_Pano
+				traits = {	air_strategic_bombing_2 	}
+		}
+
+	}
+	TIR_Nuru_Uchare={
+		name="Nuru Uchare"
+
+		advisor={
+			slot = high_command
+			idea_token = TIR_Nuru_Uchare
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	TIR_Lubano_Jumbo={
+		name="Lubano Jumbo"
+
+		advisor={
+			slot = high_command
+			idea_token = TIR_Lubano_Jumbo
+				traits = {	navy_amphibious_assault_1 	}
+		}
+
+	}
+	TIR_Nuru_Jumbo={
+		name="Nuru Jumbo"
+
+		advisor={
+			slot = high_command
+			idea_token = TIR_Nuru_Jumbo
+				traits = {	army_armored_2 	}
+		}
+
+	}
+	TIR_Baka_Uchatifalki={
+		name="Baka Uchatifalki"
+
+		advisor={
+			slot = high_command
+			idea_token = TIR_Baka_Uchatifalki
+				traits = {	army_radio_intelligence_2 	}
+		}
+
+	}
+	TIR_Amari_Mele={
+		name="Amari Mele"
+
+		advisor={
+			slot = high_command
+			idea_token = TIR_Amari_Mele
+				traits = {	air_naval_strike_2 	}
+		}
+
+	}
+	TIR_Omaraka_Soko={
+		name="Omaraka Soko"
+
+		
+		country_leader={
+			ideology=socialism
+			traits = { staunch_constitutionalist  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+
+	}
+	TIR_Mbwano_Baru={
+		name="Mbwano Baru"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIR_Mbwano_Baru
+				traits = {	conservative_grandee 	}
+		}
+
+	}
+	TIR_Mbwama_Mwili={
+		name="Mbwama Mwili"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIR_Mbwama_Mwili
+				traits = {	first_lady 	}
+		}
+
+	}
+	TIR_Musa_Uchatifalki={
+		name="Musa Uchatifalki"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIR_Musa_Uchatifalki
+				traits = {	famous_aviator 	}
+		}
+
+	}
+	TIR_Taji_Mwili={
+		name="Taji Mwili"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIR_Taji_Mwili
+				traits = {	liberal_democratic_paragon 	}
+		}
+
+	}
+	TIR_Chidi_Mele={
+		name="Chidi Mele"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIR_Chidi_Mele
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	TIR_Simba_Uchawitu={
+		name="Simba Uchawitu"
+
+		advisor={
+			slot = political_advisor
+			idea_token = TIR_Simba_Uchawitu
+				traits = {	the_young_magnate 	}
+		}
+
+	}
+	TIR_Shakarakari_Mele={
+		name="Shakarakari Mele"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIR_Shakarakari_Mele
+				traits = {	army_chief_drill_2 	}
+		}
+
+	}
+	TIR_Temba_Uchawitu={
+		name="Temba Uchawitu"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIR_Temba_Uchawitu
+				traits = {	army_chief_defensive_2 	}
+		}
+
+	}
+	TIR_Mbwano_Uchawitu={
+		name="Mbwano Uchawitu"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIR_Mbwano_Uchawitu
+				traits = {	army_chief_organizational_2 	}
+		}
+
+	}
+	TIR_Mbwame_Uhawitabakum={
+		name="Mbwame Uhawitabakum"
+
+		advisor={
+			slot = army_chief
+			idea_token = TIR_Mbwame_Uhawitabakum
+				traits = {	army_chief_offensive_1 	}
+		}
+
+	}
+	TIR_Temba_Mele={
+		name="Temba Mele"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIR_Temba_Mele
+				traits = {	navy_chief_decisive_battle_2 	}
+		}
+
+	}
+	TIR_Mbwana_Uchatifalki={
+		name="Mbwana Uchatifalki"
+
+		advisor={
+			slot = navy_chief
+			idea_token = TIR_Mbwana_Uchatifalki
+				traits = {	navy_chief_reform_2 	}
+		}
+
+	}
+	TIR_Simba_Soko={
+		name="Simba Soko"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIR_Simba_Soko
+				traits = {	air_chief_night_operations_2 	}
+		}
+
+	}
+	TIR_Mbwano_Mwili={
+		name="Mbwano Mwili"
+
+		advisor={
+			slot = air_chief
+			idea_token = TIR_Mbwano_Mwili
+				traits = {	air_chief_reform_2 	}
+		}
+
+	}
+	TIR_Shakarakari_Mwili={
+		name="Shakarakari Mwili"
+
+		advisor={
+			slot = high_command
+			idea_token = TIR_Shakarakari_Mwili
+				traits = {	navy_carrier_1 	}
+		}
+
+	}
+	TIR_Mosi_Jumbo={
+		name="Mosi Jumbo"
+
+		advisor={
+			slot = high_command
+			idea_token = TIR_Mosi_Jumbo
+				traits = {	air_airborne_1 	}
+		}
+
+	}
+	TIR_Mbwame_Uchatifalki={
+		name="Mbwame Uchatifalki"
+
+		advisor={
+			slot = high_command
+			idea_token = TIR_Mbwame_Uchatifalki
+				traits = {	army_cavalry_2 	}
+		}
+
+	}
+	TIR_Kame_Uchawitu={
+		name="Kame Uchawitu"
+
+		advisor={
+			slot = high_command
+			idea_token = TIR_Kame_Uchawitu
+				traits = {	air_airborne_2 	}
+		}
+
+	}
+	TIR_Kwamari_Uchawitu={
+		name="Kwamari Uchawitu"
+
+		advisor={
+			slot = high_command
+			idea_token = TIR_Kwamari_Uchawitu
+				traits = {	air_bomber_interception_1 	}
+		}
+
+	}
+	TIR_Kwano_Pano={
+		name="Kwano Pano"
+
+		advisor={
+			slot = high_command
+			idea_token = TIR_Kwano_Pano
+				traits = {	navy_capital_ship_2 	}
+		}
+
+	}
+	TIR_Shakarakari_Jumbo={
+		name="Shakarakari Jumbo"
+
+		advisor={
+			slot = theorist
+			idea_token = TIR_Shakarakari_Jumbo
+				traits = {	military_theorist 	}
+		}
+
+	}
+	TIR_Nuru_Uchawitu={
+		name="Nuru Uchawitu"
+
+		advisor={
+			slot = theorist
+			idea_token = TIR_Nuru_Uchawitu
+				traits = {	naval_theorist 	}
+		}
+
+	}
+	TIR_Kame_Uchare={
+		name="Kame Uchare"
+
+		advisor={
+			slot = theorist
+			idea_token = TIR_Kame_Uchare
+				traits = {	air_warfare_theorist 	}
+		}
+
+	}
+}
