@@ -1,0 +1,53 @@
+﻿capital = 93
+# Recruit Characters
+oob = "SCA_120"
+starting_train_buffer = 25
+set_research_slots = 3
+set_stability = 0.6
+set_war_support = 0.15
+add_command_power = 0
+set_convoys = 116
+
+recruit_character = SCA_Remilia_Scarlet
+recruit_character = SCA_Flandre_Scarlet
+recruit_character = SCA_Sakuya_Izayoi
+recruit_character = SCA_Patchouli_Knowledge
+recruit_character = SCA_Hong_Meiling
+recruit_character = SCA_Koakuma
+recruit_character = SCA_Koakuma_advisor
+
+# Research
+set_technology = {	
+	tech_engineers = 1
+	tech_mountaineers = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	basic_train = 1
+}
+# Politics for 120.1.1
+set_politics = {
+	ruling_party = neutrality
+	last_election = "0.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	traditionalism = 20
+	fascism = 10
+	communism = 20
+	neutrality = 50
+	technocracy = 0
+	capitalism = 0
+	theologism = 0
+}
+# Government/National Spirits
+add_ideas = {
+	volunteer_only
+	disarmed_nation
+	civilian_economy
+	sca__vampiric_lineage
+}

@@ -1,0 +1,74 @@
+﻿capital = 10
+# Recruit Characters
+recruit_character = reimu_hakurei_reimu_hakurei
+oob = "HAK_120"
+starting_train_buffer = 10
+set_research_slots = 3
+set_stability = 0.8
+set_war_support = 0.3
+add_command_power = 26
+set_convoys = 25
+
+# Faction
+create_faction = "Inter-Gensokyan Stability Initiative"
+
+# Research
+set_technology = {
+	infantry_weapons = 1
+}
+# Politics for 120.1.1
+set_politics = {
+	ruling_party = traditionalism
+	last_election = "0.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	traditionalism = 50
+	communism = 3
+	neutrality = 25
+	theologism = 22
+}
+# Government/National Spirits
+add_ideas = {
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	partial_economic_mobilisation
+	peacekeeper__peacekeeping_doctrine
+}
+
+1936.1.1 = {
+	oob = "HAK_1936"
+	starting_train_buffer = 0
+	set_research_slots = 3
+	set_stability = 0.5
+	set_war_support = 0.5
+	add_command_power = 0
+	set_convoys = 0
+
+	# Politics for 1936.1.1
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1934.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+}
+1939.1.1 = {
+	oob = "HAK_1939"
+	starting_train_buffer = 0
+	set_research_slots = 3
+	set_stability = 0.5
+	set_war_support = 0.5
+	add_command_power = 0
+	set_convoys = 0
+
+	# Politics for 1939.1.1
+	set_politics = {
+		ruling_party = democratic
+		last_election = "1934.1.1"
+		election_frequency = 48
+		elections_allowed = yes
+	}
+}

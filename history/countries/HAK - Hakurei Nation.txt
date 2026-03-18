@@ -1,0 +1,47 @@
+﻿capital = 9406
+# Recruit Characters
+
+recruit_character = HAK_Reimu_Hakurei
+recruit_character = HAK_Aunn_Komano
+
+set_oob = "HAK_120"
+starting_train_buffer = 10
+set_research_slots = 4
+set_stability = 0.8
+set_war_support = 0.3
+add_command_power = 26
+set_convoys = 25
+
+# Faction
+create_faction = "Inter-Gensokyan Stability Initiative"
+
+# Research
+set_technology = {
+	ofuda_cards = 1
+}
+# Politics for 120.1.1
+set_politics = {
+	ruling_party = traditionalism
+	last_election = "0.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	traditionalism = 50
+	communism = 3
+	neutrality = 25
+	theologism = 22
+}
+# Government/National Spirits
+add_ideas = {
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	partial_economic_mobilisation
+	peacekeeper__peacekeeping_doctrine
+}
+
+add_equipment_to_stockpile = {
+    type = ofuda_cards_0
+    amount = 4000
+}

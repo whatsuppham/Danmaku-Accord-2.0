@@ -1,0 +1,39 @@
+﻿capital = 628
+# Recruit Characters
+oob = "KEI_120"
+starting_train_buffer = 10
+set_research_slots = 3
+set_stability = 0.8
+set_war_support = 0.3
+add_command_power = 26
+set_convoys = 25
+
+
+# Research
+set_technology = {
+	infantry_weapons = 1
+}
+# Politics for 120.1.1
+set_politics = {
+	ruling_party = neutrality
+	last_election = "0.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	traditionalism = 10
+	fascism = 40
+	communism = 30
+	neutrality = 20
+	technocracy = 0
+	capitalism = 0
+	theologism = 0
+}
+# Government/National Spirits
+add_ideas = {
+	extensive_conscription
+	limited_conscription
+	volunteer_only
+	partial_economic_mobilisation
+	peacekeeper__peacekeeping_doctrine
+}
