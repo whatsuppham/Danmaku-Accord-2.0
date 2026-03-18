@@ -1,0 +1,83 @@
+YKM = "countries/Youkai Mountain Nation.txt"
+GEN = "countries/Genbu Nation.txt"
+MOR = "countries/Moriya Nation.txt"
+YAM = "countries/Yamanba Nation.txt"
+#MOM = "countries/Nine Heavens Nation.txt"
+#WGL = "countries/Wind Gods Nation.txt"
+#
+MYO = "countries/Myouren Nation.txt"
+#PAL = "countries/Palaquin Nation.txt"
+SSN = "countries/Divine Spirit Nation.txt"
+THN = "countries/Taoist Hermit Nation.txt"
+#DPM = "countries/Senkai Nation.txt"
+JAA = "countries/Jiangshi Nation.txt"
+#
+HAK = "countries/Hakurei Nation.txt"
+MIK = "countries/Shrine Maiden Nation.txt"
+SKP = "countries/Supervised Kappa Nation.txt"
+#
+MAY = "countries/Mayohiga Nation.txt"
+#JUD = "countries/Judgement Nation.txt"
+ONI = "countries/Oni Nation.txt"
+KEI = "countries/Were-Hakutaku Nation.txt"
+KAS = "countries/Kasen Nation.txt"
+SNT = "countries/Statue Nation.txt"
+#
+SCA = "countries/Scarlet Nation.txt"
+WAK = "countries/Wakasagihime Nation.txt"
+VFN = "countries/Vampire Fairy Nation.txt"
+#
+SEI = "countries/Chaos Insurgency Nation.txt"
+SNC = "countries/Shining Needle Castle Nation.txt"
+MSY = "countries/Misty Nation.txt"
+TFT = "countries/Three Fairies Nation.txt"
+#
+MUG = "countries/Mugenkan Nation.txt"
+#BLO = "countries/Blood Nation.txt"
+#
+EIE = "countries/Eientei Nation.txt"
+LCO = "countries/Lunar Defector State Nation.txt"
+EIR = "countries/Eientei Medical Union Nation.txt"
+RLU = "countries/Eientei Labor Union Nation.txt"
+MDL = "countries/Moon Delegation Nation.txt"
+RBA = "countries/First Rabbit Nation.txt"
+RBB = "countries/Second Rabbit Nation.txt"
+RBC = "countries/Third Rabbit Nation.txt"
+RBD = "countries/Fourth Rabbit Nation.txt"
+
+#INSERT OTHER VARIOUS TRIBES OF RABBITS IN THE BAMBOO FOREST
+#
+FUJ = "countries/Bamboo Forest Legion Nation.txt"
+#
+KIR = "countries/Kirisame Nation.txt"
+MAR = "countries/Margatroid Nation.txt"
+ADM = "countries/Autonomous Doll Nation.txt"
+MFR = "countries/Magician Nation.txt"
+VMF = "countries/Vampire Magicians Nation.txt"
+#
+HUM = "countries/Human Villages Nation.txt"
+#
+TAN = "countries/Tanuki Forest Nation.txt"
+YKT = "countries/Youkai Trails Nation.txt"
+NAM = "countries/Hill of Nameless Nation.txt"
+RWM = "countries/Ruined West Manor Nation.txt"
+#
+RIN = "countries/Kourindou Nation.txt"
+#
+OUT = "countries/Outer World Nation.txt"
+#
+GHO = "countries/Ghost Nation.txt"
+#
+HEL = "countries/Hell Nation.txt"
+#
+HEV = "countries/Heaven Nation.txt"
+#
+RFG = "countries/Refugee Nation.txt"
+YKR = "countries/Youkai Refugee Nation.txt"
+VRF = "countries/Vampire Refugee Nation.txt"
+#
+SFF = "countries/Swamp Fairy Nation.txt"
+#
+RBU = "countries/Rebel Nation.txt"
+NWA = "countries/Netherworld Nation.txt"
+HBN = "countries/Hill Bandit Nation.txt"
