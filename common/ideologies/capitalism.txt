@@ -1,0 +1,42 @@
+ideologies = {
+	capitalism = {
+		types = {
+			mercantilism = {  }
+			faith_capitalism = {  }
+			monopoly = {  }
+			military_capitalism = {  }
+			corporate_capitalism = {  }
+			state_capitalism = {  }
+		}
+		dynamic_faction_names = {
+		}
+		color = { 211 189 0 }
+		can_host_government_in_exile = yes
+		can_collaborate = yes
+		faction_modifiers = {
+			faction_trade_opinion_factor = 1.5
+		}
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_lower_tension = yes
+			can_guarantee_other_ideologies = yes
+		}
+		modifiers = {
+			generate_wargoal_tension = 0.9
+			join_faction_tension = 0.5
+			send_volunteers_tension = 0.25
+			guarantee_tension = 0.8
+			annex_cost_factor = -0.4
+			civilian_intel_to_others = 0.25
+			army_intel_to_others = 0.15
+			navy_intel_to_others = 0.14
+			airforce_intel_to_others = 0.12
+			justify_war_goal_when_in_major_war_time = 0.80
+			drift_defence_factor = 0.35
+		}
+		ai_neutral = yes
+	}
+}

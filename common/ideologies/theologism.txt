@@ -1,0 +1,39 @@
+ideologies = {
+	theologism = {
+		types = {
+			cultist_state = {  }
+			devotionalism = {  }
+			theocracy = {  }
+			vampirism = {  }
+		}
+		dynamic_faction_names = {
+		}
+		color = { 193 231 193 }
+		can_host_government_in_exile = yes
+		can_collaborate = yes
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.75
+		}
+		rules = {
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
+			can_force_government = yes
+			can_puppet = yes
+		}
+		modifiers = {
+			generate_wargoal_tension = 0.8
+			join_faction_tension = 0.25
+			lend_lease_tension = 0.5
+			send_volunteers_tension = 0.05
+			guarantee_tension = 0.25
+			annex_cost_factor = -0.5
+			civilian_intel_to_others = 0.1
+			army_intel_to_others = 0.1
+			navy_intel_to_others = 0.1
+			airforce_intel_to_others = 01
+			justify_war_goal_when_in_major_war_time = -0.4
+			drift_defence_factor = 0.65
+		}
+		ai_neutral = yes
+	}
+}
