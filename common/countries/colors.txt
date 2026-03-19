@@ -1336,3 +1336,13 @@ KUR = {
 	color = rgb { 234 179 30 }
 	color_ui = rgb { 255 153 0 }	
 }
+
+TBA = {
+    color = rgb { 59 59 59 }
+    color_ui = rgb { 59 59 59 }
+}
+
+TBB = {
+    color = rgb { 82 82 82 }
+    color_ui = rgb { 82 82 82 }
+}

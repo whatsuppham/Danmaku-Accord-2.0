@@ -24,7 +24,7 @@ state={
 		
 		owner = YKT
 		add_core_of = YKT
-		buildings = {
+buildings = {
 			infrastructure = 2
 			air_base = 2
 			arms_factory = 1

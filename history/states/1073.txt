@@ -19,7 +19,8 @@ state={
 	history={
 		victory_points = { 14668 1}
 		
-		owner = TIR
+		owner = HEV
+		add_core_of = HEV
 		buildings = {
 			infrastructure = 1
 			
@@ -31,8 +32,7 @@ state={
 			}
 			
 		}
-		add_core_of = TIR
-	}
+}
 
 	provinces={
 		14668 

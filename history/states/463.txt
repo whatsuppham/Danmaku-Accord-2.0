@@ -18,9 +18,9 @@ state={
 
 	history={
 		
-		owner = ONI
-		add_core_of = ONI
-		buildings = {
+		owner = HAK
+		add_core_of = HAK
+buildings = {
 			infrastructure = 1
 			
 			arms_factory = 0

@@ -18,7 +18,8 @@ state={
 
 	history={
 		
-		owner = FUL
+		owner = OUT
+		add_core_of = OUT
 		buildings = {
 			infrastructure = 2
 			
@@ -27,8 +28,7 @@ state={
 			
 			
 		}
-		add_core_of = FUL
-	}
+}
 
 	provinces={
 		12253 12254 12255 12256 12257 12258 

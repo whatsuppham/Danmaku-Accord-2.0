@@ -20,7 +20,8 @@ state={
 		victory_points = { 8437 4}
 		victory_points = { 8439 4}
 		
-		owner = SEA
+		owner = YKR
+		add_core_of = YKR
 		buildings = {
 			infrastructure = 4
 			air_base = 1
@@ -29,11 +30,10 @@ state={
 			
 			
 		}
-		add_core_of = SEA
-	}
+}
 
-	provinces = {
-		
+	provinces={
+		8437 8438 8439 
 	}
 	local_supplies=0.0 
 }

@@ -18,7 +18,8 @@ state={
 
 	history={
 		
-		owner = SEA
+		owner = NWA
+		add_core_of = NWA
 		buildings = {
 			infrastructure = 1
 			air_base = 2
@@ -30,8 +31,7 @@ state={
 			}
 			
 		}
-		add_core_of = SEA
-	}
+}
 
 	provinces={
 		14342 14343 14344 14345 14346 14347 

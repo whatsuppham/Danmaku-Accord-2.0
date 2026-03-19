@@ -18,7 +18,8 @@ state={
 
 	history={
 		
-		owner = FUL
+		owner = TBB
+		add_core_of = TBB
 		buildings = {
 			infrastructure = 1
 			
@@ -30,8 +31,7 @@ state={
 			}
 			
 		}
-		add_core_of = FUL
-	}
+}
 
 	provinces={
 		14638 14639 

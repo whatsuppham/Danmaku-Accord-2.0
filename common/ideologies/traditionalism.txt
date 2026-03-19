@@ -2,17 +2,7 @@ ideologies = {
 	traditionalism = {
 
 		types = {
-
-			conservatism = {
-			}
-
-			liberalism = {
-			}
-
 			gensokyoproper = {
-			}
-
-			populism = {
 			}
 		}
 

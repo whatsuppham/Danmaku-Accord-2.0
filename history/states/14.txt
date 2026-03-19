@@ -19,8 +19,8 @@ state={
 	history={
 		victory_points = { 174 1}
 		
-		owner = RIN
-		add_core_of = RIN
+		owner = KEI
+		add_core_of = KEI
 buildings = {
 			infrastructure = 1
 			

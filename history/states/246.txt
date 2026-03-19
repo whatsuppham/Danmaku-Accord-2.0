@@ -22,9 +22,9 @@ state={
 		victory_points = { 3717 1}
 		victory_points = { 3719 1}
 		
-		owner = VFN
-		add_core_of = VFN
-		buildings = {
+		owner = SCA
+		add_core_of = SCA
+buildings = {
 			infrastructure = 2
 			
 			arms_factory = 0

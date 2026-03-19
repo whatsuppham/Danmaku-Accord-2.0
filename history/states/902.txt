@@ -18,7 +18,8 @@ state={
 
 	history={
 		
-		owner = TIR
+		owner = TBA
+		add_core_of = TBA
 		buildings = {
 			infrastructure = 1
 			
@@ -30,8 +31,7 @@ state={
 			}
 			
 		}
-		add_core_of = TIR
-	}
+}
 
 	provinces={
 		13727 13728 13729 13730 13731 13732 13733 13734 13735 13736 13737 13738 13739 13740 13741 

@@ -18,7 +18,8 @@ state={
 
 	history={
 		
-		owner = HER
+		owner = HEL
+		add_core_of = HEL
 		buildings = {
 			infrastructure = 1
 			
@@ -30,8 +31,7 @@ state={
 			}
 			
 		}
-		add_core_of = HER
-	}
+}
 
 	provinces={
 		13986 13987 13988 13989 13990 13991 13992 13993 

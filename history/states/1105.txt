@@ -19,7 +19,8 @@ state={
 	history={
 		victory_points = { 14729 1}
 		
-		owner = FUL
+		owner = TBB
+		add_core_of = TBB
 		buildings = {
 			infrastructure = 1
 			air_base = 1
@@ -31,8 +32,7 @@ state={
 			}
 			
 		}
-		add_core_of = FUL
-	}
+}
 
 	provinces={
 		14729 

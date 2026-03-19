@@ -20,6 +20,7 @@ state={
 		victory_points = { 14534 1}
 		
 		owner = LCO
+		add_core_of = LCO
 		buildings = {
 			infrastructure = 2
 			

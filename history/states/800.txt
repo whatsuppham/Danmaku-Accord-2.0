@@ -18,7 +18,8 @@ state={
 
 	history={
 		
-		owner = TIR
+		owner = MDL
+		add_core_of = MDL
 		buildings = {
 			infrastructure = 1
 			
@@ -30,8 +31,7 @@ state={
 			}
 			
 		}
-		add_core_of = TIR
-	}
+}
 
 	provinces={
 		12344 12345 12346 12347 12348 12349 12350 12351 12352 12353 12354 12355 12356 12357 12358 12359 12360 12361 12362 12363 12364 12365 12366 12367 12368 12369 12370 12371 

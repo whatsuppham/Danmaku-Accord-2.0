@@ -19,6 +19,7 @@ state={
 	history={
 		
 		owner = FUJ
+		add_core_of = FUJ
 		buildings = {
 			infrastructure = 1
 			

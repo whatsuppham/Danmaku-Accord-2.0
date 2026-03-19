@@ -19,9 +19,9 @@ state={
 	history={
 		victory_points = { 6930 1}
 		
-		owner = MYO
-		add_core_of = MYO
-		buildings = {
+		owner = HEL
+		add_core_of = HEL
+buildings = {
 			infrastructure = 1
 			
 			arms_factory = 0
