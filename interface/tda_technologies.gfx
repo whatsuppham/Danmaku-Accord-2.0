@@ -1,0 +1,12 @@
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_ofuda_cards_medium"
+        texturefile = "gfx/interface/technologies/ofuda_cards.dds"
+    }
+}
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_archetype_ofuda_cards_medium"
+        texturefile = "gfx/interface/archetypes/archetype_ofuda_warden_weaponry.dds"
+    }
+}

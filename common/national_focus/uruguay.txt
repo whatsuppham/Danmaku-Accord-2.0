@@ -323,8 +323,8 @@ focus_tree = {
 		icon = GFX_focus_generic_court
 		relative_position_id = URG_prohibition_of_usury
 		prerequisite = { focus = URG_prohibition_of_usury }
-		x = -2
-		y = 1
+		x = 6
+		y = 2
 		cost = 10
 
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_HISTORICAL FOCUS_FILTER_STABILITY }

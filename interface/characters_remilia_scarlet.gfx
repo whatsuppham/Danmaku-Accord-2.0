@@ -1,0 +1,30 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Portrait_SCA_Remilia_Scarlet"
+		texturefile = "gfx/leaders/SCA/Portrait_SCA_Remilia_Scarlet.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SCA_Flandre_Scarlet"
+		texturefile = "gfx/leaders/SCA/Portrait_SCA_Flandre_Scarlet.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SCA_Sakuya_Izayoi"
+		texturefile = "gfx/leaders/SCA/Portrait_SCA_Sakuya_Izayoi.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SCA_Patchouli_Knowledge"
+		texturefile = "gfx/leaders/SCA/Portrait_SCA_Patchouli_Knowledge.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SCA_Patchouli_Knowledge_advisor"
+		texturefile = "gfx/characters/SCA/Portrait_SCA_Patchouli_Knowledge_advisor.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SCA_Hong_Meiling"
+		texturefile = "gfx/leaders/SCA/Portrait_SCA_Hong_Meiling.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_SCA_Koakuma"
+		texturefile = "gfx/leaders/SCA/Portrait_SCA_Koakuma.dds"
+	}
+}

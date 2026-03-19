@@ -314,8 +314,8 @@ focus_tree = {
 	focus = {
 		id = USA_old_age_pension_act
 		icon = GFX_goal_generic_consumer_goods
-		x = 0
-		y = 1
+		x = 4
+		y = 3
 		prerequisite = { focus = USA_union_representation_act }
 		relative_position_id = USA_union_representation_act
 		cost = 10

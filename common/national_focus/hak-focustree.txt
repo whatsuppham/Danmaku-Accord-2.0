@@ -1,714 +1,822 @@
 focus_tree = {
-	id = hak-focustree
-	continuous_focus_position = { x = -40 y = 1440 } 
-	country = {
-		factor = 0
-		modifier = {
-			add = 10
-			tag = HAK
-		}
-	}
-	#Request International Aid
-	focus = {
-		id = HAK_request_international_aid
-		icon = GFX_focus_generic_little_entente
-		x = 28
-		y = 7
-		search_filters = {
-			FOCUS_FILTER_MANPOWER
-		}
-		prerequisite = { focus = HAK_retain_the_spell_card_rules  }
-		ai_will_do = { factor = 1 }
-	}
+    id = hak
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = HAK
+        }
+    }
+    continuous_focus_position = { x = -40 y = 1440 }
 
-	#Nothing Happened at the Shrine
-	focus = {
-		id = HAK_nothing_happened_at_the_shrine
-		icon = GFX_focus_man_claim_the_mandate_of_heaven
-		x = 40
-		y = 7
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
-		}
-		prerequisite = { focus = HAK_the_point_of_no_return  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_request_international_aid
+        icon = GFX_focus_generic_little_entente
+        x = 28
+        y = 7
+        cost = 10
+        search_filters = { FOCUS_FILTER_MANPOWER }
+        prerequisite = { focus = HAK_retain_the_spell_card_rules }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_request_international_aid completed"
+        }
+    }
 
-	#The Point of No Return
-	focus = {
-		id = HAK_the_point_of_no_return
-		icon = GFX_focus_generic_strike_at_democracy3
-		x = 38
-		y = 6
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = HAK_state_of_ideological_emergency  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_nothing_happened_at_the_shrine
+        icon = GFX_focus_man_claim_the_mandate_of_heaven
+        x = 40
+        y = 7
+        cost = 5
+        search_filters = { FOCUS_FILTER_FRA_POLITICAL_VIOLENCE }
+        prerequisite = { focus = HAK_the_point_of_no_return }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_nothing_happened_at_the_shrine completed"
+        }
+    }
 
-	#State of Ideological Emergency
-	focus = {
-		id = HAK_state_of_ideological_emergency
-		icon = GFX_focus_generic_provoke_border_clashes
-		x = 34
-		y = 4
-		search_filters = {
-			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
-		}
-		prerequisite = { focus = HAK_the_framing_of_hakurei  } prerequisite = { focus = HAK_the_council_divides  }
-		mutually_exclusive = { focus = HAK_close_the_marketeers_incident  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_the_point_of_no_return
+        icon = GFX_focus_generic_strike_at_democracy3
+        x = 38
+        y = 6
+        cost = 5
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        prerequisite = { focus = HAK_state_of_ideological_emergency }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_the_point_of_no_return completed"
+        }
+    }
 
-	#The Council Divides
-	focus = {
-		id = HAK_the_council_divides
-		icon = GFX_HAK_the_council_divides-645611
-		x = 36
-		y = 3
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
-		}
-		prerequisite = { focus = HAK_antiinterventionism  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_state_of_ideological_emergency
+        icon = GFX_focus_generic_provoke_border_clashes
+        x = 34
+        y = 4
+        cost = 10
+        search_filters = { FOCUS_FILTER_FRA_POLITICAL_VIOLENCE }
+        prerequisite = { focus = HAK_the_framing_of_hakurei }
+        prerequisite = { focus = HAK_the_council_divides }
+        mutually_exclusive = { focus = HAK_close_the_marketeers_incident }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_state_of_ideological_emergency completed"
+        }
+    }
 
-	#Order Over Oblivion
-	focus = {
-		id = HAK_order_over_oblivion
-		icon = GFX_focus_generic_strike_at_democracy2
-		x = 30
-		y = 9
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
-		}
-		prerequisite = { focus = HAK_denounce_the_capitalist_movement  } prerequisite = { focus = HAK_war_with_the_yokai_mountain  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_the_council_divides
+        icon = GFX_HAK_the_council_divides
+        x = 36
+        y = 3
+        cost = 5
+        search_filters = { FOCUS_FILTER_FRA_POLITICAL_VIOLENCE }
+        prerequisite = { focus = HAK_antiinterventionism }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_the_council_divides completed"
+        }
+    }
 
-	#Retain the Spell Card Rules
-	focus = {
-		id = HAK_retain_the_spell_card_rules
-		icon = GFX_focus_spr_torchbearers_of_tomorrow
-		x = 30
-		y = 6
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
-		}
-		prerequisite = { focus = HAK_state_of_ideological_emergency  }
-		mutually_exclusive = { focus = HAK_the_point_of_no_return  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_order_over_oblivion
+        icon = GFX_focus_generic_strike_at_democracy2
+        x = 30
+        y = 9
+        cost = 5
+        search_filters = { FOCUS_FILTER_FRA_POLITICAL_VIOLENCE }
+        prerequisite = { focus = HAK_denounce_the_capitalist_movement }
+        prerequisite = { focus = HAK_war_with_the_yokai_mountain }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_order_over_oblivion completed"
+        }
+    }
 
-	#The Martyr Clause
-	focus = {
-		id = HAK_the_martyr_clause
-		icon = GFX_HAK_the_martyr_clause-645453
-		x = 36
-		y = 7
-		cost = 2
-		search_filters = {
-			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
-		}
-		prerequisite = { focus = HAK_the_point_of_no_return  }
-		mutually_exclusive = { focus = HAK_nothing_happened_at_the_shrine  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_retain_the_spell_card_rules
+        icon = GFX_focus_spr_torchbearers_of_tomorrow
+        x = 30
+        y = 6
+        cost = 5
+        search_filters = { FOCUS_FILTER_FRA_POLITICAL_VIOLENCE }
+        prerequisite = { focus = HAK_state_of_ideological_emergency }
+        mutually_exclusive = { focus = HAK_the_point_of_no_return }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_retain_the_spell_card_rules completed"
+        }
+    }
 
-	#The Day Peace Died
-	focus = {
-		id = HAK_the_day_peace_died
-		icon = GFX_HAK_the_day_peace_died-645772
-		x = 38
-		y = 9
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_FRA_POLITICAL_VIOLENCE
-		}
-		prerequisite = { focus = HAK_the_gensomiko_protocol  focus = HAK_theministrysclosure  }
-		mutually_exclusive = { focus = HAK_order_over_oblivion  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_the_martyr_clause
+        icon = GFX_HAK_the_martyr_clause
+        x = 36
+        y = 7
+        cost = 2
+        search_filters = { FOCUS_FILTER_FRA_POLITICAL_VIOLENCE }
+        prerequisite = { focus = HAK_the_point_of_no_return }
+        mutually_exclusive = { focus = HAK_nothing_happened_at_the_shrine }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_the_martyr_clause completed"
+        }
+    }
 
-	#The Ministry's Closure
-	focus = {
-		id = HAK_theministrysclosure
-		icon = GFX_HAK_theministrysclosure-262036
-		x = 40
-		y = 8
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = HAK_nothing_happened_at_the_shrine  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_the_day_peace_died
+        icon = GFX_HAK_the_day_peace_died
+        x = 38
+        y = 9
+        cost = 5
+        search_filters = { FOCUS_FILTER_FRA_POLITICAL_VIOLENCE }
+        prerequisite = { focus = HAK_the_gensomiko_protocol focus = HAK_theministrysclosure }
+        mutually_exclusive = { focus = HAK_order_over_oblivion }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_the_day_peace_died completed"
+        }
+    }
 
-	#The Genso-Miko Protocol
-	focus = {
-		id = HAK_the_gensomiko_protocol
-		icon = GFX_focus_generic_japanese_imperial_glory
-		x = 36
-		y = 8
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_MANPOWER
-		}
-		prerequisite = { focus = HAK_the_martyr_clause  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_theministrysclosure
+        icon = GFX_HAK_theministrysclosure
+        x = 40
+        y = 8
+        cost = 10
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        prerequisite = { focus = HAK_nothing_happened_at_the_shrine }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_theministrysclosure completed"
+        }
+    }
 
-	#Acknowledge the Disruption
-	focus = {
-		id = HAK_acknowledge_the_disruption
-		icon = GFX_HAK_acknowledge_the_disruption-262097
-		x = 22
-		y = 1
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_the_gensomiko_protocol
+        icon = GFX_focus_generic_japanese_imperial_glory
+        x = 36
+        y = 8
+        cost = 10
+        search_filters = { FOCUS_FILTER_MANPOWER }
+        prerequisite = { focus = HAK_the_martyr_clause }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_the_gensomiko_protocol completed"
+        }
+    }
 
-	#Discredit the Rumors
-	focus = {
-		id = HAK_discredit_the_rumors
-		icon = GFX_HAK_discredit_the_rumors-646330
-		x = 34
-		y = 1
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		mutually_exclusive = { focus = HAK_acknowledge_the_disruption  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_acknowledge_the_disruption
+        icon = GFX_HAK_acknowledge_the_disruption
+        x = 22
+        y = 1
+        cost = 5
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_acknowledge_the_disruption completed"
+        }
+    }
 
-	#Officialize the Incident
-	focus = {
-		id = HAK_officialize_the_incident
-		icon = GFX_focus_hol_the_foundations_of_defense
-		x = 23
-		y = 2
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = HAK_acknowledge_the_disruption  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_discredit_the_rumors
+        icon = GFX_HAK_discredit_the_rumors
+        x = 34
+        y = 1
+        cost = 5
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        mutually_exclusive = { focus = HAK_acknowledge_the_disruption }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_discredit_the_rumors completed"
+        }
+    }
 
-	#Deploy the Peacekeepers
-	focus = {
-		id = HAK_deploy_the_peacekeepers
-		icon = GFX_focus_generic_japanese_imperial_glory
-		x = 23
-		y = 3
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_MANPOWER
-		}
-		prerequisite = { focus = HAK_officialize_the_incident  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_officialize_the_incident
+        icon = GFX_focus_hol_the_foundations_of_defense
+        x = 23
+        y = 2
+        cost = 5
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        prerequisite = { focus = HAK_acknowledge_the_disruption }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_officialize_the_incident completed"
+        }
+    }
 
-	#Utilize the Torii Agency
-	focus = {
-		id = HAK_utilize_the_torii_agency
-		icon = GFX_focus_jap_spiritual_mobilization
-		x = 21
-		y = 2
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = HAK_acknowledge_the_disruption  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_deploy_the_peacekeepers
+        icon = GFX_focus_generic_japanese_imperial_glory
+        x = 23
+        y = 3
+        cost = 5
+        search_filters = { FOCUS_FILTER_MANPOWER }
+        prerequisite = { focus = HAK_officialize_the_incident }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_deploy_the_peacekeepers completed"
+        }
+    }
 
-	#Anti-Interventionism
-	focus = {
-		id = HAK_antiinterventionism
-		icon = GFX_focus_usa_voter_registration_act
-		x = 34
-		y = 2
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = HAK_discredit_the_rumors  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_utilize_the_torii_agency
+        icon = GFX_focus_jap_spiritual_mobilization
+        x = 21
+        y = 2
+        cost = 5
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        prerequisite = { focus = HAK_acknowledge_the_disruption }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_utilize_the_torii_agency completed"
+        }
+    }
 
-	#Arrest the Market Movement
-	focus = {
-		id = HAK_arrest_the_market_movement
-		icon = GFX_goal_continuous_restrict_freedom
-		x = 21
-		y = 3
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = HAK_utilize_the_torii_agency  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_antiinterventionism
+        icon = GFX_focus_usa_voter_registration_act
+        x = 34
+        y = 2
+        cost = 10
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        prerequisite = { focus = HAK_discredit_the_rumors }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_antiinterventionism completed"
+        }
+    }
 
-	#Annual Speech of Gensokyo
-	focus = {
-		id = HAK_annual_speech_of_gensokyo
-		icon = GFX_goal_generic_propaganda
-		x = 28
-		y = 2
-		cost = 2
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = HAK_officialize_the_incident  focus = HAK_antiinterventionism  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_arrest_the_market_movement
+        icon = GFX_goal_continuous_restrict_freedom
+        x = 21
+        y = 3
+        cost = 10
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        prerequisite = { focus = HAK_utilize_the_torii_agency }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_arrest_the_market_movement completed"
+        }
+    }
 
-	#The Framing of Hakurei
-	focus = {
-		id = HAK_the_framing_of_hakurei
-		icon = GFX_HAK_the_framing_of_hakurei-59
-		x = 32
-		y = 3
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = HAK_antiinterventionism  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_annual_speech_of_gensokyo
+        icon = GFX_goal_generic_propaganda
+        x = 28
+        y = 2
+        cost = 2
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        prerequisite = { focus = HAK_officialize_the_incident focus = HAK_antiinterventionism }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_annual_speech_of_gensokyo completed"
+        }
+    }
 
-	#Close the Marketeers Incident
-	focus = {
-		id = HAK_close_the_marketeers_incident
-		icon = GFX_focus_jap_manchurian_project
-		x = 22
-		y = 4
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = HAK_deploy_the_peacekeepers  } prerequisite = { focus = HAK_arrest_the_market_movement  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_the_framing_of_hakurei
+        icon = GFX_HAK_the_framing_of_hakurei
+        x = 32
+        y = 3
+        cost = 10
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        prerequisite = { focus = HAK_antiinterventionism }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_the_framing_of_hakurei completed"
+        }
+    }
 
-	#Reitaisai Festival
-	focus = {
-		id = HAK_reitaisai_festival
-		icon = GFX_HAK_reitaisai_festival-645828
-		x = 21
-		y = 10
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_close_the_marketeers_incident
+        icon = GFX_focus_jap_manchurian_project
+        x = 22
+        y = 4
+        cost = 5
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        prerequisite = { focus = HAK_deploy_the_peacekeepers }
+        prerequisite = { focus = HAK_arrest_the_market_movement }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_close_the_marketeers_incident completed"
+        }
+    }
 
-	#Boundary Renewal Initiative
-	focus = {
-		id = HAK_boundary_renewal_initiative
-		icon = GFX_focus_jap_spiritual_mobilization
-		x = 28
-		y = 3
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_STABILITY
-		}
-		prerequisite = { focus = HAK_annual_speech_of_gensokyo  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_reitaisai_festival
+        icon = GFX_HAK_reitaisai_festival
+        x = 21
+        y = 10
+        cost = 5
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_reitaisai_festival completed"
+        }
+    }
 
-	#Cost Review Act
-	focus = {
-		id = HAK_cost_review_act
-		icon = GFX_focus_eng_concessions_to_the_trade_unions
-		x = 25
-		y = 10
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_boundary_renewal_initiative
+        icon = GFX_focus_jap_spiritual_mobilization
+        x = 28
+        y = 3
+        cost = 5
+        search_filters = { FOCUS_FILTER_STABILITY }
+        prerequisite = { focus = HAK_annual_speech_of_gensokyo }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_boundary_renewal_initiative completed"
+        }
+    }
 
-	#Guarantees for All
-	focus = {
-		id = HAK_guarantees_for_all
-		icon = GFX_HAK_guarantees_for_all-646128
-		x = 20
-		y = 11
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = HAK_reitaisai_festival  focus = HAK_reinforcement_of_tradition  focus = HAK_cost_review_act  focus = HAK_free_the_guilty  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_cost_review_act
+        icon = GFX_focus_eng_concessions_to_the_trade_unions
+        x = 25
+        y = 10
+        cost = 5
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_cost_review_act completed"
+        }
+    }
 
-	#Reinforcement of Tradition
-	focus = {
-		id = HAK_reinforcement_of_tradition
-		icon = GFX_focus_generic_diplomatic_treaty
-		x = 23
-		y = 10
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_guarantees_for_all
+        icon = GFX_HAK_guarantees_for_all
+        x = 20
+        y = 11
+        cost = 5
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        prerequisite = { focus = HAK_reitaisai_festival focus = HAK_reinforcement_of_tradition focus = HAK_cost_review_act focus = HAK_free_the_guilty }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_guarantees_for_all completed"
+        }
+    }
 
-	#Resource Gathering Intiative
-	focus = {
-		id = HAK_resource_gathering_intiative
-		icon = GFX_focus_generic_tungsten
-		x = 16
-		y = 1
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_reinforcement_of_tradition
+        icon = GFX_focus_generic_diplomatic_treaty
+        x = 23
+        y = 10
+        cost = 10
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_reinforcement_of_tradition completed"
+        }
+    }
 
-	#War with the Yokai Mountain
-	focus = {
-		id = HAK_war_with_the_yokai_mountain
-		icon = GFX_focus_AST_never_gallipoli
-		x = 32
-		y = 8
-		cost = 4
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = HAK_ban_international_avian_flight  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_resource_gathering_intiative
+        icon = GFX_focus_generic_tungsten
+        x = 16
+        y = 1
+        cost = 10
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_resource_gathering_intiative completed"
+        }
+    }
 
-	#Ban International Avian Flight
-	focus = {
-		id = HAK_ban_international_avian_flight
-		icon = GFX_HAK_ban_international_avian_flight-645908
-		x = 32
-		y = 7
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_WAR_SUPPORT
-		}
-		prerequisite = { focus = HAK_retain_the_spell_card_rules  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_war_with_the_yokai_mountain
+        icon = GFX_focus_AST_never_gallipoli
+        x = 32
+        y = 8
+        cost = 4
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        prerequisite = { focus = HAK_ban_international_avian_flight }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_war_with_the_yokai_mountain completed"
+        }
+    }
 
-	#Denounce the Capitalist Movement
-	focus = {
-		id = HAK_denounce_the_capitalist_movement
-		icon = GFX_HAK_denounce_the_capitalist_movement-646325
-		x = 28
-		y = 8
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = HAK_request_international_aid  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_ban_international_avian_flight
+        icon = GFX_HAK_ban_international_avian_flight
+        x = 32
+        y = 7
+        cost = 5
+        search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+        prerequisite = { focus = HAK_retain_the_spell_card_rules }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_ban_international_avian_flight completed"
+        }
+    }
 
-	#Ofuda Observation
-	focus = {
-		id = HAK_ofuda_observation
-		icon = GFX_focus_hol_the_foundations_of_defense
-		x = 1
-		y = 2
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_denounce_the_capitalist_movement
+        icon = GFX_HAK_denounce_the_capitalist_movement
+        x = 28
+        y = 8
+        cost = 5
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        prerequisite = { focus = HAK_request_international_aid }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_denounce_the_capitalist_movement completed"
+        }
+    }
 
-	#Youkai Restraining Tactics
-	focus = {
-		id = HAK_youkai_restraining_tactics
-		icon = GFX_focus_generic_commonwealth_build_infantry
-		x = 3
-		y = 2
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_ofuda_observation
+        icon = GFX_focus_hol_the_foundations_of_defense
+        x = 1
+        y = 2
+        cost = 10
+        search_filters = { FOCUS_FILTER_RESEARCH }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_ofuda_observation completed"
+        }
+    }
 
-	#Barrier Channeling
-	focus = {
-		id = HAK_barrier_channeling
-		icon = GFX_focus_generic_coastal_fort
-		x = 4
-		y = 5
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_youkai_restraining_tactics
+        icon = GFX_focus_generic_commonwealth_build_infantry
+        x = 3
+        y = 2
+        cost = 5
+        search_filters = { FOCUS_FILTER_RESEARCH }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_youkai_restraining_tactics completed"
+        }
+    }
 
-	#Coastal Reinforcement Initiative
-	focus = {
-		id = HAK_coastal_reinforcement_initiative
-		icon = GFX_HAK_coastal_reinforcement_initiative-645807
-		x = 10
-		y = 1
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_barrier_channeling
+        icon = GFX_focus_generic_coastal_fort
+        x = 4
+        y = 5
+        cost = 10
+        search_filters = { FOCUS_FILTER_RESEARCH }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_barrier_channeling completed"
+        }
+    }
 
-	#Flying Maiden's Club
-	focus = {
-		id = HAK_flyingmaidensclub
-		icon = GFX_HAK_flyingmaidensclub-262093
-		x = 6
-		y = 1
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_WAR_SUPPORT
-		}
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_coastal_reinforcement_initiative
+        icon = GFX_HAK_coastal_reinforcement_initiative
+        x = 10
+        y = 1
+        cost = 10
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_coastal_reinforcement_initiative completed"
+        }
+    }
 
-	#Youkai Penal Program
-	focus = {
-		id = HAK_youkai_penal_program
-		icon = GFX_HAK_youkai_penal_program-262107
-		x = 36
-		y = 10
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_MANPOWER
-		}
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_flyingmaidensclub
+        icon = GFX_HAK_flyingmaidensclub
+        x = 6
+        y = 1
+        cost = 5
+        search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_flyingmaidensclub completed"
+        }
+    }
 
-	#Free the Guilty
-	focus = {
-		id = HAK_free_the_guilty
-		icon = GFX_goal_continuous_boost_freedom
-		x = 19
-		y = 10
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_youkai_penal_program
+        icon = GFX_HAK_youkai_penal_program
+        x = 36
+        y = 10
+        cost = 5
+        search_filters = { FOCUS_FILTER_MANPOWER }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_youkai_penal_program completed"
+        }
+    }
 
-	#Investment in Land Wargames
-	focus = {
-		id = HAK_investment_in_land_wargames
-		icon = GFX_goal_generic_military_sphere
-		x = 2
-		y = 1
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_free_the_guilty
+        icon = GFX_goal_continuous_boost_freedom
+        x = 19
+        y = 10
+        cost = 5
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_free_the_guilty completed"
+        }
+    }
 
-	#Unrestricted Intervention
-	focus = {
-		id = HAK_unrestricted_intervention
-		icon = GFX_HAK_unrestricted_intervention-280
-		x = 32
-		y = 10
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_WAR_SUPPORT
-		}
-		prerequisite = { focus = HAK_order_over_oblivion  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_investment_in_land_wargames
+        icon = GFX_goal_generic_military_sphere
+        x = 2
+        y = 1
+        cost = 5
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_investment_in_land_wargames completed"
+        }
+    }
 
-	#Request Yukari's Aid
-	focus = {
-		id = HAK_requestyukarisaid
-		icon = GFX_focus_GRE_reviving_the_spartan_warrior_spirit
-		x = 32
-		y = 5
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_WAR_SUPPORT
-		}
-		prerequisite = { focus = HAK_state_of_ideological_emergency  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_unrestricted_intervention
+        icon = GFX_HAK_unrestricted_intervention
+        x = 32
+        y = 10
+        cost = 10
+        search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+        prerequisite = { focus = HAK_order_over_oblivion }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_unrestricted_intervention completed"
+        }
+    }
 
-	#The Status Quo
-	focus = {
-		id = HAK_the_status_quo
-		icon = GFX_focus_generic_home_defense
-		x = 22
-		y = 9
-		cost = 2
-		search_filters = {
-			FOCUS_FILTER_POLITICAL
-		}
-		prerequisite = { focus = HAK_close_the_marketeers_incident  }
-		mutually_exclusive = { focus = HAK_order_over_oblivion  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_requestyukarisaid
+        icon = GFX_focus_GRE_reviving_the_spartan_warrior_spirit
+        x = 32
+        y = 5
+        cost = 5
+        search_filters = { FOCUS_FILTER_WAR_SUPPORT }
+        prerequisite = { focus = HAK_state_of_ideological_emergency }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_requestyukarisaid completed"
+        }
+    }
 
-	#Naval Tech Cooperation
-	focus = {
-		id = HAK_naval_tech_cooperation
-		icon = GFX_goal_continuous_naval_production
-		x = 11
-		y = 2
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		prerequisite = { focus = HAK_coastal_reinforcement_initiative  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_the_status_quo
+        icon = GFX_focus_generic_home_defense
+        x = 22
+        y = 9
+        cost = 2
+        search_filters = { FOCUS_FILTER_POLITICAL }
+        prerequisite = { focus = HAK_close_the_marketeers_incident }
+        mutually_exclusive = { focus = HAK_order_over_oblivion }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_the_status_quo completed"
+        }
+    }
 
-	#Preparatory Defense
-	focus = {
-		id = HAK_preparatory_defense
-		icon = GFX_goal_generic_construct_military
-		x = 14
-		y = 2
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		prerequisite = { focus = HAK_resource_gathering_intiative  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_naval_tech_cooperation
+        icon = GFX_goal_continuous_naval_production
+        x = 11
+        y = 2
+        cost = 5
+        search_filters = { FOCUS_FILTER_RESEARCH }
+        prerequisite = { focus = HAK_coastal_reinforcement_initiative }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_naval_tech_cooperation completed"
+        }
+    }
 
-	#Preparatory Defense (Continued)
-	focus = {
-		id = HAK_preparatorydefensecontinued
-		icon = GFX_HAK_preparatorydefensecontinued-645960
-		x = 14
-		y = 3
-		cost = 5
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		prerequisite = { focus = HAK_preparatory_defense  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_preparatory_defense
+        icon = GFX_goal_generic_construct_military
+        x = 14
+        y = 2
+        cost = 5
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        prerequisite = { focus = HAK_resource_gathering_intiative }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_preparatory_defense completed"
+        }
+    }
 
-	#Shock-Rescue Paratroopers
-	focus = {
-		id = HAK_shockrescue_paratroopers
-		icon = GFX_focus_generic_paratrooper
-		x = 7
-		y = 2
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_preparatorydefensecontinued
+        icon = GFX_HAK_preparatorydefensecontinued
+        x = 14
+        y = 3
+        cost = 5
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        prerequisite = { focus = HAK_preparatory_defense }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_preparatorydefensecontinued completed"
+        }
+    }
 
-	#Expand the Shrines
-	focus = {
-		id = HAK_expand_the_shrines
-		icon = GFX_focus_jap_spiritual_mobilization
-		x = 18
-		y = 2
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		prerequisite = { focus = HAK_resource_gathering_intiative  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_shockrescue_paratroopers
+        icon = GFX_focus_generic_paratrooper
+        x = 7
+        y = 2
+        cost = 10
+        search_filters = { FOCUS_FILTER_RESEARCH }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_shockrescue_paratroopers completed"
+        }
+    }
 
-	#Better Roads for Gensokyo
-	focus = {
-		id = HAK_better_roads_for_gensokyo
-		icon = GFX_HAK_better_roads_for_gensokyo-262129
-		x = 16
-		y = 3
-		cost = 4
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		prerequisite = { focus = HAK_rural_infrastructure_support  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_expand_the_shrines
+        icon = GFX_focus_jap_spiritual_mobilization
+        x = 18
+        y = 2
+        cost = 10
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        prerequisite = { focus = HAK_resource_gathering_intiative }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_expand_the_shrines completed"
+        }
+    }
 
-	#Rural Infrastructure Support
-	focus = {
-		id = HAK_rural_infrastructure_support
-		icon = GFX_goal_generic_construct_infrastructure
-		x = 16
-		y = 2
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		prerequisite = { focus = HAK_resource_gathering_intiative  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_better_roads_for_gensokyo
+        icon = GFX_HAK_better_roads_for_gensokyo
+        x = 16
+        y = 3
+        cost = 4
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        prerequisite = { focus = HAK_rural_infrastructure_support }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_better_roads_for_gensokyo completed"
+        }
+    }
 
-	#Expand the MICs
-	focus = {
-		id = HAK_expand_the_mics
-		icon = GFX_goal_generic_construct_mil_factory
-		x = 15
-		y = 4
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_INDUSTRY
-		}
-		prerequisite = { focus = HAK_preparatorydefensecontinued  focus = HAK_better_roads_for_gensokyo  focus = HAK_frugality_for_stability  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_rural_infrastructure_support
+        icon = GFX_goal_generic_construct_infrastructure
+        x = 16
+        y = 2
+        cost = 10
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        prerequisite = { focus = HAK_resource_gathering_intiative }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_rural_infrastructure_support completed"
+        }
+    }
 
-	#Hakurei Institute of Sciences
-	focus = {
-		id = HAK_hakurei_institute_of_sciences
-		icon = GFX_focus_research
-		x = 17
-		y = 4
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_RESEARCH
-		}
-		prerequisite = { focus = HAK_better_roads_for_gensokyo  focus = HAK_frugality_for_stability  focus = HAK_preparatorydefensecontinued  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_expand_the_mics
+        icon = GFX_goal_generic_construct_mil_factory
+        x = 15
+        y = 4
+        cost = 10
+        search_filters = { FOCUS_FILTER_INDUSTRY }
+        prerequisite = { focus = HAK_preparatorydefensecontinued focus = HAK_better_roads_for_gensokyo focus = HAK_frugality_for_stability }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_expand_the_mics completed"
+        }
+    }
 
-	#Frugality for Stability
-	focus = {
-		id = HAK_frugality_for_stability
-		icon = GFX_goal_generic_consumer_goods
-		x = 18
-		y = 3
-		cost = 10
-		search_filters = {
-			FOCUS_FILTER_STABILITY
-		}
-		prerequisite = { focus = HAK_expand_the_shrines  }
-		ai_will_do = { factor = 1 }
-	}
+    focus = {
+        id = HAK_hakurei_institute_of_sciences
+        icon = GFX_focus_research
+        x = 17
+        y = 4
+        cost = 10
+        search_filters = { FOCUS_FILTER_RESEARCH }
+        prerequisite = { focus = HAK_better_roads_for_gensokyo focus = HAK_frugality_for_stability focus = HAK_preparatorydefensecontinued }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_hakurei_institute_of_sciences completed"
+        }
+    }
+
+    focus = {
+        id = HAK_frugality_for_stability
+        icon = GFX_goal_generic_consumer_goods
+        x = 18
+        y = 3
+        cost = 10
+        search_filters = { FOCUS_FILTER_STABILITY }
+        prerequisite = { focus = HAK_expand_the_shrines }
+        ai_will_do = {
+            factor = 1
+        }
+        completion_reward = {
+            log = "[GetDateText]: [Root.GetName]: Focus HAK_frugality_for_stability completed"
+        }
+    }
 
 }

@@ -1,0 +1,23 @@
+characters={
+	KIR_Marisa_Kirisame={
+		name=KIR_Marisa_Kirisame
+		portraits={
+			civilian={
+				large="GFX_Portrait_KIR_Marisa_Kirisame"
+			}
+		}
+		country_leader={
+			ideology=magocracy
+			expire="2083.1.1.1"
+			id=-1
+		}
+        corps_commander = {
+		    traits = { brave commando }
+		    skill = 2
+		    attack_skill = 4
+		    defense_skill = 2
+		    planning_skill = 1
+		    logistics_skill = 1
+		}
+	}
+}

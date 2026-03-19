@@ -1,0 +1,24 @@
+characters={
+	LCO_Reisen_Udongein_Inaba={
+		name=LCO_Reisen_Udongein_Inaba
+		portraits={
+			civilian={
+				large="GFX_Portrait_LCO_Reisen_Udongein_Inaba"
+			}
+		}
+		country_leader={
+			ideology=pure_technocracy
+			expire="2083.1.1.1"
+			id=-1
+		}
+		corps_commander = {
+            traits = { scavenger }
+            skill = 2
+            attack_skill = 3
+            defense_skill = 4
+            planning_skill = 1
+            logistics_skill = 1
+            legacy_id = 410
+        }
+	}
+}
