@@ -1,0 +1,104 @@
+characters={
+	SCA_Remilia_Scarlet={
+		name=SCA_Remilia_Scarlet
+		portraits={
+			civilian={
+				large="GFX_Portrait_SCA_Remilia_Scarlet"
+			}
+		}
+		country_leader={
+			ideology=oligarchism
+			expire="2083.1.1.1"
+		}
+	}
+	SCA_Flandre_Scarlet={
+		name=SCA_Flandre_Scarlet
+		portraits={
+			civilian={
+				large="GFX_Portrait_SCA_Flandre_Scarlet"
+			}
+		}
+		corps_commander = {
+		    skill = 1
+		    attack_skill = 4
+		    defense_skill = 1
+		    planning_skill = 1
+		    logistics_skill = 1
+		}
+	}
+	SCA_Sakuya_Izayoi={
+		name=SCA_Sakuya_Izayoi
+		portraits={
+			civilian={
+				large="GFX_Portrait_SCA_Sakuya_Izayoi"
+			}
+		}
+		field_marshal = {
+		    traits = { politically_connected harsh_leader logistics_wizard }
+		    skill = 3
+		    attack_skill = 3
+		    defense_skill = 4
+		    planning_skill = 1
+		    logistics_skill = 5
+		}
+	}
+	SCA_Patchouli_Knowledge={
+		name=SCA_Patchouli_Knowledge
+		portraits={
+			civilian={
+				large="GFX_Portrait_SCA_Patchouli_Knowledge"
+				small="GFX_Portrait_SCA_Patchouli_Knowledge_advisor"
+			}
+		}
+		advisor = {
+		    slot = theorist
+		    idea_token = SCA_Patchouli_Knowledge
+		    ledger = civilian
+		    traits = { HUN_scholary_politician }      # Unspecified cost defaults to 150.
+		}
+	}
+	SCA_Hong_Meiling={
+		name=SCA_Hong_Meiling
+		portraits={
+			civilian={
+				large="GFX_Portrait_SCA_Hong_Meiling"
+			}
+		}
+		corps_commander = {
+		    skill = 3
+		    attack_skill = 4
+		    defense_skill = 3
+		    planning_skill = 1
+		    logistics_skill = 1
+		}
+	}
+	SCA_Koakuma_advisor={
+		name=SCA_Koakuma
+		portraits={
+			civilian={
+				large="GFX_Portrait_SCA_Koakuma"
+			}
+		}
+		advisor = {
+		    slot = air_chief
+		    idea_token = SCA_Koakuma
+		    ledger = air
+		    traits = { GDC_king_of_the_southern_skies }      # Unspecified cost defaults to 150.
+		}
+	}
+	SCA_Koakuma={
+		name=SCA_Koakuma
+		portraits={
+			civilian={
+				large="GFX_Portrait_SCA_Koakuma"
+			}
+		}
+		corps_commander = {
+		    skill = 1
+		    attack_skill = 2
+		    defense_skill = 1
+		    planning_skill = 1
+		    logistics_skill = 1
+		}
+	}
+}

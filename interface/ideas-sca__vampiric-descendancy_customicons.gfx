@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: Vampiric Lineage
+	SpriteType = { 
+		name = "GFX_idea_sca__vampiric_lineage-1531"
+		texturefile = "gfx/interface/ideas/vampiric-descendancy-ideas/sca__vampiric_lineage-1531.dds"
+	}
+
+ 
+ }

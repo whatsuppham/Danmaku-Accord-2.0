@@ -1,0 +1,5 @@
+technology_folders = {
+    pre_industrialization_folder = {
+		ledger = army
+	}
+}

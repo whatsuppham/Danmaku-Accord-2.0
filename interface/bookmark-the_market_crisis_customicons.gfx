@@ -1,0 +1,7 @@
+spriteTypes = { 
+	##Icon For: The Market Crisis
+	SpriteType = { 
+		name = "the_market_crisis-853375"
+		texturefile = "gfx/interface/bookmarks/the_market_crisis-bookmark/the_market_crisis-853375.dds"
+	}
+}

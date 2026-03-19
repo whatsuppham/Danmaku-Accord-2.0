@@ -17,7 +17,6 @@ replace_path="common/factions/rules/groups"
 replace_path="common/factions/templates"
 
 replace_path="history/countries"
-replace_path="localisation/english/countries_l_english.yml"
 
 tags={
 	"Gameplay"

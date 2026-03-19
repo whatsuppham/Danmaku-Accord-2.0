@@ -1,0 +1,14 @@
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_unit_peacekeeping_corps_icon_medium"
+        texturefile = "gfx/interface/counters/divisions_large/unit_peacekeeper_icon.dds"
+        noOfFrames = 2
+    }
+}
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_unit_peacekeeping_corps_icon_medium_white"
+        texturefile = "gfx/interface/counters/divisions_small/onmap_unit_peacekeeper_icon.dds"
+        noOfFrames = 2
+    }
+}

@@ -1,0 +1,9 @@
+spriteTypes = { 
+	##Icon For: Peacekeeping Doctrine
+	SpriteType = { 
+		name = "GFX_idea_peacekeeper__peacekeeping_doctrine-1"
+		texturefile = "gfx/interface/ideas/peacekeepers-ideas/peacekeeper__peacekeeping_doctrine-1.dds"
+	}
+
+ 
+ }
