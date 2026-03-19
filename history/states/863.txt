@@ -21,7 +21,8 @@ state={
 		victory_points = { 13313 6}
 		victory_points = { 13314 2}
 		
-		owner = TIR
+		owner = LCO
+		add_core_of = LCO
 		buildings = {
 			infrastructure = 3
 			
@@ -30,8 +31,7 @@ state={
 			
 			
 		}
-		add_core_of = TIR
-	}
+}
 
 	provinces={
 		13311 13312 13313 13314 13315 13316 13317 13318 13319 
