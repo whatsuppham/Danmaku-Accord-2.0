@@ -96,12 +96,12 @@ guiTypes = {
 				}
 
 				instantTextBoxType = {
-					name = "infantry_subtitle_motorized"
-					position = { x = 30 y = 510 }
+					name = "pre_industrialization_subtitle_magic"
+					position = { x = 30 y = 610 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = { x = 0 y = 0}
-					text = "INFANTRY_TITLE_MOTORISED"
+					text = "PRE_INDUSTRIALIZATION_TITLE_MAGIC"
 					maxWidth = 600
 					maxHeight = 62
 					format = left
@@ -243,8 +243,29 @@ guiTypes = {
 			}
 
 			gridboxtype = {
+				name = "tda_spear_weaponry_tree"
+				position = { x = 140 y = 170 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+
+			gridboxtype = {
+				name = "tda_shield_formations_tree"
+				position = { x = 140 y = 300 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+
+			gridboxtype = {
+				name = "tda_gunpowder_research_tree"
+				position = { x = 140 y = 430 }
+				slotsize = { width = 70 height = 70 }
+				format = "LEFT"
+			}
+
+			gridboxtype = {
 				name = "ofuda_cards_tree"
-				position = { x = 140 y = 620 }
+				position = { x = 140 y = 680 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}

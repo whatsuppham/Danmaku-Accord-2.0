@@ -1,0 +1,18 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_Portrait_YKM_Lord_Tenma"
+		texturefile = "gfx/leaders/YKM/Portrait_YKM_Lord_Tenma.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_YKM_Aya_Shamemairu"
+		texturefile = "gfx/leaders/YKM/Portrait_YKM_Aya_Shamemairu.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_YKM_Momiji_Inubashiri"
+		texturefile = "gfx/leaders/YKM/Portrait_YKM_Momiji_Inubashiri.dds"
+	}
+	spriteType = {
+		name = "GFX_Portrait_YKM_Hatate_Himekaidou"
+		texturefile = "gfx/leaders/YKM/Portrait_YKM_Hatate_Himekaidou.dds"
+	}
+}

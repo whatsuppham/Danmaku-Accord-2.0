@@ -1,0 +1,15 @@
+characters={
+    YAM_Sakata_Nemuno={
+        name=YAM_Sakata_Nemuno
+        portraits={
+            civilian={
+                large="GFX_Portrait_YAM_Sakata_Nemuno"
+            }
+        }
+        country_leader={
+            ideology=moderatism
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

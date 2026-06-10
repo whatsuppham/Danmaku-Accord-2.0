@@ -1,0 +1,15 @@
+characters={
+    RLU_Tewi_Inaba={
+        name=RLU_Tewi_Inaba
+        portraits={
+            civilian={
+                large="GFX_Portrait_RLU_Tewi_Inaba"
+            }
+        }
+        country_leader={
+            ideology=gensokyoproper
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

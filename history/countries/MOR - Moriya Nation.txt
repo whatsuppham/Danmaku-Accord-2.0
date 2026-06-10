@@ -8,6 +8,9 @@ set_war_support = 0.3
 add_command_power = 26
 set_convoys = 25
 
+recruit_character = MOR_Kochiya_Sanae 
+recruit_character = MOR_Yasaka_Kanako 
+recruit_character = MOR_Moriya_Suwako 
 
 # Research
 set_technology = {

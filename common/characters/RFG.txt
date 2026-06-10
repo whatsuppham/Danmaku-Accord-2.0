@@ -1,0 +1,15 @@
+characters={
+    RFG_Shiki_Eiki_Yamaxanadu={
+        name=RFG_Shiki_Eiki_Yamaxanadu
+        portraits={
+            civilian={
+                large="GFX_Portrait_RFG_Shiki_Eiki_Yamaxanadu"
+            }
+        }
+        country_leader={
+            ideology=centrism
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

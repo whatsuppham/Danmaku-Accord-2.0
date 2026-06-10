@@ -1,0 +1,15 @@
+characters={
+    EIE_Kaguya_Houraisan={
+        name=EIE_Kaguya_Houraisan
+        portraits={
+            civilian={
+                large="GFX_Portrait_EIE_Kaguya_Houraisan"
+            }
+        }
+        country_leader={
+            ideology=despotism
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

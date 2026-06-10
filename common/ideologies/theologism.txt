@@ -5,10 +5,13 @@ ideologies = {
 			devotionalism = {  }
 			theocracy = {  }
 			vampirism = {  }
+			religious_protectionism = {  }
+			shintoism = {  }
+			buddhism = {  }
 		}
 		dynamic_faction_names = {
 		}
-		color = { 193 231 193 }
+		color = { 98 143 65 }
 		can_host_government_in_exile = yes
 		can_collaborate = yes
 		faction_modifiers = {
@@ -34,6 +37,6 @@ ideologies = {
 			justify_war_goal_when_in_major_war_time = -0.4
 			drift_defence_factor = 0.65
 		}
-		ai_neutral = yes
+	ai_neutral = yes
 	}
 }

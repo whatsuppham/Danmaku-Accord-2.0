@@ -1,0 +1,15 @@
+characters={
+    RBA_Reisen={
+        name=RBA_Reisen
+        portraits={
+            civilian={
+                large="GFX_Portrait_RBA_Reisen"
+            }
+        }
+        country_leader={
+            ideology=gensokyoproper
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

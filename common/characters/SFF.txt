@@ -1,0 +1,15 @@
+characters={
+    SFF_Clownpiece={
+        name=SFF_Clownpiece
+        portraits={
+            civilian={
+                large="GFX_Portrait_SFF_Clownpiece"
+            }
+        }
+        country_leader={
+            ideology=moderatism
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

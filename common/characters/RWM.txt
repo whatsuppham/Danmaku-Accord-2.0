@@ -1,0 +1,15 @@
+characters={
+    RWM_Prismriver_Sisters={
+        name=RWM_Prismriver_Sisters
+        portraits={
+            civilian={
+                large="GFX_Portrait_RWM_Prismriver_Sisters"
+            }
+        }
+        country_leader={
+            ideology=oligarchism
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

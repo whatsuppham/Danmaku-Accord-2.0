@@ -1,0 +1,15 @@
+characters={
+    YKT_Mystia_Lorelei={
+        name=YKT_Mystia_Lorelei
+        portraits={
+            civilian={
+                large="GFX_Portrait_YKT_Mystia_Lorelei"
+            }
+        }
+        country_leader={
+            ideology=gensokyoproper
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

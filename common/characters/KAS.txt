@@ -1,0 +1,15 @@
+characters={
+    KAS_Ibaraki_Kasen={
+        name=KAS_Ibaraki_Kasen
+        portraits={
+            civilian={
+                large="GFX_Portrait_KAS_Ibaraki_Kasen"
+            }
+        }
+        country_leader={
+            ideology=moderatism
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

@@ -1,0 +1,15 @@
+characters={
+    RIN_Morichika_Rinnosuke={
+        name=RIN_Morichika_Rinnosuke
+        portraits={
+            civilian={
+                large="GFX_Portrait_RIN_Morichika_Rinnosuke"
+            }
+        }
+        country_leader={
+            ideology=gensokyoproper
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

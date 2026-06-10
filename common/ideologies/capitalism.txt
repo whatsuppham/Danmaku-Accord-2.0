@@ -10,7 +10,7 @@ ideologies = {
 		}
 		dynamic_faction_names = {
 		}
-		color = { 211 189 0 }
+		color = { 232 179 67 }
 		can_host_government_in_exile = yes
 		can_collaborate = yes
 		faction_modifiers = {

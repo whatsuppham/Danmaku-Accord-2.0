@@ -1,0 +1,15 @@
+characters={
+    SEI_Kijin_Seija={
+        name=SEI_Kijin_Seija
+        portraits={
+            civilian={
+                large="GFX_Portrait_SEI_Kijin_Seija"
+            }
+        }
+        country_leader={
+            ideology=fascism_ideology
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

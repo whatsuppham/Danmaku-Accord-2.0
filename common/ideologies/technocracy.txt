@@ -5,13 +5,12 @@ ideologies = {
 			theocratic_technocracy = {  }
 			meritocratic_technocracy = {  }
 			logical_technocracy = {  }
-			traditional_technocracy = {  }
 			magocracy = {  }
 			pure_technocracy = { }
 		}
 		dynamic_faction_names = {
 		}
-		color = { 76 142 196 }
+		color = { 128 182 197 }
 		can_collaborate = yes
 		faction_modifiers = {
 			faction_trade_opinion_factor = 1.1

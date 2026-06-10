@@ -8,6 +8,7 @@ set_war_support = 0.3
 add_command_power = 26
 set_convoys = 25
 
+recruit_character = JAA_Miyako_Yoshika
 
 # Research
 set_technology = {

@@ -1,0 +1,15 @@
+characters={
+    KEI_Kamishirasawa_Keine={
+        name=KEI_Kamishirasawa_Keine
+        portraits={
+            civilian={
+                large="GFX_Portrait_KEI_Kamishirasawa_Keine"
+            }
+        }
+        country_leader={
+            ideology=gensokyoproper
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

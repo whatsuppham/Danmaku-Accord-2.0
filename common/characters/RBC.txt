@@ -1,0 +1,15 @@
+characters={
+    RBC_Coney_Committee={
+        name=RBC_Coney_Committee
+        portraits={
+            civilian={
+                large="GFX_Portrait_RBC_Coney_Committee"
+            }
+        }
+        country_leader={
+            ideology=anarchist_communism
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

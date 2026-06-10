@@ -1,0 +1,15 @@
+characters={
+    NWA_Saigyouji_Yuyuko={
+        name=NWA_Saigyouji_Yuyuko
+        portraits={
+            civilian={
+                large="GFX_Portrait_NWA_Saigyouji_Yuyuko"
+            }
+        }
+        country_leader={
+            ideology=centrism
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

@@ -8,6 +8,11 @@ set_war_support = 0.5
 add_command_power = 0
 set_convoys = 0
 
+recruit_character = YKM_Lord_Tenma #Non-Aligned
+recruit_character = YKM_Aya_Shamemairu #Non-Aligned
+recruit_character = YKM_Momiji_Inubashiri #Non-Aligned
+recruit_character = YKM_Hatate_Himekaidou #Non-Aligned
+
 # Politics for 120.1.1
 set_politics = {
 	ruling_party = neutrality
@@ -32,39 +37,4 @@ add_ideas = {
 	limited_conscription
 	volunteer_only
 	civilian_economy
-}
-
-1936.1.1 = {
-	oob = "YKM_1936"
-	starting_train_buffer = 0
-	set_research_slots = 3
-	set_stability = 0.5
-	set_war_support = 0.5
-	add_command_power = 0
-	set_convoys = 0
-
-	# Politics for 1936.1.1
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1934.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-}
-1939.1.1 = {
-	oob = "YKM_1939"
-	starting_train_buffer = 0
-	set_research_slots = 3
-	set_stability = 0.5
-	set_war_support = 0.5
-	add_command_power = 0
-	set_convoys = 0
-
-	# Politics for 1939.1.1
-	set_politics = {
-		ruling_party = democratic
-		last_election = "1934.1.1"
-		election_frequency = 48
-		elections_allowed = yes
-	}
 }

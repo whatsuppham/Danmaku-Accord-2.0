@@ -1,0 +1,16 @@
+
+characters={
+    VRF_Ihara_Sueko={
+        name=VRF_Ihara_Sueko
+        portraits={
+            civilian={
+                large="GFX_Portrait_VRF_Ihara_Sueko"
+            }
+        }
+        country_leader={
+            ideology=gensokyoproper
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

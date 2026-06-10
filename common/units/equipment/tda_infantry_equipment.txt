@@ -1,0 +1,241 @@
+equipments = {
+	tda_spear_equipment = {
+		year = 116
+		is_archetype = yes
+		archetype = tda_spear_equipment
+		type = { infantry }
+		group_by = archetype
+		interface_category = interface_category_land
+		picture = archetype_tda_spear_equipment
+	}
+
+	tda_spear_equipment_0 = {
+		year = 116
+		archetype = tda_spear_equipment
+		parent = tda_spear_equipment
+		priority = 10
+		visual_level = 0
+		reliability = 0.95
+		build_cost_ic = 0.25
+		soft_attack = 1.5
+		hard_attack = 0.1
+		defense = 2
+		breakthrough = 0.3
+	}
+
+	tda_sword_equipment = {
+		year = 118
+		is_archetype = yes
+		archetype = tda_sword_equipment
+		type = { infantry }
+		group_by = archetype
+		interface_category = interface_category_land
+		picture = archetype_tda_sword_equipment
+	}
+
+	tda_sword_equipment_0 = {
+		year = 118
+		archetype = tda_sword_equipment
+		parent = tda_sword_equipment
+		priority = 10
+		visual_level = 0
+		reliability = 0.92
+		build_cost_ic = 0.35
+		soft_attack = 2.2
+		hard_attack = 0.15
+		defense = 1.5
+		breakthrough = 1
+	}
+
+	tda_sword_equipment_1 = {
+		year = 120
+		archetype = tda_sword_equipment
+		parent = tda_sword_equipment_0
+		priority = 20
+		visual_level = 1
+		reliability = 0.95
+		build_cost_ic = 0.42
+		soft_attack = 3
+		hard_attack = 0.2
+		defense = 2
+		breakthrough = 1.4
+	}
+
+	tda_shield_equipment = {
+		year = 118
+		is_archetype = yes
+		archetype = tda_shield_equipment
+		type = { infantry }
+		group_by = archetype
+		interface_category = interface_category_land
+		picture = archetype_tda_shield_equipment
+	}
+
+	tda_shield_equipment_0 = {
+		year = 118
+		archetype = tda_shield_equipment
+		parent = tda_shield_equipment
+		priority = 10
+		visual_level = 0
+		reliability = 0.95
+		build_cost_ic = 0.22
+		soft_attack = 0.3
+		defense = 4
+		breakthrough = 0.6
+	}
+
+	tda_shield_equipment_1 = {
+		year = 120
+		archetype = tda_shield_equipment
+		parent = tda_shield_equipment_0
+		priority = 20
+		visual_level = 1
+		reliability = 0.96
+		build_cost_ic = 0.3
+		soft_attack = 0.5
+		defense = 5.5
+		breakthrough = 0.8
+	}
+
+	tda_shield_equipment_2 = {
+		year = 122
+		archetype = tda_shield_equipment
+		parent = tda_shield_equipment_1
+		priority = 30
+		visual_level = 2
+		reliability = 0.98
+		build_cost_ic = 0.4
+		soft_attack = 0.6
+		defense = 7
+		breakthrough = 1
+	}
+
+	tda_musket_equipment = {
+		year = 120
+		is_archetype = yes
+		archetype = tda_musket_equipment
+		type = { infantry }
+		group_by = archetype
+		interface_category = interface_category_land
+		picture = archetype_tda_musket_equipment
+	}
+
+	tda_musket_equipment_0 = {
+		year = 120
+		archetype = tda_musket_equipment
+		parent = tda_musket_equipment
+		priority = 10
+		visual_level = 0
+		reliability = 0.8
+		build_cost_ic = 0.45
+		soft_attack = 3
+		hard_attack = 0.4
+		defense = 1.5
+		breakthrough = 0.7
+		ap_attack = 0.5
+	}
+
+	tda_musket_equipment_1 = {
+		year = 122
+		archetype = tda_musket_equipment
+		parent = tda_musket_equipment_0
+		priority = 20
+		visual_level = 1
+		reliability = 0.86
+		build_cost_ic = 0.55
+		soft_attack = 4.5
+		hard_attack = 0.6
+		defense = 2
+		breakthrough = 1
+		ap_attack = 0.8
+	}
+
+	tda_musket_equipment_2 = {
+		year = 124
+		archetype = tda_musket_equipment
+		parent = tda_musket_equipment_1
+		priority = 30
+		visual_level = 2
+		reliability = 0.9
+		build_cost_ic = 0.65
+		soft_attack = 5.5
+		hard_attack = 0.8
+		defense = 2.4
+		breakthrough = 1.2
+		ap_attack = 1.1
+	}
+
+	ofuda_cards = {
+		year = 120
+		is_archetype = yes
+		archetype = ofuda_cards
+		type = { infantry }
+		group_by = archetype
+		interface_category = interface_category_land
+		picture = archetype_ofuda_cards
+	}
+
+	ofuda_cards_0 = {
+		year = 120
+		archetype = ofuda_cards
+		parent = ofuda_cards
+		priority = 10
+		visual_level = 0
+		reliability = 0.92
+		build_cost_ic = 0.5
+		soft_attack = 3.5
+		hard_attack = 0.2
+		defense = 3
+		breakthrough = 1.2
+		ap_attack = 0.3
+	}
+
+	tda_magic_shield_equipment = {
+		year = 124
+		is_archetype = yes
+		archetype = tda_magic_shield_equipment
+		type = { infantry }
+		group_by = archetype
+		interface_category = interface_category_land
+		picture = archetype_tda_magic_shield_equipment
+	}
+
+	tda_magic_shield_equipment_0 = {
+		year = 124
+		archetype = tda_magic_shield_equipment
+		parent = tda_magic_shield_equipment
+		priority = 10
+		visual_level = 0
+		reliability = 0.88
+		build_cost_ic = 0.7
+		soft_attack = 1
+		hard_attack = 0.2
+		defense = 7
+		breakthrough = 1.5
+	}
+
+	tda_magic_bomb_equipment = {
+		year = 124
+		is_archetype = yes
+		archetype = tda_magic_bomb_equipment
+		type = { infantry }
+		group_by = archetype
+		interface_category = interface_category_land
+		picture = archetype_tda_magic_bomb_equipment
+	}
+
+	tda_magic_bomb_equipment_0 = {
+		year = 124
+		archetype = tda_magic_bomb_equipment
+		parent = tda_magic_bomb_equipment
+		priority = 10
+		visual_level = 0
+		reliability = 0.75
+		build_cost_ic = 0.8
+		soft_attack = 6
+		hard_attack = 1
+		defense = 1
+		breakthrough = 2
+		ap_attack = 0.5
+	}
+}

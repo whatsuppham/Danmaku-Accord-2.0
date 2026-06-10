@@ -9,7 +9,6 @@ add_command_power = 0
 set_convoys = 116
 
 recruit_character = SCA_Remilia_Scarlet
-recruit_character = SCA_Flandre_Scarlet
 recruit_character = SCA_Sakuya_Izayoi
 recruit_character = SCA_Patchouli_Knowledge
 recruit_character = SCA_Hong_Meiling
@@ -46,8 +45,8 @@ set_popularities = {
 }
 # Government/National Spirits
 add_ideas = {
-	volunteer_only
 	disarmed_nation
-	civilian_economy
+	undisturbed_isolation
 	sca__vampiric_lineage
+	closed_economy
 }

@@ -1,0 +1,15 @@
+characters={
+    ONI_Ibuki_Suika={
+        name=ONI_Ibuki_Suika
+        portraits={
+            civilian={
+                large="GFX_Portrait_ONI_Ibuki_Suika"
+            }
+        }
+        country_leader={
+            ideology=gensokyoproper
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

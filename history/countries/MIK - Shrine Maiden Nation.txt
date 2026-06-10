@@ -8,8 +8,7 @@ set_war_support = 0.3
 add_command_power = 26
 set_convoys = 25
 
-# Faction
-create_faction = "Bamboo Rabbit Collective Security"
+recruit_character = MIK_Shrinekeeping_Council
 
 # Research
 set_technology = {

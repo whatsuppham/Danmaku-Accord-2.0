@@ -1,0 +1,15 @@
+characters={
+    MYO_Hijiri_Byakuren={
+        name=MYO_Hijiri_Byakuren
+        portraits={
+            civilian={
+                large="GFX_Portrait_MYO_Hijiri_Byakuren"
+            }
+        }
+        country_leader={
+            ideology=buddhism
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

@@ -1,0 +1,15 @@
+characters={
+    HUM_Hieda_No_Akyuu={
+        name=HUM_Hieda_No_Akyuu
+        portraits={
+            civilian={
+                large="GFX_Portrait_HUM_Hieda_No_Akyuu"
+            }
+        }
+        country_leader={
+            ideology=centrism
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

@@ -1,0 +1,15 @@
+characters={
+    YKR_Youkai_Chief={
+        name=YKR_Youkai_Chief
+        portraits={
+            civilian={
+                large="GFX_Portrait_YKR_Youkai_Chief"
+            }
+        }
+        country_leader={
+            ideology=moderatism
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

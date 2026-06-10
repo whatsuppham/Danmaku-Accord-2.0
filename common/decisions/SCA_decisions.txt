@@ -1,0 +1,53 @@
+sca_cat = {
+
+    SCA_decisions_example = {
+        icon = GFX_decision_generic_nationalism
+        allowed = {
+            has_war = yes
+        }
+        available = {
+            has_war = yes
+            has_completed_focus = SCA_blackout_operations
+        }
+        
+        complete_effect = {
+            hidden_effect = {
+                add_command_power = -25
+                army_experience = -15
+            }
+        }
+        
+        days_remove = 135
+        days_re_enable = 70
+
+        custom_cost_trigger = {
+			command_power > 24
+			has_army_experience > 14
+		}
+        custom_cost_text = decision_cost_CP_25_ArmXP_15 
+        
+        modifier = {
+            modifier = {
+			army_intel_to_others = -50
+			navy_intel_to_others = -50
+			airforce_intel_to_others = -50
+			civilian_intel_to_others = -50
+			foreign_subversive_activites = -0.25
+		    }
+        }
+
+        ai_will_do = {
+            base = 1
+            modifier = {
+				factor = 5
+				has_war = yes
+			}
+			modifier = {
+				factor = 2	
+                has_war_with_major = yes
+			}
+        }
+    }
+
+}
+

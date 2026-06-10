@@ -1,0 +1,15 @@
+characters={
+    TAN_Futatsuiwa_Mamizou={
+        name=TAN_Futatsuiwa_Mamizou
+        portraits={
+            civilian={
+                large="GFX_Portrait_TAN_Futatsuiwa_Mamizou"
+            }
+        }
+        country_leader={
+            ideology=gensokyoproper
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

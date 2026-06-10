@@ -1,40 +1,18 @@
-
-
-
-
-
-
-
-
-
-
 focus_tree = {
-	id = austria_focus_tree
-	
-	country = {
-		factor = 0
-		
-		modifier = {
-			add = 50
-			tag = AUS
-			
+    id = austria_focus_tree
+    country = {
+        factor = 0
+        modifier = {
+            add = 50
+            tag = AUS
+            has_dlc = "Gotterdammerung"
+        }
+    }
+    default = no
+    shared_focus = HABSBURG_part_of_something_bigger
+    continuous_focus_position = { x = 50 y = 2500 }
 
-			has_dlc = "Gotterdammerung"
-		}
-	}
-	
-	default = no
-
-	continuous_focus_position = { x = 50 y = 2500 }
-
-	shared_focus = HABSBURG_part_of_something_bigger
-
-	initial_show_position = {
-		x = 38
-		y = 0
-	}
-
-	focus = { 
+focus = { 
 		id = AUS_repeal_the_may_constitution
 		icon = GFX_focus_AUS_disregard_the_treaties
 		mutually_exclusive = { focus = AUS_totalitarian_safety }
@@ -132,7 +110,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_release_imprisoned_leaders
 		icon = GFX_focus_AUS_release_imprisoned_leaders
 		prerequisite = { focus = AUS_repeal_the_may_constitution }
@@ -194,7 +172,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_austria_against_fascism
 		icon = GFX_focus_generic_workers
 		prerequisite = { focus = AUS_repeal_the_may_constitution }
@@ -256,12 +234,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-
-	
-	
-	
-
-	focus = { 
+focus = { 
 		id = AUS_austromarxism_focus
 		icon = GFX_focus_AUS_austromarxism
 		prerequisite = { focus = AUS_release_imprisoned_leaders focus = AUS_austria_against_fascism }
@@ -318,13 +291,13 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_rally_the_people
 		icon = GFX_focus_por_workers_of_iberia  
 		prerequisite = { focus = AUS_austromarxism_focus}
 		mutually_exclusive = { }
 		x = 0
-		y = 1
+		y = 3
 		relative_position_id = AUS_austromarxism_focus
 
 		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_STABILITY }
@@ -344,7 +317,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_ban_dnsap
 		icon = GFX_focus_generic_communism_anti_fascism 
 		prerequisite = { focus = AUS_rally_the_people}
@@ -370,7 +343,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_renounce_the_treaties
 		icon = GFX_focus_renounce_the_treaty_of_trianon
 		prerequisite = { focus = AUS_rally_the_people }
@@ -394,7 +367,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_schutzbund_support
 		icon = GFX_focus_spr_the_anti_fascist_workers_revolution
 		prerequisite = { focus = AUS_rally_the_people focus = AUS_rebuild_democratic_systems focus = AUS_a_new_constitution}
@@ -451,7 +424,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_emergency_measaures
 		icon = GFX_focus_generic_national_security
 		prerequisite = { focus = AUS_ban_dnsap }
@@ -478,9 +451,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	
-
-	focus = { 
+focus = { 
 		id = AUS_intervention_in_spain
 		icon = GFX_focus_focus_fra_intervention_spain
 		prerequisite = { focus = AUS_emergency_measaures focus = AUS_seek_support_from_guarantors }
@@ -516,7 +487,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_invite_spanish_exiles
 		icon = GFX_focus_generic_invite_republican_spanish_exiles
 		prerequisite = { focus = AUS_intervention_in_spain}
@@ -542,7 +513,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_celebrate_spanish_victory
 		icon = GFX_focus_generic_befriend_republican_spain_focus
 		prerequisite = { focus = AUS_intervention_in_spain}
@@ -568,7 +539,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_revolution
 		icon = GFX_focus_SWE_organize_a_putsch 
 		prerequisite = { focus = AUS_emergency_measaures}
@@ -594,7 +565,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_seek_soviet_support
 		icon = GFX_focus_chi_mission_to_the_soviet_union
 		prerequisite = { focus = AUS_revolution }
@@ -620,8 +591,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-
-	focus = { 
+focus = { 
 		id = AUS_politicized_general_staff
 		icon = GFX_focus_generic_full_social_mobilization
 		prerequisite = { focus = AUS_seek_soviet_support}
@@ -645,7 +615,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_promote_the_worthy
 		icon = GFX_focus_generic_military_mission
 		prerequisite = { focus = AUS_seek_soviet_support }
@@ -671,7 +641,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_raid_military_storages
 		icon = GFX_focus_AUS_raid_military_storages
 		prerequisite = { focus = AUS_revolution }
@@ -696,7 +666,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_the_peoples_army
 		icon = GFX_focus_ITA_peasants_rise 
 		prerequisite = { focus = AUS_raid_military_storages}
@@ -722,7 +692,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_properly_trained_militias
 		icon = GFX_focus_AUS_properly_trained_militias
 		prerequisite = { focus = AUS_raid_military_storages }
@@ -748,9 +718,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	
-
-	focus = { 
+focus = { 
 		id = AUS_a_new_beginning
 		icon = GFX_focus_generic_soviet_politics
 		prerequisite = { focus = AUS_seek_soviet_support focus = AUS_raid_military_storages }
@@ -775,7 +743,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_a_safe_harbor_for_dissidents
 		icon = GFX_focus_SWE_refuge_for_revolutionaries
 		prerequisite = { focus = AUS_properly_trained_militias }
@@ -802,9 +770,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	
-
-	focus = {
+focus = {
 		id = AUS_universitat_wien
 		icon = GFX_focus_research
 		prerequisite = {  focus = AUS_a_new_beginning focus = AUS_join_the_allies focus = AUS_alpine_federation_focus}
@@ -842,7 +808,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_womens_education_initiative
 		icon = GFX_focus_AUS_womens_education_initiative
 		prerequisite = { focus = AUS_universitat_wien }
@@ -870,7 +836,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = {
+focus = {
 		id = AUS_scientific_grants
 		icon = GFX_focus_generic_university_3
 		prerequisite = { focus = AUS_universitat_wien }
@@ -894,7 +860,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_danubian_socialist_communes
 		icon = GFX_focus_AUS_danubian_socialist_communes
 		prerequisite = { focus = AUS_a_new_beginning }
@@ -919,7 +885,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_establish_rote_hilfe
 		icon = GFX_focus_generic_communist
 		prerequisite = { focus = AUS_a_safe_harbor_for_dissidents}
@@ -945,7 +911,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_cut_ties_with_the_church
 		icon = GFX_focus_ARG_state_atheism
 		prerequisite = { focus = AUS_a_new_beginning}
@@ -971,7 +937,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_centralize_the_industrial_sector
 		icon = GFX_goal_generic_soviet_construction
 		prerequisite = { focus = AUS_a_new_beginning }
@@ -998,9 +964,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	
-
-	focus = { 
+focus = { 
 		id = AUS_align_with_ussr
 		icon = GFX_focus_chi_mission_to_the_soviet_union
 		prerequisite = { focus = AUS_promote_the_worthy }
@@ -1025,7 +989,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_join_comintern
 		icon = GFX_focus_generic_join_comintern
 		prerequisite = { focus = AUS_align_with_ussr}
@@ -1050,9 +1014,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	
-
-	focus = { 
+focus = { 
 		id = AUS_spur_the_communist_resistance
 		icon = GFX_focus_generic_spur_communist_revolutions
 		prerequisite = { focus = AUS_cut_ties_with_the_church focus = AUS_centralize_the_industrial_sector }
@@ -1076,7 +1038,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_rapid_revolutions
 		icon = GFX_goal_generic_war_with_comintern
 		prerequisite = { focus = AUS_spur_the_communist_resistance }
@@ -1102,7 +1064,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_meticulous_preparations
 		icon = GFX_focus_ger_great_red_menace
 		prerequisite = { focus = AUS_spur_the_communist_resistance }
@@ -1128,7 +1090,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_demand_liberation_of_workers
 		icon = GFX_focus_generic_workers_and_farmers_rise
 		prerequisite = { focus = AUS_meticulous_preparations focus = AUS_rapid_revolutions }
@@ -1152,7 +1114,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_union_of_danubian_socialist_republics
 		icon = GFX_focus_AUS_union_of_danubian_socialist_republics
 		prerequisite = { focus = AUS_demand_liberation_of_workers}
@@ -1176,7 +1138,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_the_correct_communism
 		icon = GFX_focus_attack_soviet
 		prerequisite = { focus = AUS_union_of_danubian_socialist_republics}
@@ -1201,7 +1163,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_seize_galicia
 		icon = GFX_focus_POL_reassert_silesian_claims
 		prerequisite = { focus = AUS_union_of_danubian_socialist_republics}
@@ -1225,12 +1187,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	
-	
-	
-
-
-	focus = { 
+focus = { 
 		id = AUS_hold_elections
 		icon = GFX_focus_NOR_restore_public_trust_in_the_storting
 		prerequisite = { focus = AUS_release_imprisoned_leaders focus = AUS_austria_against_fascism }
@@ -1287,7 +1244,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_rebuild_democratic_systems
 		icon = GFX_focus_generic_court
 		prerequisite = { focus = AUS_hold_elections}
@@ -1313,7 +1270,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_a_new_constitution
 		icon = GFX_focus_generic_treaty
 		prerequisite = { focus = AUS_hold_elections}
@@ -1339,8 +1296,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-
-	focus = { 
+focus = { 
 		id = AUS_seek_support_from_guarantors
 		icon = GFX_focus_AUS_seek_support_from_guarantors
 		prerequisite = { focus = AUS_a_new_constitution }
@@ -1380,8 +1336,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-
-	focus = { 
+focus = { 
 		id = AUS_stabilize_the_political_climate
 		icon = GFX_focus_generic_self_management
 		prerequisite = { focus = AUS_seek_support_from_guarantors}
@@ -1407,7 +1362,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_outlaw_the_radicals
 		icon = GFX_focus_spr_crush_the_revolution
 		prerequisite = { focus = AUS_seek_support_from_guarantors}
@@ -1433,7 +1388,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_strengthen_the_cabinet
 		icon = GFX_goal_support_democracy
 		prerequisite = { focus = AUS_outlaw_the_radicals focus = AUS_stabilize_the_political_climate }
@@ -1459,7 +1414,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_join_the_allies
 		icon = GFX_focus_AUS_join_the_allies
 		prerequisite = { focus = AUS_strengthen_the_cabinet}
@@ -1483,7 +1438,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_industrial_exchange
 		icon = GFX_goal_generic_intelligence_exchange
 		prerequisite = { focus = AUS_join_the_allies }
@@ -1508,7 +1463,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_alpine_federation_focus
 		icon = GFX_focus_GRE_a_land_of_mountains
 		prerequisite = { focus = AUS_strengthen_the_cabinet }
@@ -1532,7 +1487,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_invite_the_entente
 		icon = GFX_focus_AUS_invite_the_entente
 		prerequisite = { focus = AUS_alpine_federation_focus }
@@ -1555,7 +1510,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_offensive_on_the_fascists
 		icon = GFX_focus_attack_italy
 		prerequisite = { focus = AUS_invite_the_entente }
@@ -1578,7 +1533,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_pardon_political_exiles
 		icon = GFX_focus_AUS_pardon_political_exiles
 		prerequisite = { focus = AUS_join_the_allies focus = AUS_alpine_federation_focus }
@@ -1604,7 +1559,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_the_right_to_rearm
 		icon = GFX_goal_generic_political_pressure
 		prerequisite = { focus = AUS_seek_support_from_guarantors focus = AUS_the_danubian_federation }
@@ -1667,8 +1622,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-
-	focus = { 
+focus = { 
 		id = AUS_defence_of_the_homeland
 		icon = GFX_focus_AUS_defence_of_the_homeland 
 		prerequisite = { focus = AUS_the_right_to_rearm}
@@ -1692,7 +1646,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_the_political_front
 		icon = GFX_focus_generic_self_management
 		prerequisite = { focus = AUS_defence_of_the_homeland}
@@ -1718,7 +1672,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_austrian_aggression
 		icon = GFX_focus_generic_manpower
 		prerequisite = { focus = AUS_the_right_to_rearm}
@@ -1742,7 +1696,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_at_the_ready
 		icon = GFX_focus_generic_full_social_mobilization
 		prerequisite = { focus = AUS_austrian_aggression}
@@ -1768,7 +1722,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_form_evidenzburo
 		icon = GFX_focus_AUS_the_evidenzburo_democratic
 		prerequisite = { focus = AUS_at_the_ready focus = AUS_the_political_front }
@@ -1792,7 +1746,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_lawmaking_leniency
 		icon = GFX_focus_AUS_lawmaking_leniency
 		prerequisite = { focus = AUS_invite_the_entente focus = AUS_industrial_exchange }
@@ -1819,7 +1773,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_empowering_the_chancellor
 		icon = GFX_focus_ARG_defense_and_democracy
 		prerequisite = { focus = AUS_lawmaking_leniency}
@@ -1845,7 +1799,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_join_the_research_program
 		icon = GFX_goal_tfv_generic_tech_sharing
 		prerequisite = { focus = AUS_lawmaking_leniency }
@@ -1871,7 +1825,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_the_right_to_self_determination
 		icon = GFX_focus_AUS_the_right_to_self_determination
 		prerequisite = { focus = AUS_join_the_research_program focus = AUS_empowering_the_chancellor }
@@ -1897,7 +1851,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_our_brothers_in_the_east
 		icon = GFX_focus_hun_assassinate_horthy
 		prerequisite = { focus = AUS_the_right_to_self_determination }
@@ -1924,7 +1878,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_deal_with_the_german_threat
 		icon = GFX_focus_attack_germany
 		prerequisite = { focus = AUS_union_of_danubian_socialist_republics focus = AUS_the_right_to_self_determination focus = AUS_protector_of_the_danube  focus = AUS_via_danube_to_europe }
@@ -2001,7 +1955,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_end_european_fascism
 		icon = GFX_focus_generic_anti_fascist_diplomacy
 		prerequisite = { focus = AUS_deal_with_the_german_threat}
@@ -2025,11 +1979,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	
-	
-	
-
-	focus = { 
+focus = { 
 		id = AUS_the_danubian_federation
 		icon = GFX_focus_AUS_the_danubian_federation
 		prerequisite = { focus = AUS_hold_elections focus = AUS_reinstate_the_imperial_council }
@@ -2106,7 +2056,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_invite_danubian_countries
 		icon = GFX_goal_generic_major_alliance
 		prerequisite = { focus = AUS_the_danubian_federation}
@@ -2130,7 +2080,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_danubian_unity
 		icon = GFX_goal_generic_national_unity
 		prerequisite = { focus = AUS_invite_danubian_countries}
@@ -2157,8 +2107,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-
-	focus = { 
+focus = { 
 		id = AUS_inviting_the_observers
 		icon = GFX_focus_AUS_inviting_the_observers
 		prerequisite = { focus = AUS_danubian_unity}
@@ -2182,8 +2131,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-
-	focus = { 
+focus = { 
 		id = AUS_unexpected_alliances
 		icon = GFX_focus_AUS_unexpected_alliances
 		prerequisite = { focus = AUS_danubian_unity}
@@ -2209,7 +2157,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_diplomatic_effort
 		icon = GFX_focus_AUS_diplomatic_effort
 		prerequisite = { focus = AUS_unexpected_alliances focus = AUS_inviting_the_observers }
@@ -2233,7 +2181,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_protector_of_the_danube
 		icon = GFX_focus_AUS_protector_of_the_danube
 		prerequisite = { focus = AUS_diplomatic_effort  }
@@ -2257,7 +2205,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_via_danube_to_europe
 		icon = GFX_focus_generic_the_council_of_europe
 		prerequisite = { focus = AUS_diplomatic_effort  }
@@ -2281,12 +2229,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-
-	
-	
-	
-
-	focus = { 
+focus = { 
 		id = AUS_reinstate_the_imperial_council
 		icon = GFX_focus_generic_monarchy_2
 		prerequisite = { focus = AUS_austria_against_fascism}
@@ -2343,7 +2286,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_legacy_of_the_empire
 		icon = GFX_focus_AUS_legacy_of_the_empire
 		prerequisite = { focus = AUS_reinstate_the_imperial_council}
@@ -2387,7 +2330,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_repeal_the_habsburgergesetz
 		icon = GFX_focus_renounce_the_treaty_of_trianon
 		prerequisite = { focus = AUS_legacy_of_the_empire}
@@ -2413,7 +2356,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_bring_back_the_habsburg_rule
 		icon = GFX_focus_AUS_bring_back_the_habsburg_rule
 		prerequisite = { focus = AUS_legacy_of_the_empire}
@@ -2439,7 +2382,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_rebellious_rearmament
 		icon = GFX_focus_generic_limited_social_mobilization
 		prerequisite = { focus = AUS_repeal_the_habsburgergesetz focus = AUS_bring_back_the_habsburg_rule }
@@ -2465,7 +2408,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_strengthen_legitimistische_corps
 		icon = GFX_focus_AUS_strengthen_legitimistische_corps
 		prerequisite = { focus = AUS_rebellious_rearmament}
@@ -2491,7 +2434,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_legitimistische_studentenverbindung
 		icon = GFX_focus_AUS_legitimistische_studentenverbindung
 		prerequisite = { focus = AUS_rebellious_rearmament}
@@ -2517,7 +2460,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_sturmscharen_support
 		icon = GFX_focus_generic_monarchist_workers
 		prerequisite = { focus = AUS_strengthen_legitimistische_corps}
@@ -2544,7 +2487,7 @@ focus_tree = {
 		
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_eiserne_legion
 		icon = GFX_focus_generic_workers
 		prerequisite = { focus = AUS_sturmscharen_support }
@@ -2570,8 +2513,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-
-	focus = { 
+focus = { 
 		id = AUS_legitimistische_jugend
 		icon = GFX_focus_AUS_legitimistische_jugend
 		prerequisite = { focus = AUS_legitimistische_studentenverbindung}
@@ -2597,7 +2539,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_repeal_the_adelsaufhebungsgesetz
 		icon = GFX_focus_generic_monarchy_1
 		prerequisite = { focus = AUS_legitimistische_studentenverbindung focus = AUS_strengthen_legitimistische_corps }
@@ -2623,7 +2565,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_the_evidenzburo
 		icon = GFX_focus_AUS_the_evidenzburo
 		prerequisite = { focus = AUS_repeal_the_adelsaufhebungsgesetz}
@@ -2649,9 +2591,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	
-
-	focus = { 
+focus = { 
 		id = AUS_the_royals_of_liechtenstein
 		icon = GFX_focus_generic_liechtenstein_coa
 		prerequisite = { focus = AUS_the_evidenzburo focus = AUS_legitimistische_jugend focus = AUS_sturmscharen_support }
@@ -2677,7 +2617,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_osterreichische_akademie
 		icon = GFX_focus_research
 		prerequisite = { focus = AUS_the_royals_of_liechtenstein}
@@ -2703,7 +2643,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_royal_scientific_grants
 		icon = GFX_focus_research2
 		prerequisite = { focus = AUS_osterreichische_akademie}
@@ -2727,7 +2667,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_war_against_bolshevism
 		icon = GFX_focus_attack_soviet
 		prerequisite = { focus = AUS_the_royals_of_liechtenstein focus = AUS_protector_of_the_danube focus = AUS_for_a_better_future focus = AUS_via_danube_to_europe }
@@ -2789,7 +2729,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_crusade_on_communism
 		icon = GFX_goal_anti_comintern_pact
 		prerequisite = { focus = AUS_war_against_bolshevism}
@@ -2813,11 +2753,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	
-	
-	
-
-	focus = { 
+focus = { 
 		id = AUS_demand_hungarian_submission
 		icon = GFX_goal_demand_sudetenland
 		prerequisite = { focus = AUS_rebellious_rearmament}
@@ -2862,7 +2798,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_join_the_axis
 		icon = GFX_goal_support_fascism
 		prerequisite = { focus = AUS_demand_hungarian_submission focus = AUS_bring_hungary_back_into_the_fold }
@@ -2902,7 +2838,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_reforming_the_central_powers
 		icon = GFX_goal_generic_military_deal
 		prerequisite = { focus = AUS_demand_hungarian_submission focus = AUS_bring_hungary_back_into_the_fold }
@@ -2926,7 +2862,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_a_royal_alliance
 		icon = GFX_focus_generic_home_defense
 		prerequisite = { focus = AUS_demand_hungarian_submission focus = AUS_bring_hungary_back_into_the_fold }
@@ -2970,7 +2906,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_subjugate_lands_of_old
 		icon = GFX_goal_generic_demand_territory
 		prerequisite = { focus = AUS_demand_hungarian_submission}
@@ -2994,7 +2930,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_the_silesian_question
 		icon = GFX_focus_POL_reassert_silesian_claims
 		prerequisite = { focus = AUS_subjugate_lands_of_old}
@@ -3018,7 +2954,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_tighten_control_of_subjects
 		icon = GFX_focus_eng_move_to_secure_the_dominions
 		prerequisite = { focus = AUS_subjugate_lands_of_old}
@@ -3044,7 +2980,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_reclaim_habsburg
 		icon = GFX_focus_AUS_reclaim_habsburg
 		prerequisite = { focus = AUS_tighten_control_of_subjects focus = AUS_take_back_galicia focus = AUS_demand_romanian_lands }
@@ -3103,7 +3039,7 @@ focus_tree = {
 		completion_reward = {}	
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_war_against_guarantors
 		icon = GFX_focus_generic_strike_at_democracy1
 		prerequisite = { focus = AUS_tighten_control_of_subjects focus = AUS_take_back_galicia focus = AUS_demand_romanian_lands }
@@ -3168,7 +3104,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_renew_claims_in_italy
 		icon = GFX_focus_attack_italy
 		prerequisite = { focus = AUS_tighten_control_of_subjects }
@@ -3192,7 +3128,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_extend_italian_claims
 		icon = GFX_goal_generic_more_territorial_claims
 		prerequisite = { focus = AUS_renew_claims_in_italy}
@@ -3218,7 +3154,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_strike_deal_with_italy
 		icon = GFX_focus_befriend_italy
 		prerequisite = { focus = AUS_tighten_control_of_subjects}
@@ -3244,7 +3180,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_for_a_better_future
 		icon = GFX_focus_AUS_for_a_better_future
 		prerequisite = { focus = AUS_strike_deal_with_italy focus = AUS_renew_claims_in_italy focus = AUS_integrate_hungary focus = AUS_integrate_northwest}
@@ -3307,11 +3243,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	
-	
-	
-
-	focus = { 
+focus = { 
 		id = AUS_bring_hungary_back_into_the_fold
 		icon = GFX_focus_generic_attack_hungary
 		prerequisite = { focus = AUS_rebellious_rearmament focus = AUS_rapid_rearmament focus = AUS_heimwehr_support }
@@ -3375,7 +3307,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_the_czechoslovakian_lands
 		icon = GFX_focus_generic_attack_czechoslovakia
 		prerequisite = { focus = AUS_bring_hungary_back_into_the_fold}
@@ -3402,7 +3334,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_reclaiming_yugoslavian_territories
 		icon = GFX_focus_generic_attack_yugoslavia
 		prerequisite = { focus = AUS_bring_hungary_back_into_the_fold}
@@ -3428,7 +3360,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_take_albania
 		icon = GFX_goal_generic_major_war
 		prerequisite = { focus = AUS_reclaiming_yugoslavian_territories }
@@ -3454,7 +3386,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_take_back_galicia
 		icon = GFX_focus_generic_attack_poland
 		prerequisite = { focus = AUS_reclaiming_yugoslavian_territories focus = AUS_the_czechoslovakian_lands }
@@ -3480,7 +3412,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_demand_romanian_lands
 		icon = GFX_focus_generic_attack_romania
 		prerequisite = { focus = AUS_reclaiming_yugoslavian_territories focus = AUS_the_czechoslovakian_lands }
@@ -3507,7 +3439,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_integrate_northwest
 		icon = GFX_goal_generic_position_armies
 		prerequisite = { focus = AUS_demand_romanian_lands focus = AUS_take_back_galicia } 
@@ -3533,7 +3465,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_integrate_hungary
 		icon = GFX_goal_generic_position_armies
 		prerequisite = { focus = AUS_demand_romanian_lands focus = AUS_take_back_galicia}
@@ -3569,7 +3501,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_proclaim_austrian_empire
 		icon = GFX_focus_AUS_proclaim_austrian_empire
 		prerequisite = { focus = AUS_integrate_hungary focus = AUS_integrate_northwest focus = AUS_renew_claims_in_italy focus = AUS_strike_deal_with_italy }
@@ -3617,7 +3549,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_beyond_our_old_lands
 		icon = GFX_focus_AUS_beyond_our_old_lands
 		prerequisite = { focus = AUS_proclaim_austrian_empire}
@@ -3641,11 +3573,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	
-	
-	
-
-	focus = { 
+focus = { 
 		id = AUS_totalitarian_safety
 		icon = GFX_focus_AUS_totalitarian_safety
 		mutually_exclusive = { focus = AUS_repeal_the_may_constitution }
@@ -3695,7 +3623,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_clamp_down_on_dnsap
 		icon = GFX_focus_AUS_ban_dnsap
 		prerequisite = { focus = AUS_totalitarian_safety}
@@ -3721,7 +3649,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_supporting_italy_in_ethiopia_focus
 		icon = GFX_focus_AUS_supporting_italy_in_ethiopia_focus
 		prerequisite = { focus = AUS_clamp_down_on_dnsap}
@@ -3751,7 +3679,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_approach_democratic_guarantors
 		icon = GFX_focus_generic_diplomatic_treaty
 		prerequisite = { focus = AUS_clamp_down_on_dnsap}
@@ -3781,7 +3709,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_reach_out_to_italy
 		icon = GFX_focus_befriend_italy
 		prerequisite = { focus = AUS_clamp_down_on_dnsap}
@@ -3811,7 +3739,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_refine_vaterlandische_front
 		icon = GFX_focus_AUS_refine_vaterlandische_front
 		prerequisite = { focus = AUS_reach_out_to_italy focus = AUS_approach_democratic_guarantors}
@@ -3837,7 +3765,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_seek_agreement_for_rearmament
 		icon = GFX_goal_generic_military_deal
 		prerequisite = { focus = AUS_refine_vaterlandische_front}
@@ -3865,7 +3793,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_disregard_the_treaties
 		icon = GFX_focus_AUS_disregard_the_treaties
 		prerequisite = { focus = AUS_refine_vaterlandische_front}
@@ -3895,7 +3823,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_rapid_rearmament
 		icon = GFX_focus_generic_full_social_mobilization
 		prerequisite = { focus = AUS_disregard_the_treaties focus = AUS_seek_agreement_for_rearmament }
@@ -3921,7 +3849,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_integrate_dnsap_remnants
 		icon = GFX_focus_AUS_integrate_dnsap_remnants
 		prerequisite = { focus = AUS_refine_vaterlandische_front}
@@ -3947,7 +3875,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_heimwehr_support
 		icon = GFX_focus_ITA_generic_fascist_workers
 		prerequisite = { focus = AUS_integrate_dnsap_remnants}
@@ -3973,7 +3901,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_spanish_intervention
 		icon = GFX_focus_generic_befriend_nationalist_spain_focus
 		prerequisite = { focus = AUS_rapid_rearmament}
@@ -4004,7 +3932,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_demand_part_of_spanish_winnings
 		icon = GFX_goal_tripartite_pact
 		prerequisite = { focus = AUS_spanish_intervention}
@@ -4032,7 +3960,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_invite_spanish_refugees
 		icon = GFX_focus_ARG_invite_spanish_nationalists
 		prerequisite = { focus = AUS_spanish_intervention}
@@ -4062,9 +3990,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	
-
-	focus = { 
+focus = { 
 		id = AUS_frontmiliz_focus
 		icon = GFX_focus_AUS_frontmiliz_focus
 		prerequisite = { focus = AUS_heimwehr_support }
@@ -4090,7 +4016,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_fit_for_fight
 		icon = GFX_focus_spr_masters_of_our_own_fate
 		prerequisite = { focus = AUS_frontmiliz_focus }
@@ -4114,7 +4040,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_form_nachrichtenabteilun
 		icon = GFX_focus_generic_secret_service_agency
 		prerequisite = { focus = AUS_fit_for_fight}
@@ -4140,7 +4066,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_wienfilm_propaganda_effort
 		icon = GFX_focus_generic_fascist_propaganda
 		prerequisite = { focus = AUS_fit_for_fight}
@@ -4166,7 +4092,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_consolidate_industries
 		icon = GFX_focus_generic_modernize_industry
 		prerequisite = { focus = AUS_fit_for_fight}
@@ -4192,7 +4118,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_universitat_graz
 		icon = GFX_focus_research
 		prerequisite = { focus = AUS_consolidate_industries focus = AUS_wienfilm_propaganda_effort}
@@ -4218,7 +4144,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_recruiting_the_graduates
 		icon = GFX_focus_research2
 		prerequisite = { focus = AUS_universitat_graz}
@@ -4242,7 +4168,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_heritage_of_an_empire
 		icon = GFX_focus_AUS_heritage_of_an_empire
 		prerequisite = { focus = AUS_form_nachrichtenabteilun focus = AUS_wienfilm_propaganda_effort focus = AUS_consolidate_industries}
@@ -4280,7 +4206,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_second_brothers_war
 		icon = GFX_focus_attack_germany
 		prerequisite = { focus = AUS_heritage_of_an_empire focus = AUS_for_a_better_future }
@@ -4355,7 +4281,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_an_improved_german_state
 		icon = GFX_focus_AUS_an_improved_german_state
 		prerequisite = { focus = AUS_second_brothers_war}
@@ -4379,7 +4305,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_restoring_our_rightful_flag
 		icon = GFX_focus_generic_attack_haiti
 		prerequisite = { focus = AUS_an_improved_german_state}
@@ -4410,7 +4336,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_seek_to_purchase_alaska
 		icon = GFX_focus_AUS_seek_to_purchase_alaska
 		prerequisite = { focus = AUS_an_improved_german_state}
@@ -4441,11 +4367,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	
-	
-	
-
-	focus = { 
+focus = { 
 		id = AUS_regulate_austrian_finance_sector
 		icon = GFX_focus_generic_improve_the_administration
 		x = 12
@@ -4541,7 +4463,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_seek_papal_support
 		icon = GFX_focus_generic_pope
 		prerequisite = { focus = AUS_regulate_austrian_finance_sector}
@@ -4567,7 +4489,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_invest_in_erzberg_steel_mines
 		icon = GFX_focus_generic_mining_industry
 		prerequisite = { focus = AUS_regulate_austrian_finance_sector}
@@ -4593,7 +4515,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_courting_the_princess_of_industry
 		icon = GFX_focus_AUS_courting_the_princess_of_industry
 		prerequisite = { focus = AUS_invest_in_erzberg_steel_mines}
@@ -4619,7 +4541,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_expand_stpoltner_steelworks
 		icon = GFX_focus_generic_steel
 		prerequisite = { focus = AUS_courting_the_princess_of_industry}
@@ -4645,7 +4567,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_invest_in_semperit_synthetics
 		icon = GFX_goal_generic_oil_refinery
 		prerequisite = { focus = AUS_expand_stpoltner_steelworks}
@@ -4672,7 +4594,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_pulverfabrik_skodawerke
 		icon = GFX_focus_generic_industry_1
 		prerequisite = { focus = AUS_expand_stpoltner_steelworks}
@@ -4698,7 +4620,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_the_matzen_oil_fields
 		icon = GFX_focus_AUS_the_matzen_oil_fields
 		prerequisite = { focus = AUS_pulverfabrik_skodawerke focus = AUS_invest_in_semperit_synthetics}
@@ -4724,7 +4646,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_architechtual_advancements
 		icon = GFX_goal_generic_construct_civilian
 		prerequisite = { focus = AUS_regulate_austrian_finance_sector }
@@ -4750,7 +4672,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_autobahn_west
 		icon = GFX_focus_generic_improve_roads
 		prerequisite = { focus = AUS_architechtual_advancements}
@@ -4776,7 +4698,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_autobahn_south
 		icon = GFX_goal_generic_construction2
 		prerequisite = { focus = AUS_architechtual_advancements}
@@ -4802,7 +4724,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_autobahn_east 
 		icon = GFX_focus_generic_improve_roads
 		prerequisite = { focus = AUS_architechtual_advancements }
@@ -4828,7 +4750,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_bbo_focus
 		icon = GFX_focus_AUS_bbo_focus
 		prerequisite = { focus = AUS_autobahn_east focus = AUS_autobahn_west focus = AUS_autobahn_south }
@@ -4854,7 +4776,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_economic_resuscitation
 		icon = GFX_focus_AUS_economic_resuscitation
 		prerequisite = { focus = AUS_regulate_austrian_finance_sector}
@@ -4880,7 +4802,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_devalue_the_schilling
 		icon = GFX_focus_AUS_devalue_the_schilling
 		prerequisite = { focus = AUS_economic_resuscitation}
@@ -4906,7 +4828,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_bring_phonix_insurance_from_the_ashes
 		icon = GFX_focus_AUS_bring_phonix_insurance_from_the_ashes
 		prerequisite = { focus = AUS_devalue_the_schilling}
@@ -4936,7 +4858,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_great_austrian_economic_push
 		icon = GFX_focus_usa_reestablish_the_gold_standard
 		prerequisite = { focus = AUS_devalue_the_schilling}
@@ -4962,7 +4884,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_volkschule
 		icon = GFX_focus_generic_university_1
 		prerequisite = { focus = AUS_great_austrian_economic_push focus = AUS_bring_phonix_insurance_from_the_ashes}
@@ -4987,7 +4909,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_industrialization_effort
 		icon = GFX_goal_generic_construct_civ_factory
 		prerequisite = { focus = AUS_regulate_austrian_finance_sector}
@@ -5012,7 +4934,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_invest_in_alpen_elektrowerke
 		icon = GFX_focus_AUS_invest_in_alpen_elektrowerke
 		prerequisite = { focus = AUS_industrialization_effort}
@@ -5037,7 +4959,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_invest_in_kapsch
 		icon = GFX_focus_AUS_invest_in_kapsch
 		prerequisite = { focus = AUS_industrialization_effort}
@@ -5062,7 +4984,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_construction_guilds
 		icon = GFX_goal_generic_construction
 		prerequisite = { focus = AUS_invest_in_kapsch focus = AUS_invest_in_alpen_elektrowerke}
@@ -5088,7 +5010,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_apprentice_programmes
 		icon = GFX_focus_AUS_apprentice_programmes
 		prerequisite = { focus = AUS_construction_guilds }
@@ -5114,11 +5036,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	
-	
-	
-
-	focus = { 
+focus = { 
 		id = AUS_osterreichische_luftstreitkrafte
 		icon = GFX_focus_AUS_osterreichische_luftstreitkrafte
 		x = 10
@@ -5142,7 +5060,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-		focus = { 
+focus = { 
 		id = AUS_preparing_the_industry
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = AUS_osterreichische_luftstreitkrafte}
@@ -5167,7 +5085,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-		focus = { 
+focus = { 
 		id = AUS_purchase_foreign_designs
 		icon = GFX_focus_generic_copy_plane_designs
 		prerequisite = { focus = AUS_preparing_the_industry}
@@ -5191,7 +5109,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-		focus = { 
+focus = { 
 		id = AUS_focus_on_domestic_production
 		icon = GFX_goal_generic_air_production
 		prerequisite = { focus = AUS_preparing_the_industry }
@@ -5215,7 +5133,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = {
+focus = {
 		id = AUS_flight_schools
 		icon = GFX_focus_FIN_expand_air_force_academy
 		prerequisite = { focus = AUS_purchase_foreign_designs focus = AUS_focus_on_domestic_production }
@@ -5240,7 +5158,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_seek_international_partners
 		icon = GFX_focus_generic_air_partners
 		prerequisite = { focus = AUS_purchase_foreign_designs}
@@ -5265,7 +5183,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-		focus = { 
+focus = { 
 		id = AUS_air_research_boost
 		icon = GFX_focus_generic_air_research_boost
 		prerequisite = { focus = AUS_seek_international_partners}
@@ -5290,7 +5208,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-		focus = { 
+focus = { 
 		id = AUS_revitalize_austrian_air_industry
 		icon = GFX_goal_generic_build_airforce 
 		prerequisite = { focus = AUS_focus_on_domestic_production}
@@ -5316,7 +5234,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-		focus = { 
+focus = { 
 		id = AUS_light_specialization
 		icon = GFX_goal_generic_air_fighter2
 		prerequisite = { focus = AUS_revitalize_austrian_air_industry}
@@ -5342,7 +5260,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-		focus = { 
+focus = { 
 		id = AUS_medium_specialization
 		icon = GFX_focus_generic_multi_role_aircraft
 		prerequisite = { focus = AUS_revitalize_austrian_air_industry}
@@ -5368,7 +5286,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-		focus = { 
+focus = { 
 		id = AUS_heavy_specialization
 		icon = GFX_focus_generic_long_range_aircraft
 		prerequisite = { focus = AUS_revitalize_austrian_air_industry}
@@ -5394,7 +5312,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-		focus = { 
+focus = { 
 		id = AUS_air_base_intiative
 		icon = GFX_focus_generic_air_bases
 		prerequisite = { focus = AUS_light_specialization focus = AUS_medium_specialization focus = AUS_heavy_specialization focus = AUS_air_research_boost }
@@ -5418,7 +5336,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-		focus = { 
+focus = { 
 		id = AUS_wien_anti_air_effort
 		icon = GFX_focus_generic_air_defense
 		prerequisite = { focus = AUS_light_specialization focus = AUS_medium_specialization focus = AUS_heavy_specialization focus = AUS_air_research_boost}
@@ -5442,7 +5360,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-		focus = { 
+focus = { 
 		id = AUS_radar_effort
 		icon = GFX_goal_generic_radar
 		prerequisite = { focus = AUS_light_specialization focus = AUS_medium_specialization focus = AUS_heavy_specialization focus = AUS_air_research_boost }
@@ -5466,7 +5384,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = {
+focus = {
 		id = AUS_neustadter_flugzeugwerke
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = AUS_air_base_intiative focus = AUS_wien_anti_air_effort focus = AUS_radar_effort }
@@ -5493,7 +5411,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_aerial_strategies
 		icon = GFX_goal_generic_air_doctrine
 		prerequisite = { focus = AUS_neustadter_flugzeugwerke }
@@ -5517,7 +5435,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_secret_rearmament
 		icon = GFX_focus_secret_rearmament
 		x = 10
@@ -5540,7 +5458,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_militarization_effort
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = AUS_secret_rearmament}
@@ -5566,7 +5484,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_osterreichische_bundesheer
 		icon = GFX_focus_AUS_osterreichische_bundesheer
 		prerequisite = { focus = AUS_militarization_effort}
@@ -5590,7 +5508,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_standardized_army_training
 		icon = GFX_focus_chi_army_reform
 		prerequisite = { focus = AUS_militarization_effort}
@@ -5616,7 +5534,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_osterreichische_fallschirmsjager
 		icon = GFX_focus_generic_paratrooper
 		prerequisite = { focus = AUS_osterreichische_bundesheer }
@@ -5643,7 +5561,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_osterreichische_gebirgsjager
 		icon = GFX_focus_AUS_osterreichische_gebirgsjager
 		prerequisite = { focus = AUS_standardized_army_training focus = AUS_osterreichische_bundesheer}
@@ -5668,7 +5586,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_osterreichische_seebataillon
 		icon = GFX_goal_generic_special_forces
 		prerequisite = { focus = AUS_standardized_army_training }
@@ -5695,7 +5613,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_steyr_arms_investment
 		icon = GFX_focus_AUS_steyr_arms_investment
 		prerequisite = { focus = AUS_osterreichische_bundesheer}
@@ -5719,7 +5637,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_supporting_the_troops
 		icon = GFX_goal_generic_production2
 		prerequisite = { focus = AUS_osterreichische_bundesheer }
@@ -5745,7 +5663,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_improve_army_logistics
 		icon = GFX_focus_generic_supply_line
 		prerequisite = { focus = AUS_steyr_arms_investment focus = AUS_supporting_the_troops }
@@ -5769,7 +5687,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_reinforcing_the_supply_network
 		icon = GFX_focus_generic_reinforcing_the_supply_network
 		prerequisite = { focus = AUS_improve_army_logistics}
@@ -5793,9 +5711,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	
-
-	focus = { 
+focus = { 
 		id = AUS_follow_the_jansa_plan
 		icon = GFX_focus_AUS_follow_the_jansa_plan
 		prerequisite = { focus = AUS_osterreichische_bundesheer focus = AUS_standardized_army_training }
@@ -5825,7 +5741,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_bring_generals_out_of_retirement
 		icon = GFX_focus_AUS_bring_generals_out_of_retirement
 		prerequisite = { focus = AUS_follow_the_jansa_plan focus = AUS_establish_bohme_plan }
@@ -5850,7 +5766,8 @@ focus_tree = {
 
 		completion_reward = {}
 	}
-	focus = { 
+
+focus = { 
 		id = AUS_the_homeland_front
 		icon = GFX_focus_generic_little_entente
 		prerequisite = { focus = AUS_follow_the_jansa_plan}
@@ -5874,7 +5791,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_fortify_the_traun_line
 		icon = GFX_focus_AUS_fortify_the_traun_line
 		prerequisite = { focus = AUS_the_homeland_front}
@@ -5898,8 +5815,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-
-	focus = { 
+focus = { 
 		id = AUS_extend_the_traun_line
 		icon = GFX_goal_fortify_the_westwall
 		prerequisite = { focus = AUS_fortify_the_traun_line}
@@ -5923,7 +5839,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_establish_bohme_plan
 		icon = GFX_focus_AUS_establish_bohme_plan
 		prerequisite = { focus = AUS_osterreichische_bundesheer focus = AUS_standardized_army_training }
@@ -5949,7 +5865,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_intensify_training_efforts
 		icon = GFX_goal_generic_axis_build_infantry
 		prerequisite = { focus = AUS_establish_bohme_plan}
@@ -5973,7 +5889,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_heeding_the_call_of_duty
 		icon = GFX_focus_AUS_heeding_the_call_of_duty
 		prerequisite = { focus = AUS_intensify_training_efforts}
@@ -5999,7 +5915,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_strengthen_the_arms_industry
 		icon = GFX_goal_generic_construct_mil_factory
 		prerequisite = { focus = AUS_heeding_the_call_of_duty focus = AUS_the_homeland_front }
@@ -6025,7 +5941,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
- 	focus = { 
+focus = { 
 		id = AUS_improved_warfare_strategies
 		icon = GFX_goal_generic_army_doctrines
 		prerequisite = { focus = AUS_strengthen_the_arms_industry }
@@ -6049,7 +5965,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_hirtenberger_artillery
 		icon = GFX_goal_generic_army_artillery
 		prerequisite = { focus = AUS_standardized_army_training }
@@ -6073,7 +5989,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_saurerwerke
 		icon = GFX_focus_AUS_saurerwerke
 		prerequisite = { focus = AUS_hirtenberger_artillery}
@@ -6097,7 +6013,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_graf_und_stift_focus
 		icon = GFX_focus_AUS_graf_und_stift_focus
 		prerequisite = { focus = AUS_hirtenberger_artillery}
@@ -6121,7 +6037,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_invite_foreign_tank_designers
 		icon = GFX_focus_ITA_modernize_ansaldo_facilities
 		prerequisite = { focus = AUS_graf_und_stift_focus focus = AUS_saurerwerke}
@@ -6145,7 +6061,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_basic_tanks
 		icon = GFX_goal_generic_army_tanks
 		prerequisite = { focus = AUS_invite_foreign_tank_designers}
@@ -6171,7 +6087,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_reestablish_austrian_navy
 		icon = GFX_focus_AUS_reestablish_austrian_navy
 		x = 12
@@ -6196,7 +6112,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_rebuild_the_armada
 		icon = GFX_focus_generic_navy_battleship2
 		prerequisite = { focus = AUS_reestablish_austrian_navy}
@@ -6222,7 +6138,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_revive_stt
 		icon = GFX_focus_AUS_revive_stt
 		prerequisite = { focus = AUS_rebuild_the_armada}
@@ -6246,7 +6162,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_streamline_production
 		icon = GFX_focus_generic_refit_civilian_ships
 		prerequisite = { focus = AUS_rebuild_the_armada}
@@ -6270,7 +6186,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_continue_old_production
 		icon = GFX_goal_generic_navy_battleship
 		prerequisite = { focus = AUS_streamline_production}
@@ -6295,7 +6211,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_reclaim_dockyards
 		icon = GFX_goal_generic_construct_naval_dockyard
 		prerequisite = { focus = AUS_rebuild_the_armada focus = AUS_defending_the_coast }
@@ -6321,7 +6237,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_promote_admirals
 		icon = GFX_focus_AUS_promote_admirals
 		prerequisite = { focus = AUS_reclaim_dockyards}
@@ -6347,7 +6263,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_defending_the_coast
 		icon = GFX_goal_generic_navy_cruiser
 		prerequisite = { focus = AUS_reestablish_austrian_navy}
@@ -6373,7 +6289,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_elin
 		icon = GFX_focus_AUS_elin
 		prerequisite = { focus = AUS_defending_the_coast}
@@ -6397,7 +6313,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_light_ship_bonus
 		icon = GFX_focus_generic_destroyer
 		prerequisite = { focus = AUS_defending_the_coast}
@@ -6421,7 +6337,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_coastal_defence_forts
 		icon = GFX_focus_generic_coastal_fort
 		prerequisite = { focus = AUS_light_ship_bonus focus = AUS_elin }
@@ -6445,7 +6361,7 @@ focus_tree = {
 		completion_reward = {}
 	}
 
-	focus = { 
+focus = { 
 		id = AUS_naval_efficiency
 		icon = GFX_goal_generic_navy_doctrines_tactics
 		prerequisite = { focus = AUS_coastal_defence_forts focus = AUS_continue_old_production }

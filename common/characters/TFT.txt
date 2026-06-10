@@ -1,0 +1,15 @@
+characters={
+    TFT_Council_of_Three_Lights={
+        name=TFT_Council_of_Three_Lights
+        portraits={
+            civilian={
+                large="GFX_Portrait_TFT_Council_of_Three_Lights"
+            }
+        }
+        country_leader={
+            ideology=oligarchism
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

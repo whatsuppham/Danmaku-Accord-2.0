@@ -1,0 +1,15 @@
+characters={
+    THN_Toyosatomimi_no_Miko={
+        name=THN_Toyosatomimi_no_Miko
+        portraits={
+            civilian={
+                large="GFX_Portrait_THN_Toyosatomimi_no_Miko"
+            }
+        }
+        country_leader={
+            ideology=moderatism
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

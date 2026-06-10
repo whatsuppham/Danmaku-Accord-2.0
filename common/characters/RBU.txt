@@ -1,0 +1,15 @@
+characters={
+    RBU_Kaku_Seiga={
+        name=RBU_Kaku_Seiga
+        portraits={
+            civilian={
+                large="GFX_Portrait_RBU_Kaku_Seiga"
+            }
+        }
+        country_leader={
+            ideology=fascism_ideology
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

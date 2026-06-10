@@ -1,0 +1,15 @@
+characters={
+    EIR_Yagokoro_Eirin={
+        name=EIR_Yagokoro_Eirin
+        portraits={
+            civilian={
+                large="GFX_Portrait_EIR_Yagokoro_Eirin"
+            }
+        }
+        country_leader={
+            ideology=pure_technocracy
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

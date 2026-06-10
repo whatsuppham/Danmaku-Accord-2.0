@@ -1,0 +1,15 @@
+characters={
+    NAM_Medicine_Melancholy={
+        name=NAM_Medicine_Melancholy
+        portraits={
+            civilian={
+                large="GFX_Portrait_NAM_Medicine_Melancholy"
+            }
+        }
+        country_leader={
+            ideology=gensokyoproper
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

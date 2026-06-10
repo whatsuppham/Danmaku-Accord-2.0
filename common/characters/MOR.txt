@@ -1,0 +1,45 @@
+characters={
+    MOR_Kochiya_Sanae={
+        name=MOR_Kochiya_Sanae
+        portraits={
+            civilian={
+                large="GFX_Portrait_MOR_Kochiya_Sanae"
+            }
+        }
+        country_leader={
+            ideology=theocracy
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+    MOR_Yasaka_Kanako={
+        name=MOR_Yasaka_Kanako
+        portraits={
+            civilian={
+                large="GFX_Portrait_MOR_Yasaka_Kanako"
+            }
+        }
+        corps_commander = {
+            skill = 1
+            attack_skill = 2
+            defense_skill = 3
+            planning_skill = 4
+            logistics_skill = 5
+        }
+    }
+    MOR_Moriya_Suwako={
+        name=MOR_Moriya_Suwako
+        portraits={
+            civilian={
+                large="GFX_Portrait_MOR_Moriya_Suwako"
+            }
+        }
+        corps_commander = {
+            skill = 1
+            attack_skill = 2
+            defense_skill = 3
+            planning_skill = 4
+            logistics_skill = 5
+        }
+    }
+}

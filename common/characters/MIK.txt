@@ -1,0 +1,15 @@
+characters={
+    MIK_Shrinekeeping_Council={
+        name=MIK_Shrinekeeping_Council
+        portraits={
+            civilian={
+                large="GFX_Portrait_MIK_Shrinekeeping_Council"
+            }
+        }
+        country_leader={
+            ideology=shintoism
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

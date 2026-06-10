@@ -1,0 +1,60 @@
+characters={
+	YKM_Lord_Tenma={
+		name=YKM_Lord_Tenma
+		portraits={
+			civilian={
+				large="GFX_Portrait_YKM_Lord_Tenma"
+			}
+		}
+		country_leader={
+			ideology=despotism
+			expire="2083.1.1.1"
+			id=-1
+		}
+	}
+	YKM_Aya_Shamemairu={
+		name=YKM_Aya_Shamemairu
+		portraits={
+			civilian={
+				large="GFX_Portrait_YKM_Aya_Shamemairu"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+			}
+	}
+	YKM_Momiji_Inubashiri={
+		name=YKM_Momiji_Inubashiri
+		portraits={
+			civilian={
+				large="GFX_Portrait_YKM_Momiji_Inubashiri"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+	YKM_Hatate_Himekaidou={
+		name=YKM_Hatate_Himekaidou
+		portraits={
+			civilian={
+				large="GFX_Portrait_YKM_Hatate_Himekaidou"
+			}
+		}
+		corps_commander = {
+			skill = 1
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 5
+		}
+	}
+}

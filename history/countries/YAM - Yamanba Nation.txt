@@ -8,6 +8,8 @@ set_war_support = 0.3
 add_command_power = 26
 set_convoys = 25
 
+recruit_character = YAM_Sakata_Nemuno
+
 # Research
 set_technology = {
 	infantry_weapons = 1

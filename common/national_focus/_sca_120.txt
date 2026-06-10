@@ -1,0 +1,807 @@
+focus_tree = {
+	id = sca-120-focus
+	continuous_focus_position = { x = -40 y = 1830 } 
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SCA
+		}
+	}
+	#Inter-Gensokyan Trade
+	focus = {
+		id = SCA_intergensokyan_trade
+		icon = GFX_goal_generic_positive_trade_relations
+		x = 5
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SCA_misty_coastal_project  }
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = closed_economy
+				add_idea = limited_exports
+			}
+
+			add_popularity = {
+			    ideology = capitalism
+			    popularity = 0.10
+			}
+		}
+	}
+
+	#Inter-Species Servitude
+	focus = {
+		id = SCA_interspecies_servitude
+		icon = GFX_SCA_interspecies_servitude-645969
+		x = 5
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SCA_intergensokyan_trade  }
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = disarmed_nation
+				add_idea = volunteer_only
+			}
+		}
+	}
+
+	#Inventory of the Storages
+	focus = {
+		id = SCA_inventory_of_the_storages
+		icon = GFX_focus_NZL_bob_semple_tank
+		x = 3
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SCA_thedominionseconomy  }
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 1000
+				producer = JAP
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = infantry_tech
+			}
+			add_fuel = 400
+		}
+	}
+
+	#The Dominion's Economy
+	focus = {
+		id = SCA_thedominionseconomy
+		icon = GFX_SCA_thedominionseconomy-262123
+		x = 5
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}				
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}				
+			}
+		}
+	}
+
+	#Magical Manufactures
+	focus = {
+		id = SCA_magical_manufactures
+		icon = GFX_focus_secret_rearmament
+		x = 9
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+	}
+
+	#Sakuya's Reform
+	focus = {
+		id = SCA_sakuyasreform
+		icon = GFX_focus_chi_army_reform
+		x = 3
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SCA_inventory_of_the_storages  }
+		completion_reward = {
+			every_unit_leader = {
+				add_logistics = 1
+				add_planning = 1
+			}
+		}
+	}
+
+	#Maid Logistics
+	focus = {
+		id = SCA_maid_logistics
+		icon = GFX_SCA_maid_logistics-262129
+		x = 3
+		y = 4
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SCA_sakuyasreform  }
+		
+		completion_reward = {
+			add_ideas = {
+				logistical_focus_spirit
+			}
+		}
+	}
+
+	#The Library's Secrets
+	focus = {
+		id = SCA_thelibraryssecrets
+		icon = GFX_SCA_thelibraryssecrets-646315
+		x = 9
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = SCA_magical_manufactures  }
+	}
+
+	#Expand the Civilian Base
+	focus = {
+		id = SCA_expand_the_civilian_base
+		icon = GFX_goal_generic_construct_civilian
+		x = 7
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SCA_thedominionseconomy  focus = SCA_magical_manufactures  }
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}				
+			}
+			add_manpower = -1000
+		}
+	}
+
+	#Advocate Daytime Trade
+	focus = {
+		id = SCA_advocate_daytime_trade
+		icon = GFX_goal_generic_trade
+		x = 7
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SCA_crafting_guilds  }
+		prerequisite = { focus = SCA_interspecies_servitude  }
+		prerequisite = { focus = SCA_the_disclosure_question  }
+
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			swap_ideas = {
+				remove_idea = limited_exports
+				add_idea = export_focus
+			}
+			add_popularity = {
+			    ideology = capitalism
+			    popularity = 0.05
+			}
+		}
+	}
+
+	#Dirt to Stone Roads
+	focus = {
+		id = SCA_dirt_to_stone_roads
+		icon = GFX_SCA_dirt_to_stone_roads-645985
+		x = 7
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SCA_expand_the_civilian_base  }
+
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	#Formalize the Dominion
+	focus = {
+		id = SCA_formalize_the_dominion
+		icon = GFX_goal_generic_forceful_treaty
+		x = 17
+		y = 3
+		cost = 10
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			add_political_power = 50
+			add_war_support = 0.025
+			add_stability = 0.075
+		}
+		prerequisite = { focus = SCA_the_court_convenes  } prerequisite = { focus = SCA_authority_of_the_scarlet_sisters  }
+	}
+
+	#The Court Convenes
+	focus = {
+		id = SCA_the_court_convenes
+		icon = GFX_focus_generic_monarchy_2
+		x = 18
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SCA_flandresrelease  }
+		completion_reward = {
+			modify_timed_idea = { 
+				idea = SCA_scarlet_authority
+				days = 70 
+			}
+		}
+	}
+
+	#To the Right of Sovereignty
+	focus = {
+		id = SCA_to_the_right_of_sovereignty
+		icon = GFX_focus_generic_self_management
+		x = 17
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SCA_formalize_the_dominion  }
+		completion_reward = {
+			add_political_power = 100
+			add_state_claim = 193
+			add_state_claim = 280
+			add_state_claim = 163
+			add_state_claim = 254
+			
+			VFN = {
+				add_opinion_modifier = {
+					target = SCA
+					modifier = condemn_aggression
+				}
+			}
+			
+			add_threat = 1
+		}
+	}
+
+	#Flandre's Release
+	focus = {
+		id = SCA_flandresrelease
+		icon = GFX_focus_GRE_reviving_the_spartan_warrior_spirit
+		x = 17
+		y = 1
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			recruit_character = SCA_Flandre_Scarlet
+			add_war_support = 0.05
+			add_manpower = 2000
+			add_threat = 1
+		}
+	}
+
+	#Authority of the Scarlet Sisters
+	focus = {
+		id = SCA_authority_of_the_scarlet_sisters
+		icon = GFX_focus_hol_united_netherlands
+		x = 16
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SCA_flandresrelease  }
+		
+		completion_reward = {
+			add_stability = 0.05
+			
+			add_timed_idea = { 
+				idea = SCA_scarlet_authority
+				days = 70 
+			}
+		}
+		
+		modifier = {
+			stability_weekly = 0.005
+		}
+	}
+
+	#Address the Vampire Aristocracy
+	focus = {
+		id = SCA_address_the_vampire_aristocracy
+		icon = GFX_focus_generic_royal_wedding
+		x = 19
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SCA_scarlet_bureaucracy  }
+		completion_reward = {
+			remove_trait = { 
+				character = SCA_Remilia_Scarlet
+				trait = messy_vampire  
+				ideology = oligarchism
+			}
+		}
+	}
+
+	#The Fairy Question
+	focus = {
+		id = SCA_the_fairy_question
+		icon = GFX_SCA_the_fairy_question-645915
+		x = 14
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SCA_foreign_policy  }
+		completion_reward = {
+			puppet = {
+			    target = VFN
+			}
+			MSY = {
+				send_embargo = SCA
+			}
+			SFF = {
+				send_embargo = SCA
+			}
+			HAK = {
+				send_embargo = SCA
+			}
+		}
+	}
+
+	#Scarlet Bureaucracy
+	focus = {
+		id = SCA_scarlet_bureaucracy
+		icon = GFX_focus_generic_home_defense
+		x = 17
+		y = 7
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SCA_to_the_right_of_sovereignty  }
+		
+		completion_reward = {
+			add_political_power = 10
+			remove_trait = { 
+				character = SCA_Remilia_Scarlet
+				trait = unconventional_vampire  
+				ideology = oligarchism
+			}
+			
+		}
+	}
+
+	#Foreign Policy
+	focus = {
+		id = SCA_foreign_policy
+		icon = GFX_focus_TUR_reconfigure_turkish_foreign_policy
+		x = 15
+		y = 8
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SCA_scarlet_bureaucracy  }
+		
+		completion_reward = {
+			create_faction_from_template = faction_template_SCA_scarlet_sphere		
+		}
+	}
+
+	#Youkai Mountain Agreement
+	focus = {
+		id = SCA_youkai_mountain_agreement
+		icon = GFX_SCA_youkai_mountain_agreement-646229
+		x = 15
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SCA_the_fairy_question  }
+		
+		completion_reward = {
+			give_market_access = YKM
+			diplomatic_relation = {
+				country = YKM
+				relation = non_aggression_pact
+				active = yes
+			}
+		}
+	}
+
+	#Scarlet Ghetto
+	focus = {
+		id = SCA_scarlet_ghetto
+		icon = GFX_SCA_scarlet_ghetto-645996
+		x = 17
+		y = 8
+		cost = 4
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SCA_scarlet_bureaucracy  }
+		completion_reward = {
+			create_intelligence_agency = { 
+				name = "The Scarlet Ghetto"
+			}
+			create_operative_leader = {
+				name = "Kokoro"
+				GFX = GFX_idk
+				traits = { operative_infiltrator operative_natural_orator vampire }
+				bypass_recruitment = no
+				available_to_spy_master = yes
+				nationalities = { SCA HAK }
+			}
+		}
+	}
+
+	#Gensokyo-wide Operations
+	focus = {
+		id = SCA_gensokyowide_operations
+		icon = GFX_focus_spr_anarchism_knows_no_borders
+		x = 16
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SCA_scarlet_ghetto  }
+		mutually_exclusive = { focus = SCA_domestic_strength  }
+		completion_reward = {
+			create_operative_leader = {
+				name = "Ryoichi"
+				GFX = GFX_idk
+				traits = { operative_infiltrator operative_commando vampire }
+				bypass_recruitment = no
+				available_to_spy_master = yes
+				nationalities = { SCA HAK VFN HUM MSY }
+			}
+			add_command_power = 15
+			add_manpower = 100
+			add_collaboration = {
+			    target = VFN
+			    value = 0.3
+			}
+		}
+	}
+
+	#Domestic Strength
+	focus = {
+		id = SCA_domestic_strength
+		icon = GFX_focus_focus_fra_border
+		x = 18
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SCA_scarlet_ghetto  }
+		mutually_exclusive = { focus = SCA_gensokyowide_operations  }
+		completion_reward = {
+			upgrade_intelligence_agency = upgrade_anti_partisan
+			upgrade_intelligence_agency = upgrade_passive_defense
+			gain_random_agency_upgrade = yes
+			add_manpower = 10000
+		}
+	}
+
+	#The Scarlet Banquet
+	focus = {
+		id = SCA_the_scarlet_banquet
+		icon = GFX_SCA_the_scarlet_banquet-645698
+		x = 17
+		y = 11
+		cost = 8
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SCA_youkai_mountain_agreement  } prerequisite = { focus = SCA_blackout_operations  } prerequisite = { focus = SCA_raise_the_grand_library  }
+	}
+
+	#Expand the Mansion Staff
+	focus = {
+		id = SCA_expand_the_mansion_staff
+		icon = GFX_focus_eng_chiefs_of_staff_committee
+		x = 20
+		y = 9
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SCA_address_the_vampire_aristocracy  }
+		
+		completion_reward = {
+			add_political_power = 100
+			add_manpower = -1000
+			add_command_power = 10
+		}
+	}
+
+	#Raise the Grand Library
+	focus = {
+		id = SCA_raise_the_grand_library
+		icon = GFX_focus_generic_treaty
+		x = 19
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		prerequisite = { focus = SCA_expand_the_mansion_staff  }
+	}
+
+	#Blackout Operations
+	focus = {
+		id = SCA_blackout_operations
+		icon = GFX_goal_generic_air_fighter2
+		x = 17
+		y = 10
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_POLITICAL
+		}
+		completion_reward = {
+			unlock_decision_tooltip = SCA_blackout_operations
+		}
+		prerequisite = { focus = SCA_gensokyowide_operations  focus = SCA_domestic_strength  }
+	}
+
+	#Misty Coastal Project
+	focus = {
+		id = SCA_misty_coastal_project
+		icon = GFX_focus_generic_coastal_fort
+		x = 5
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SCA_thedominionseconomy  }
+		completion_reward = {
+			every_state = {
+				limit = { 
+					state_is_fully_controlled_by_ROOT_or_subject = yes
+					is_coastal = yes 
+				}
+				add_building_construction = {
+					type = naval_base
+					level = 1
+					instant_build = yes
+					province = {
+						all_provinces = yes
+						limit_to_naval_base = yes
+				    }
+				}
+			}
+		}
+	}
+
+	#Fairy Labor Sections
+	focus = {
+		id = SCA_fairy_labor_sections
+		icon = GFX_SCA_fairy_labor_sections-262107
+		x = 4
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SCA_maid_logistics  focus = SCA_interspecies_servitude  }
+		
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = undisturbed_isolation
+				add_idea = isolation
+			}
+			MSY = {
+				add_opinion_modifier = {
+					target = SCA
+					modifier = protest_action
+				}
+			}
+
+			VFN = {
+				add_opinion_modifier = {
+					target = SCA
+					modifier = protest_action
+				}
+			}
+			SFF = {
+				add_opinion_modifier = {
+					target = SCA
+					modifier = protest_action
+				}
+			}
+		}
+	}
+
+	#Early European War Games
+	focus = {
+		id = SCA_early_european_war_games
+		icon = GFX_SCA_early_european_war_games-412
+		x = 9
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = SCA_thelibraryssecrets  }
+	}
+
+	#Expand the Academies
+	focus = {
+		id = SCA_expand_the_academies
+		icon = GFX_focus_chi_whampoa_military_academy
+		x = 11
+		y = 2
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = SCA_magical_manufactures  }
+	}
+
+	#Scarlet Royal Guard
+	focus = {
+		id = SCA_scarlet_royal_guard
+		icon = GFX_SCA_scarlet_royal_guard-645578
+		x = 11
+		y = 3
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = SCA_expand_the_academies  }
+	}
+
+	#The Disclosure Question
+	focus = {
+		id = SCA_the_disclosure_question
+		icon = GFX_goal_generic_propaganda
+		x = 9
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = SCA_early_european_war_games  }
+	}
+
+	#Lvaeteinn Academy
+	focus = {
+		id = SCA_lvaeteinn_academy
+		icon = GFX_SCA_lvaeteinn_academy-646122
+		x = 11
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = SCA_scarlet_royal_guard  }
+	}
+
+	#Crafting Guilds
+	focus = {
+		id = SCA_crafting_guilds
+		icon = GFX_SCA_crafting_guilds-262010
+		x = 7
+		y = 4
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_INDUSTRY
+		}
+		prerequisite = { focus = SCA_dirt_to_stone_roads  }
+		
+		completion_reward = {
+			random_owned_state = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}				
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_resource = {
+					type = steel
+					amount = 5
+				}				
+			}
+			add_manpower = -1000
+			add_popularity = {
+			    ideology = capitalism
+			    popularity = 0.02
+			}
+		}
+	}
+
+	#Magical Dominance
+	focus = {
+		id = SCA_magical_dominance
+		icon = GFX_SCA_magical_dominance-645863
+		x = 10
+		y = 5
+		cost = 5
+		search_filters = {
+			FOCUS_FILTER_RESEARCH
+		}
+		prerequisite = { focus = SCA_lvaeteinn_academy  } prerequisite = { focus = SCA_the_disclosure_question  }
+	}
+
+}

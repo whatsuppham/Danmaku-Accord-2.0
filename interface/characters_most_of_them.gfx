@@ -1,0 +1,182 @@
+spriteTypes = {
+    spriteType = {
+        name = "GFX_Portrait_MAY_Yakumo_Yukari"
+        texturefile = "gfx/leaders/MAY/Portrait_MAY_Yakumo_Yukari.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_HUM_Hieda_No_Akyuu"
+        texturefile = "gfx/leaders/HUM/Portrait_HUM_Hieda_No_Akyuu.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_MSY_Cirno"
+        texturefile = "gfx/leaders/MSY/Portrait_MSY_Cirno.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_EIR_Yagokoro_Eirin"
+        texturefile = "gfx/leaders/EIR/Portrait_EIR_Yagokoro_Eirin.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_JAA_Miyako_Yoshika"
+        texturefile = "gfx/leaders/JAA/Portrait_JAA_Miyako_Yoshika.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_RBU_Kaku_Seiga"
+        texturefile = "gfx/leaders/RBU/Portrait_RBU_Kaku_Seiga.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_MAR_Alice_Margatroid"
+        texturefile = "gfx/leaders/MAR/Portrait_MAR_Alice_Margatroid.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_MOR_Kochiya_Sanae"
+        texturefile = "gfx/leaders/MOR/Portrait_MOR_Kochiya_Sanae.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_MOR_Yasaka_Kanako"
+        texturefile = "gfx/leaders/MOR/Portrait_MOR_Yasaka_Kanako.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_MOR_Moriya_Suwako"
+        texturefile = "gfx/leaders/MOR/Portrait_MOR_Moriya_Suwako.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_HEV_Hinanawi_Tenshi"
+        texturefile = "gfx/leaders/HEV/Portrait_HEV_Hinanawi_Tenshi.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_KEI_Kamishirasawa_Keine"
+        texturefile = "gfx/leaders/KEI/Portrait_KEI_Kamishirasawa_Keine.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_FUJ_Fujiwara_No_Mokou"
+        texturefile = "gfx/leaders/FUJ/Portrait_FUJ_Fujiwara_No_Mokou.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_TAN_Futatsuiwa_Mamizou"
+        texturefile = "gfx/leaders/TAN/Portrait_TAN_Futatsuiwa_Mamizou.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_SEI_Kijin_Seija"
+        texturefile = "gfx/leaders/SEI/Portrait_SEI_Kijin_Seija.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_TFT_Council_of_Three_Lights"
+        texturefile = "gfx/leaders/TFT/Portrait_TFT_Council_of_Three_Lights.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_MUG_Kazami_Yuuka"
+        texturefile = "gfx/leaders/MUG/Portrait_MUG_Kazami_Yuuka.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_NWA_Saigyouji_Yuyuko"
+        texturefile = "gfx/leaders/NWA/Portrait_NWA_Saigyouji_Yuyuko.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_GEN_Kawashiro_Nitori"
+        texturefile = "gfx/leaders/GEN/Portrait_GEN_Kawashiro_Nitori.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_SNC_Sukuna_Shinmyoumaru"
+        texturefile = "gfx/leaders/SNC/Portrait_SNC_Sukuna_Shinmyoumaru.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_WAK_Wakasagihime"
+        texturefile = "gfx/leaders/WAK/Portrait_WAK_Wakasagihime.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_ADM_Doll_001"
+        texturefile = "gfx/leaders/ADM/Portrait_ADM_Doll_001.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_RWM_Prismriver_Sisters"
+        texturefile = "gfx/leaders/RWM/Portrait_RWM_Prismriver_Sisters.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_SNT_Yatadera_Narumi"
+        texturefile = "gfx/leaders/SNT/Portrait_SNT_Yatadera_Narumi.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_VFN_Kurumi"
+        texturefile = "gfx/leaders/VFN/Portrait_VFN_Kurumi.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_ONI_Ibuki_Suika"
+        texturefile = "gfx/leaders/ONI/Portrait_ONI_Ibuki_Suika.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_MIK_Shrinekeeping_Council"
+        texturefile = "gfx/leaders/MIK/Portrait_MIK_Shrinekeeping_Council.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_RIN_Morichika_Rinnosuke"
+        texturefile = "gfx/leaders/RIN/Portrait_RIN_Morichika_Rinnosuke.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_MFR_Ellen"
+        texturefile = "gfx/leaders/MFR/Portrait_MFR_Ellen.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_VMF_Yuki"
+        texturefile = "gfx/leaders/VMF/Portrait_VMF_Yuki.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_RBB_Seiran"
+        texturefile = "gfx/leaders/RBB/Portrait_RBB_Seiran.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_RBD_Ringo"
+        texturefile = "gfx/leaders/RBD/Portrait_RBD_Ringo.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_RBA_Reisen"
+        texturefile = "gfx/leaders/RBA/Portrait_RBA_Reisen.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_RBC_Coney_Committee"
+        texturefile = "gfx/leaders/RBC/Portrait_RBC_Coney_Committee.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_HBN_Bandit_Chief_Quarters"
+        texturefile = "gfx/leaders/HBN/Portrait_HBN_Bandit_Chief_Quarters.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_KAS_Ibaraki_Kasen"
+        texturefile = "gfx/leaders/KAS/Portrait_KAS_Ibaraki_Kasen.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_YKR_Youkai_Chief"
+        texturefile = "gfx/leaders/YKR/Portrait_YKR_Youkai_Chief.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_VRF_Ihara_Sueko"
+        texturefile = "gfx/leaders/VRF/Portrait_VRF_Ihara_Sueko.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_RFG_Shiki_Eiki_Yamaxanadu"
+        texturefile = "gfx/leaders/RFG/Portrait_RFG_Shiki_Eiki_Yamaxanadu.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_YKT_Mystia_Lorelei"
+        texturefile = "gfx/leaders/YKT/Portrait_YKT_Mystia_Lorelei.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_THN_Toyosatomimi_no_Miko"
+        texturefile = "gfx/leaders/THN/Portrait_THN_Toyosatomimi_no_Miko.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_MYO_Hijiri_Byakuren"
+        texturefile = "gfx/leaders/MYO/Portrait_MYO_Hijiri_Byakuren.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_SFF_Clownpiece"
+        texturefile = "gfx/leaders/SFF/Portrait_SFF_Clownpiece.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_NAM_Medicine_Melancholy"
+        texturefile = "gfx/leaders/NAM/Portrait_NAM_Medicine_Melancholy.dds"
+    }
+    spriteType = {
+        name = "GFX_Portrait_YAM_Sakata_Nemuno"
+        texturefile = "gfx/leaders/YAM/Portrait_YAM_Sakata_Nemuno.dds"
+    }
+}

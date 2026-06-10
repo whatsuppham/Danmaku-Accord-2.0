@@ -585,6 +585,7 @@
 11;special_project_facility_spawn;3281;12.737424;500;-1.570000;0
 11;special_project_facility_spawn;3309;11.425687;530;-1.570000;0
 11;special_project_facility_spawn;3300;12.681299;500;-1.570000;0
+12;landmark_spawn;3103.1;13.0;418.42;0.18;0
 12;supply_node;3090;11.653104;473;-1.570000;0
 12;supply_node;3068;12.844547;429;-1.570000;0
 12;supply_node;3039;14.820499;406;-1.570000;0

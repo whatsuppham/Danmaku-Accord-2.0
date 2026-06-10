@@ -8,6 +8,7 @@ set_war_support = 0.3
 add_command_power = 26
 set_convoys = 25
 
+recruit_character = YKT_Mystia_Lorelei
 
 # Research
 set_technology = {

@@ -16,6 +16,8 @@ replace_path="common/factions/rules"
 replace_path="common/factions/rules/groups"
 replace_path="common/factions/templates"
 
+replace_path = "gfx/loadingscreens"
+
 replace_path="history/countries"
 
 tags={

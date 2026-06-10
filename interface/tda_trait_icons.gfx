@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_trait_vampire"
+		texturefile = "gfx\interface\traits\trait_vampire.dds"
+	}
+}

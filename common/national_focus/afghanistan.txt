@@ -1405,7 +1405,7 @@ focus_tree = {
 		id = AFG_contact_amanullah_loyalists
 		icon = GFX_focus_AFG_contact_amanullah_loyalists_alt  
 		prerequisite = { focus = AFG_against_kabul }
-		x = -6
+		x = 0
 		y = 1
 		relative_position_id = AFG_against_kabul
 		mutually_exclusive = { 

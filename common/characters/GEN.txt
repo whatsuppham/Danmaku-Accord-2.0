@@ -1,0 +1,15 @@
+characters={
+    GEN_Kawashiro_Nitori={
+        name=GEN_Kawashiro_Nitori
+        portraits={
+            civilian={
+                large="GFX_Portrait_GEN_Kawashiro_Nitori"
+            }
+        }
+        country_leader={
+            ideology=meritocratic_technocracy
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

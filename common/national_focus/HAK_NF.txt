@@ -1,0 +1,752 @@
+focus_tree = {
+	continuous_focus_position = { x = 100 y = 1800 }
+
+	id = HAK_focus
+
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = HAK
+		}
+	}
+
+	default = no
+	reset_on_civilwar = no
+
+	initial_show_position = {
+		focus = HAK_annual_speech_of_gensokyo
+	}
+
+	focus = {
+		id = HAK_annual_speech_of_gensokyo
+		icon = GFX_goal_generic_political_pressure
+		x = 10
+		y = 0
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.03
+		}
+	}
+
+	# Industry and shrine development
+	focus = {
+		id = HAK_reitaisai_festival
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = HAK_annual_speech_of_gensokyo }
+		x = 1
+		y = 1
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HAK_expand_the_shrines
+		icon = GFX_goal_generic_construct_civ_factory
+		prerequisite = { focus = HAK_reitaisai_festival }
+		x = 1
+		y = 2
+		cost = 10
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		available_if_capitulated = yes
+		completion_reward = {
+			capital_scope = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = HAK_better_roads_for_gensokyo
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = HAK_expand_the_shrines }
+		x = 0
+		y = 3
+		cost = 10
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		available_if_capitulated = yes
+		completion_reward = {
+			capital_scope = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = HAK_rural_infrastructure_support
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = { focus = HAK_expand_the_shrines }
+		x = 2
+		y = 3
+		cost = 10
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		available_if_capitulated = yes
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = HAK_resource_gathering_intiative
+		icon = GFX_goal_generic_oil_refinery
+		prerequisite = { focus = HAK_better_roads_for_gensokyo }
+		prerequisite = { focus = HAK_rural_infrastructure_support }
+		x = 1
+		y = 4
+		cost = 10
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		available_if_capitulated = yes
+		completion_reward = {
+			capital_scope = {
+				add_resource = {
+					type = steel
+					amount = 6
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = HAK_expand_the_mics
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = { focus = HAK_resource_gathering_intiative }
+		x = 0
+		y = 5
+		cost = 10
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		available_if_capitulated = yes
+		completion_reward = {
+			capital_scope = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = HAK_cost_review_act
+		icon = GFX_goal_generic_consumer_goods
+		prerequisite = { focus = HAK_resource_gathering_intiative }
+		x = 2
+		y = 5
+		cost = 10
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		available_if_capitulated = yes
+		completion_reward = {
+			add_political_power = 75
+			add_stability = 0.03
+		}
+	}
+
+	focus = {
+		id = HAK_frugality_for_stability
+		icon = GFX_goal_generic_production
+		prerequisite = { focus = HAK_expand_the_mics }
+		prerequisite = { focus = HAK_cost_review_act }
+		x = 1
+		y = 6
+		cost = 10
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		available_if_capitulated = yes
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 50
+		}
+	}
+
+	# Ofuda and barrier research
+	focus = {
+		id = HAK_ofuda_observation
+		icon = GFX_goal_generic_science
+		prerequisite = { focus = HAK_annual_speech_of_gensokyo }
+		x = 5
+		y = 1
+		cost = 10
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = HAK_ofuda_observation_bonus
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+			}
+		}
+	}
+
+	focus = {
+		id = HAK_barrier_channeling
+		icon = GFX_goal_generic_radar
+		prerequisite = { focus = HAK_ofuda_observation }
+		x = 5
+		y = 2
+		cost = 10
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		available_if_capitulated = yes
+		completion_reward = {
+			add_tech_bonus = {
+				name = HAK_barrier_channeling_bonus
+				bonus = 0.5
+				uses = 1
+				category = electronics
+			}
+			add_stability = 0.03
+		}
+	}
+
+	focus = {
+		id = HAK_hakurei_institute_of_sciences
+		icon = GFX_goal_generic_scientific_exchange
+		prerequisite = { focus = HAK_barrier_channeling }
+		x = 5
+		y = 3
+		cost = 10
+		search_filters = { FOCUS_FILTER_RESEARCH }
+		available_if_capitulated = yes
+		completion_reward = {
+			add_research_slot = 1
+		}
+	}
+
+	# Scandal and political crisis
+	focus = {
+		id = HAK_the_framing_of_hakurei
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = HAK_annual_speech_of_gensokyo }
+		x = 10
+		y = 1
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
+		completion_reward = {
+			add_stability = -0.05
+			add_political_power = 50
+			set_country_flag = HAK_reimu_scandal_begun
+		}
+	}
+
+	focus = {
+		id = HAK_acknowledge_the_disruption
+		icon = GFX_goal_generic_improve_relations
+		prerequisite = { focus = HAK_the_framing_of_hakurei }
+		mutually_exclusive = { focus = HAK_discredit_the_rumors }
+		x = 8
+		y = 2
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
+		completion_reward = {
+			add_stability = 0.03
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = HAK_discredit_the_rumors
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = HAK_the_framing_of_hakurei }
+		mutually_exclusive = { focus = HAK_acknowledge_the_disruption }
+		x = 12
+		y = 2
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
+		completion_reward = {
+			add_political_power = 75
+			add_stability = -0.03
+		}
+	}
+
+	focus = {
+		id = HAK_officialize_the_incident
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = HAK_acknowledge_the_disruption }
+		x = 8
+		y = 3
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
+		completion_reward = {
+			add_political_power = 75
+			add_war_support = 0.05
+			set_country_flag = HAK_marketeers_incident_officialized
+		}
+	}
+
+	focus = {
+		id = HAK_state_of_ideological_emergency
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = HAK_officialize_the_incident }
+		x = 8
+		y = 4
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
+		completion_reward = {
+			add_political_power = 100
+			add_war_support = 0.05
+			add_stability = -0.03
+		}
+	}
+
+	focus = {
+		id = HAK_order_over_oblivion
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = HAK_state_of_ideological_emergency }
+		x = 6
+		y = 5
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_ARMY_XP }
+		available_if_capitulated = yes
+		completion_reward = {
+			add_war_support = 0.08
+			army_experience = 20
+		}
+	}
+
+	focus = {
+		id = HAK_retain_the_spell_card_rules
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = HAK_state_of_ideological_emergency }
+		x = 10
+		y = 5
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
+		completion_reward = {
+			add_stability = 0.08
+			add_war_support = -0.03
+		}
+	}
+
+	focus = {
+		id = HAK_reinforcement_of_tradition
+		icon = GFX_goal_generic_neutrality_focus
+		prerequisite = { focus = HAK_order_over_oblivion }
+		prerequisite = { focus = HAK_retain_the_spell_card_rules }
+		x = 8
+		y = 6
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
+		completion_reward = {
+			add_stability = 0.08
+			add_political_power = 75
+			add_popularity = {
+				ideology = traditionalism
+				popularity = 0.05
+			}
+		}
+	}
+
+	focus = {
+		id = HAK_the_council_divides
+		icon = GFX_goal_generic_dangerous_deal
+		prerequisite = { focus = HAK_discredit_the_rumors }
+		x = 12
+		y = 3
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
+		completion_reward = {
+			add_stability = -0.1
+			add_political_power = 100
+		}
+	}
+
+	focus = {
+		id = HAK_nothing_happened_at_the_shrine
+		icon = GFX_goal_generic_propaganda
+		prerequisite = { focus = HAK_the_council_divides }
+		x = 12
+		y = 4
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
+		completion_reward = {
+			add_stability = -0.1
+			add_war_support = 0.05
+			set_country_flag = HAK_scandal_coverup
+		}
+	}
+
+	focus = {
+		id = HAK_the_point_of_no_return
+		icon = GFX_goal_generic_secret_weapon
+		prerequisite = { focus = HAK_nothing_happened_at_the_shrine }
+		x = 12
+		y = 5
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
+		completion_reward = {
+			add_stability = -0.15
+			add_war_support = 0.1
+			set_country_flag = HAK_reimu_assassinated
+		}
+	}
+
+	focus = {
+		id = HAK_the_martyr_clause
+		icon = GFX_goal_generic_major_alliance
+		prerequisite = { focus = HAK_the_point_of_no_return }
+		mutually_exclusive = { focus = HAK_the_day_peace_died }
+		x = 10
+		y = 6
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
+		completion_reward = {
+			add_stability = 0.1
+			add_war_support = 0.1
+			add_political_power = 75
+		}
+	}
+
+	focus = {
+		id = HAK_the_day_peace_died
+		icon = GFX_goal_generic_dangerous_deal
+		prerequisite = { focus = HAK_the_point_of_no_return }
+		mutually_exclusive = { focus = HAK_the_martyr_clause }
+		x = 14
+		y = 6
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
+		completion_reward = {
+			add_stability = -0.2
+			start_civil_war = {
+				ruling_party = traditionalism
+				ideology = neutrality
+				size = 0.35
+			}
+		}
+	}
+
+	focus = {
+		id = HAK_theministrysclosure
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = HAK_the_day_peace_died }
+		x = 14
+		y = 7
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
+		completion_reward = {
+			add_political_power = 100
+			add_stability = 0.05
+		}
+	}
+
+	focus = {
+		id = HAK_the_gensomiko_protocol
+		icon = GFX_goal_generic_forceful_treaty
+		prerequisite = { focus = HAK_theministrysclosure }
+		x = 14
+		y = 8
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_ARMY_XP }
+		available_if_capitulated = yes
+		completion_reward = {
+			add_political_power = 100
+			add_war_support = 0.1
+			army_experience = 25
+		}
+	}
+
+	# Unconnected Marketeers and Youkai Mountain war
+	focus = {
+		id = HAK_utilize_the_torii_agency
+		icon = GFX_goal_generic_intelligence_exchange
+		prerequisite = { focus = HAK_officialize_the_incident }
+		x = 4
+		y = 4
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
+		completion_reward = {
+			add_political_power = 50
+			add_war_support = 0.03
+		}
+	}
+
+	focus = {
+		id = HAK_arrest_the_market_movement
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = { focus = HAK_utilize_the_torii_agency }
+		x = 4
+		y = 5
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_ARMY_XP }
+		available_if_capitulated = yes
+		completion_reward = {
+			add_stability = -0.03
+			add_war_support = 0.05
+			army_experience = 10
+		}
+	}
+
+	focus = {
+		id = HAK_deploy_the_peacekeepers
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = { focus = HAK_arrest_the_market_movement }
+		x = 4
+		y = 6
+		cost = 10
+		search_filters = { FOCUS_FILTER_ARMY_XP }
+		available_if_capitulated = yes
+		completion_reward = {
+			army_experience = 25
+			add_war_support = 0.05
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 750
+			}
+		}
+	}
+
+	focus = {
+		id = HAK_ban_international_avian_flight
+		icon = GFX_goal_generic_air_fighter
+		prerequisite = { focus = HAK_deploy_the_peacekeepers }
+		x = 4
+		y = 7
+		cost = 10
+		search_filters = { FOCUS_FILTER_AIR_XP FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
+		completion_reward = {
+			air_experience = 20
+			add_war_support = 0.03
+			capital_scope = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = HAK_war_with_the_yokai_mountain
+		icon = GFX_goal_generic_major_war
+		prerequisite = { focus = HAK_ban_international_avian_flight }
+		x = 4
+		y = 8
+		cost = 10
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+		available = {
+			exists = YKM
+		}
+		bypass = {
+			OR = {
+				NOT = { exists = YKM }
+				has_war_with = YKM
+			}
+		}
+		available_if_capitulated = no
+		completion_reward = {
+			add_war_support = 0.1
+			if = {
+				limit = {
+					exists = YKM
+					NOT = { has_war_with = YKM }
+				}
+				declare_war_on = {
+					target = YKM
+					type = annex_everything
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = HAK_close_the_marketeers_incident
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = HAK_war_with_the_yokai_mountain }
+		x = 4
+		y = 9
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = yes
+		completion_reward = {
+			add_stability = 0.1
+			add_political_power = 100
+			clr_country_flag = HAK_marketeers_incident_officialized
+		}
+	}
+
+	# Peacekeeping and military readiness
+	focus = {
+		id = HAK_investment_in_land_wargames
+		icon = GFX_goal_generic_army_doctrines
+		prerequisite = { focus = HAK_annual_speech_of_gensokyo }
+		x = 18
+		y = 1
+		cost = 10
+		search_filters = { FOCUS_FILTER_ARMY_XP }
+		available_if_capitulated = yes
+		completion_reward = {
+			army_experience = 25
+			add_doctrine_cost_reduction = {
+				name = HAK_land_wargames_bonus
+				cost_reduction = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = HAK_youkai_restraining_tactics
+		icon = GFX_goal_generic_army_artillery
+		prerequisite = { focus = HAK_investment_in_land_wargames }
+		x = 18
+		y = 2
+		cost = 10
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_ARMY_XP }
+		available_if_capitulated = yes
+		completion_reward = {
+			army_experience = 15
+			add_tech_bonus = {
+				name = HAK_youkai_restraining_tactics_bonus
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+			}
+		}
+	}
+
+	focus = {
+		id = HAK_preparatory_defense
+		icon = GFX_goal_generic_fortify_city
+		prerequisite = { focus = HAK_youkai_restraining_tactics }
+		x = 16
+		y = 3
+		cost = 10
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_ARMY_XP }
+		available_if_capitulated = yes
+		completion_reward = {
+			capital_scope = {
+				add_building_construction = {
+					type = bunker
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = HAK_flyingmaidensclub
+		icon = GFX_goal_generic_build_airforce
+		prerequisite = { focus = HAK_youkai_restraining_tactics }
+		x = 20
+		y = 3
+		cost = 10
+		search_filters = { FOCUS_FILTER_AIR_XP }
+		available_if_capitulated = yes
+		completion_reward = {
+			air_experience = 25
+			capital_scope = {
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = HAK_preparatorydefensecontinued
+		icon = GFX_goal_generic_construct_military
+		prerequisite = { focus = HAK_preparatory_defense }
+		x = 16
+		y = 4
+		cost = 10
+		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_ARMY_XP }
+		available_if_capitulated = yes
+		completion_reward = {
+			capital_scope = {
+				add_building_construction = {
+					type = supply_node
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = HAK_shockrescue_paratroopers
+		icon = GFX_goal_generic_special_forces
+		prerequisite = { focus = HAK_flyingmaidensclub }
+		x = 20
+		y = 4
+		cost = 10
+		search_filters = { FOCUS_FILTER_RESEARCH FOCUS_FILTER_AIR_XP }
+		available_if_capitulated = yes
+		completion_reward = {
+			air_experience = 15
+			add_tech_bonus = {
+				name = HAK_shockrescue_paratroopers_bonus
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+	}
+
+	focus = {
+		id = HAK_unrestricted_intervention
+		icon = GFX_goal_generic_position_armies
+		prerequisite = { focus = HAK_preparatorydefensecontinued }
+		prerequisite = { focus = HAK_shockrescue_paratroopers }
+		x = 18
+		y = 5
+		cost = 10
+		search_filters = { FOCUS_FILTER_POLITICAL FOCUS_FILTER_ARMY_XP }
+		available_if_capitulated = yes
+		completion_reward = {
+			add_war_support = 0.08
+			add_political_power = 75
+			army_experience = 20
+		}
+	}
+}

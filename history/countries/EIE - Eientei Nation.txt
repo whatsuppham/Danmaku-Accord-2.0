@@ -11,6 +11,8 @@ set_convoys = 25
 # Faction
 create_faction = "Bamboo Rabbit Collective Security"
 
+recruit_character = EIE_Kaguya_Houraisan #Despotism
+
 # Research
 set_technology = {
 	infantry_weapons = 1

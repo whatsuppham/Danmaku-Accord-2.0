@@ -9,6 +9,8 @@ add_command_power = 26
 set_convoys = 25
 
 
+recruit_character = MAY_Yakumo_Yukari #Democratic
+
 # Research
 set_technology = {
 	infantry_weapons = 1

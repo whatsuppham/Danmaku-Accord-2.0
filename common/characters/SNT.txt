@@ -1,0 +1,15 @@
+characters={
+    SNT_Yatadera_Narumi={
+        name=SNT_Yatadera_Narumi
+        portraits={
+            civilian={
+                large="GFX_Portrait_SNT_Yatadera_Narumi"
+            }
+        }
+        country_leader={
+            ideology=religious_protectionism
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

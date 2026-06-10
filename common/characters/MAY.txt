@@ -1,0 +1,15 @@
+characters={
+    MAY_Yakumo_Yukari={
+        name=MAY_Yakumo_Yukari
+        portraits={
+            civilian={
+                large="GFX_Portrait_MAY_Yakumo_Yukari"
+            }
+        }
+        country_leader={
+            ideology=gensokyoproper
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

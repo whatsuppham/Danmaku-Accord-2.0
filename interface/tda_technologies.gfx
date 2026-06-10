@@ -1,12 +1,89 @@
 spriteTypes = {
     SpriteType = {
+        name = "GFX_tda_spear_weaponry_medium"
+        texturefile = "gfx/interface/goals/GFX_HAK_weaponize_the_danmaku-645822.dds"
+    }
+    SpriteType = {
+        name = "GFX_tda_swordsmithing_medium"
+        texturefile = "gfx/interface/goals/GFX_HAK_weaponize_the_danmaku-645822.dds"
+    }
+    SpriteType = {
+        name = "GFX_tda_refined_blades_medium"
+        texturefile = "gfx/interface/goals/GFX_HAK_combined_arms_superiority-645986.dds"
+    }
+    SpriteType = {
+        name = "GFX_tda_shield_formations_medium"
+        texturefile = "gfx/interface/goals/GFX_HAK_staggered_fort_lines-646313.dds"
+    }
+    SpriteType = {
+        name = "GFX_tda_reinforced_shields_medium"
+        texturefile = "gfx/interface/goals/GFX_HAK_staggered_fort_lines-646313.dds"
+    }
+    SpriteType = {
+        name = "GFX_tda_tower_shields_medium"
+        texturefile = "gfx/interface/goals/GFX_YKM_discreet_fortification-645643.dds"
+    }
+    SpriteType = {
+        name = "GFX_tda_gunpowder_research_medium"
+        texturefile = "gfx/interface/goals/GFX_YKM_talon_arms_initiative-412.dds"
+    }
+    SpriteType = {
+        name = "GFX_tda_matchlock_weaponry_medium"
+        texturefile = "gfx/interface/goals/GFX_YKM_talon_arms_initiative-412.dds"
+    }
+    SpriteType = {
+        name = "GFX_tda_musket_volley_fire_medium"
+        texturefile = "gfx/interface/goals/GFX_HAK_combined_arms_superiority-645986.dds"
+    }
+    SpriteType = {
+        name = "GFX_tda_flintlock_weaponry_medium"
+        texturefile = "gfx/interface/goals/GFX_HAK_accelerated_military_programs-645750.dds"
+    }
+    SpriteType = {
         name = "GFX_ofuda_cards_medium"
         texturefile = "gfx/interface/technologies/ofuda_cards.dds"
     }
+    SpriteType = {
+        name = "GFX_tda_ofuda_discipline_medium"
+        texturefile = "gfx/interface/technologies/ofuda_cards.dds"
+    }
+    SpriteType = {
+        name = "GFX_tda_magical_shields_medium"
+        texturefile = "gfx/interface/goals/GFX_HAK_staggered_fort_lines-646313.dds"
+    }
+    SpriteType = {
+        name = "GFX_tda_primitive_magic_bombs_medium"
+        texturefile = "gfx/interface/goals/GFX_HAK_convert_danmaku_equipment-645772.dds"
+    }
 }
+
 spriteTypes = {
+    SpriteType = {
+        name = "GFX_archetype_tda_spear_equipment_medium"
+        texturefile = "gfx/interface/goals/GFX_HAK_weaponize_the_danmaku-645822.dds"
+    }
+    SpriteType = {
+        name = "GFX_archetype_tda_sword_equipment_medium"
+        texturefile = "gfx/interface/goals/GFX_HAK_weaponize_the_danmaku-645822.dds"
+    }
+    SpriteType = {
+        name = "GFX_archetype_tda_shield_equipment_medium"
+        texturefile = "gfx/interface/goals/GFX_HAK_staggered_fort_lines-646313.dds"
+    }
+    SpriteType = {
+        name = "GFX_archetype_tda_musket_equipment_medium"
+        texturefile = "gfx/interface/goals/GFX_YKM_talon_arms_initiative-412.dds"
+    }
     SpriteType = {
         name = "GFX_archetype_ofuda_cards_medium"
         texturefile = "gfx/interface/archetypes/archetype_ofuda_warden_weaponry.dds"
+    }
+    SpriteType = {
+        name = "GFX_archetype_tda_magic_shield_equipment_medium"
+        texturefile = "gfx/interface/goals/GFX_HAK_staggered_fort_lines-646313.dds"
+    }
+    SpriteType = {
+        name = "GFX_archetype_tda_magic_bomb_equipment_medium"
+        texturefile = "gfx/interface/goals/GFX_HAK_convert_danmaku_equipment-645772.dds"
     }
 }

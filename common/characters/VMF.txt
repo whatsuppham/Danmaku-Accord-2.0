@@ -1,0 +1,15 @@
+characters={
+    VMF_Yuki={
+        name=VMF_Yuki
+        portraits={
+            civilian={
+                large="GFX_Portrait_VMF_Yuki"
+            }
+        }
+        country_leader={
+            ideology=emperor_fascism
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

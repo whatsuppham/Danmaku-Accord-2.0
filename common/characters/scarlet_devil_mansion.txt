@@ -9,6 +9,8 @@ characters={
 		country_leader={
 			ideology=oligarchism
 			expire="2083.1.1.1"
+			traits = { messy_vampire weakness_to_sun country_vampire childish unconventional_vampire }
+			desc = SCA_LEADER_REMILIA_SCARLET_DESCRIPTION
 		}
 	}
 	SCA_Flandre_Scarlet={
@@ -19,6 +21,7 @@ characters={
 			}
 		}
 		corps_commander = {
+			traits = { vampire }
 		    skill = 1
 		    attack_skill = 4
 		    defense_skill = 1

@@ -1,0 +1,15 @@
+characters={
+    SNC_Sukuna_Shinmyoumaru={
+        name=SNC_Sukuna_Shinmyoumaru
+        portraits={
+            civilian={
+                large="GFX_Portrait_SNC_Sukuna_Shinmyoumaru"
+            }
+        }
+        country_leader={
+            ideology=emperor_fascism
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

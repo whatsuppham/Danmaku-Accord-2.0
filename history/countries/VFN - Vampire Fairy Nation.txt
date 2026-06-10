@@ -1,12 +1,14 @@
 ﻿capital = 568
 # Recruit Characters
-oob = "EIE_120"
+oob = "VFN_120"
 starting_train_buffer = 10
 set_research_slots = 3
 set_stability = 0.8
 set_war_support = 0.3
 add_command_power = 26
 set_convoys = 25
+
+recruit_character = VFN_Kurumi
 
 # Research
 set_technology = {

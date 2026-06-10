@@ -1,0 +1,15 @@
+characters={
+    WAK_Wakasagihime={
+        name=WAK_Wakasagihime
+        portraits={
+            civilian={
+                large="GFX_Portrait_WAK_Wakasagihime"
+            }
+        }
+        country_leader={
+            ideology=mercantilism
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

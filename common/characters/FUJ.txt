@@ -1,0 +1,15 @@
+characters={
+    KEI_Fujiwara_No_Mokou={
+        name=KEI_Fujiwara_No_Mokou
+        portraits={
+            civilian={
+                large="GFX_Portrait_KEI_Fujiwara_No_Mokou"
+            }
+        }
+        country_leader={
+            ideology=gensokyoproper
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

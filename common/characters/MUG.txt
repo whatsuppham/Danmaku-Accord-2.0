@@ -1,0 +1,15 @@
+characters={
+    MUG_Kazami_Yuuka={
+        name=MUG_Kazami_Yuuka
+        portraits={
+            civilian={
+                large="GFX_Portrait_MUG_Kazami_Yuuka"
+            }
+        }
+        country_leader={
+            ideology=gensokyoproper
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

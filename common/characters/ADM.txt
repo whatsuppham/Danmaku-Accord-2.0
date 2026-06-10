@@ -1,0 +1,15 @@
+characters={
+    ADM_Doll_001={
+        name=ADM_Doll_001
+        portraits={
+            civilian={
+                large="GFX_Portrait_ADM_Doll_001"
+            }
+        }
+        country_leader={
+            ideology=centrism
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

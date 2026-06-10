@@ -1,0 +1,15 @@
+characters={
+    MAR_Alice_Margatroid={
+        name=MAR_Alice_Margatroid
+        portraits={
+            civilian={
+                large="GFX_Portrait_MAR_Alice_Margatroid"
+            }
+        }
+        country_leader={
+            ideology=gensokyoproper
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

@@ -1,0 +1,15 @@
+characters={
+    HBN_Bandit_Chief_Quarters={
+        name=HBN_Bandit_Chief_Quarters
+        portraits={
+            civilian={
+                large="GFX_Portrait_HBN_Bandit_Chief_Quarters"
+            }
+        }
+        country_leader={
+            ideology=fascism_ideology
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

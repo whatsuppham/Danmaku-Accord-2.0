@@ -28,7 +28,15 @@ state={
 			arms_factory = 1
 			industrial_complex = 0
 			
-			
+			123 = {
+				landmark_tokyo_imperial_palace = {
+				    level = 1
+				    allowed = {
+				        has_dlc = "No Compromise, No Surrender"
+				    }
+				}
+				
+			}
 		}
 }
 

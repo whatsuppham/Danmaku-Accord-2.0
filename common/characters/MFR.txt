@@ -1,0 +1,15 @@
+characters={
+    MFR_Ellen={
+        name=MFR_Ellen
+        portraits={
+            civilian={
+                large="GFX_Portrait_MFR_Ellen"
+            }
+        }
+        country_leader={
+            ideology=magocracy
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

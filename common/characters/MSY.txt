@@ -1,0 +1,15 @@
+characters={
+    MSY_Cirno={
+        name=MSY_Cirno
+        portraits={
+            civilian={
+                large="GFX_Portrait_MSY_Cirno"
+            }
+        }
+        country_leader={
+            ideology=anarchist_communism
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}

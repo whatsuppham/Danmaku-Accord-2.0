@@ -1,0 +1,15 @@
+characters={
+    HEV_Hinanawi_Tenshi={
+        name=HEV_Hinanawi_Tenshi
+        portraits={
+            civilian={
+                large="GFX_Portrait_HEV_Hinanawi_Tenshi"
+            }
+        }
+        country_leader={
+            ideology=centrism
+            expire="2083.1.1.1"
+            id=-1
+        }
+    }
+}
